@@ -12,8 +12,9 @@ This [userCSS](https://github.com/openstyles/stylus/wiki/UserCSS) is aimed to th
 
 It also **paints scrollbars dark on all major browsers** (Chrome, Firefox, and most Chromium-based browsers)
 
-<img src="https://i.imgur.com/mbeHNQp.png">
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css)
+
+<img src="https://i.imgur.com/mbeHNQp.png">
 
 **For pages that you DO visit frequently, you should use a site-specific style instead**, not only for better compatibility, but also for better visuals.
 With this in mind, this style won't theme sites like Google, Reddit or Youtube by default (unless you remove their exclusions from the regexp in the style), since they either have a dark mode, or have better userstyles specifically designed for them out there.
@@ -35,8 +36,9 @@ On Chrome you can change the colors right away, and hide the scrollbar buttons. 
 
 A dark layout for [Booky.io](https://booky.io/).
 
-<img src="https://userstyles.org/style_screenshots/173475_after.png">
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Booky%20dark.css)
+
+<img src="https://userstyles.org/style_screenshots/173475_after.png">
 
 ### W3Schools Dark Sublime (Fixed)
 
@@ -44,5 +46,6 @@ A fork of [LeoTM](https://userstyles.org/styles/128883/w3schools-dark-sublime) u
 
 Changes the color of W3Schools do dark green.
 
-<img src="https://userstyles.org/style_screenshots/176917_after.png">
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Sublime%20(Fixed).css)
+
+<img src="https://userstyles.org/style_screenshots/176917_after.png">
