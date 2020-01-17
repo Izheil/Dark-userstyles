@@ -1,0 +1,82 @@
+/* ==UserStyle==
+@name         Quantum nox - Dark scrollbars
+@description  Dark style for scrollbars.
+@namespace    https://github.com/Izheil/Dark-userstyles
+@version      1.0.0
+@author       Izheil
+@homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
+@supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
+@license      MPL-2.0
+@preprocessor stylus
+
+@var          color     thumbColor      "Thumb color"    #0055AA
+@var          color     trackColor      "Track color"    #202020
+@var          color     hoverHighlgt    "Thumb color on hover (Chromium)"    rgba(255, 255, 255, 0.1)
+@var          color     pressHighlgt    "Thumb color on press (Chromium)"    rgba(255, 255, 255, 0.2)
+@var          select    widthFF         "Scrollbar width (Firefox)"  {
+    "Default": "auto",
+    "Thin": "thin",
+    "Hidden": "none"
+}
+@var          number    widthCH         "Scrollbar width (Chromium)" ['px', 16, 0, 16, 1]
+@var          color     thumbColor2     "2nd thumb color (Chromium)"  #0055AA
+@var          color     trackColor2     "2nd track color (Chromium)"  #202020
+@var          checkbox  showButtons     "Show buttons (Chromium)"  1
+@var          number    scrollRound     "Thumb roundness (Chromium)" ['px', 0, 0, 50, 1]
+}
+
+==/UserStyle== */
+
+/* FIREFOX (only FF64+ onwards) */
+:root{
+    scrollbar-color: thumbColor trackColor !important;
+    scrollbar-width: widthFF !important}
+
+/* CHROMIUM BASED BROWSERS (Google Chrome/Opera/Brave...) */
+html[hide-scrollbar="true"] ::-webkit-scrollbar {display: none}
+
+::-webkit-scrollbar-thumb {
+    -webkit-appearance: none !important;
+    background: linear-gradient(to right, thumbColor, thumbColor2) !important;
+    border-radius: scrollRound !important;
+    box-shadow: none !important}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-appearance: none !important;
+    box-shadow: inset 0 0 0 30px hoverHighlgt !important}
+
+::-webkit-scrollbar-thumb:active {
+    -webkit-appearance: none !important;
+    box-shadow: inset 0 0 0 30px pressHighlgt !important}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(to right, trackColor, trackColor2) !important}
+
+::-webkit-scrollbar-corner {
+    background: thumbColor !important}
+
+/* These draw the arrow buttons on the scrollbar */
+::-webkit-scrollbar-button:vertical:decrement {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDQUvKSwCAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAIJJREFUOMvNU0EOwCAIa9Wv8P+bn/EtC7uwxRlBl+wwExMDtJUSgN+fWmuYL1GytbYUSDvg6BdpIaAAVETcAgbqOtbOiLgJdkm4ALNrZUqSAscJINulZ3AJvKGIHAagxXRnChf4LrY3Z55Nx9iDo9hIkL1RdSR369bWg6C8WBH9bNlOjcgtTlSmKcUAAAAASUVORK5CYII=') trackColor center !important}
+
+::-webkit-scrollbar-button:vertical:increment {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDDRn7B15AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAI5JREFUOMvNktEKwzAIRU/awr7E/3/Lz/gnpZ17SSDZ1I7uZUIgaO65KoEfo/SLqj6AXUQsE6gqwAo8RcSWoXbcMR4BJ2DNIXMHOHqnS/CwfJOLANY6KW9ia2eKLejWgKKq6zheuoxhRnPqU05EfEAAIRK7gATyIQ4BDsQVZ0ucDLK/wdW3vS3uUWvlv+MFNEZDRaFDPRYAAAAASUVORK5CYII=') trackColor center !important}
+
+::-webkit-scrollbar-button:horizontal:decrement {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDSqE+BFbAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAHxJREFUOMvFk8ENwCAMAx1glez/yzKepH2UfqCiCIkUITXPKBeZ2AB/l3iGSPatCCCp6hEWYAC4AJxTBQXOvWJVfRrhIywtPFTQSB7BuZ8PTjiO4NcCM9tjo5nVI7meIAtHzO4geWyUxSChLpomsfe9VCpxXiuSQlK2/MYbwfUzWt5jRVUAAAAASUVORK5CYII=') trackColor center !important}
+
+::-webkit-scrollbar-button:horizontal:increment {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDSBkLfhFAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAIpJREFUOMvFktEJwzAMRJ+dQifRMh7Yy9wmpY3zk4IRip2mherHYOnE00nw70gAku7AE3j1STObNsj7+wBWn5R0jiAQtL5mRJID5OQatxFJij4lpZ2i+VpPk6MGZtaAxZNEvuQrq6u1XhtBEqWUsQdH4qNNfL3GNDuY2TW+TVyA26diOtF6VvDz2ACD0DOn15jzcQAAAABJRU5ErkJggg==') trackColor center !important}
+
+::-webkit-scrollbar, ::-webkit-scrollbar-button {
+    width: widthCH !important;
+    height: widthCH !important}
+
+if showButtons == 0 {
+    ::-webkit-scrollbar-button {
+        display: none !important}
+}
+
+::-webkit-scrollbar-button:increment:start, ::-webkit-scrollbar-button:decrement:end {
+    width: 0 !important;
+    height: 0 !important}
