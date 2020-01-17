@@ -19,6 +19,10 @@ It also **paints scrollbars dark on all major browsers** (Chrome, Firefox, and m
 **For pages that you DO visit frequently, you should use a site-specific style instead**, not only for better compatibility, but also for better visuals.
 With this in mind, this style won't theme sites like Google, Reddit or Youtube by default (unless you remove their exclusions from the regexp in the style), since they either have a dark mode, or have better userstyles specifically designed for them out there.
 
+**You can check how to add site exclusions to this global userstyle [here](https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle#how-to-add-per-site-exclusions).**
+
+---
+
 ### Dark scrollbars
 
 This style lets you change the appearance of scrollbars among all major browsers (Firefox, Google Chrome, Opera, Brave, any chromium-based browser...).
@@ -32,6 +36,8 @@ On Firefox you can only do a basic recolor of the scrollbars.
 
 On Chrome you can change the colors right away, and hide the scrollbar buttons. By default the scrollbar has flat colors, but you can set it to use gradients (changing the 2nd colors).
 
+---
+
 ### Booky.io dark theme
 
 A dark layout for [Booky.io](https://booky.io/).
@@ -39,6 +45,8 @@ A dark layout for [Booky.io](https://booky.io/).
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Booky%20dark.user.css)
 
 <img src="https://userstyles.org/style_screenshots/173475_after.png">
+
+---
 
 ### W3Schools Dark Sublime (Fixed)
 
