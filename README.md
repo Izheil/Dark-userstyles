@@ -36,7 +36,7 @@ On Chrome you can change the colors right away, and hide the scrollbar buttons. 
 
 A dark layout for [Booky.io](https://booky.io/).
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Booky%20dark.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Booky%20dark.user.css)
 
 <img src="https://userstyles.org/style_screenshots/173475_after.png">
 
@@ -46,6 +46,6 @@ A fork of [LeoTM](https://userstyles.org/styles/128883/w3schools-dark-sublime) u
 
 Changes the color of W3Schools do dark green.
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Sublime%20(Fixed).css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Sublime%20(Fixed).user.css)
 
 <img src="https://userstyles.org/style_screenshots/176917_after.png">
