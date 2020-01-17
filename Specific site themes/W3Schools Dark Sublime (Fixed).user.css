@@ -1,10 +1,16 @@
-@-moz-document url-prefix("https://www.w3schools.com/") {
-/**
- * W3Schools Sublime Theme v1.4.1
- * Created by LeoTM, updated by Izheil
- * License: https://creativecommons.org/licenses/by-sa/4.0/
- */
+/* ==UserStyle==
+@name         W3Schools Sublime Theme (Fixed)
+@description  Dark style for W3Schools. Created by LeoTM, updated by Izheil.
+@namespace    https://github.com/Izheil/Dark-userstyles
+@version      1.4.1
+@author       Izheil
+@homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
+@supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
+@license      BY-SA-4.0
+@preprocessor stylus
+==/UserStyle== */
 
+@-moz-document url-prefix("https://www.w3schools.com/") {
  /* 'w3schools' */
  body > div.w3-container.top > a {
     color: #F8F8F2 !important;

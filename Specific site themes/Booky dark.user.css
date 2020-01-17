@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name         Booky Dark
+@description  Dark style for Booky.io
+@namespace    https://github.com/Izheil/Dark-userstyles
+@version      1.0.0
+@author       Izheil
+@homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
+@supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
+@license      MPL-2.0
+@preprocessor stylus
+==/UserStyle== */
+
 @-moz-document domain("booky.io") {
 body, #loading {
     background-color: #222;
