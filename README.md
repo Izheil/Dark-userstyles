@@ -52,7 +52,7 @@ A dark layout for [Booky.io](https://booky.io/).
 
 A fork of [LeoTM](https://userstyles.org/styles/128883/w3schools-dark-sublime) userstyle.
 
-Changes the color of W3Schools do dark green.
+Changes the color of W3Schools to dark green.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Sublime%20(Fixed).user.css)
 
