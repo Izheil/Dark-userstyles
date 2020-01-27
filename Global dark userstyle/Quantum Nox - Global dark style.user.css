@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.5.22
+@version      2.5.23
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -384,7 +384,7 @@ if invMethod == "customSet" {
 	.bz_comment_text span.quote_wrapped, div.bz_comment_text pre,
 	.editor-label .slider::before {background: #444 !important; color: #fff !important}
 	
-	pre.result, .navbar.bg-light {background-color: #000 !important}
+	pre.result, .navbar.bg-light, .vx_modal-wrapper {background-color: #000 !important}
 
 	.rating-block__button, .TTreview, .ic__container, .product-container, 
 	#addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane {background-color: #151515 !important}
@@ -393,6 +393,8 @@ if invMethod == "customSet" {
 	.bg-secondary, *[class*="vc_custom_"] {background: #222828 !important}
 	.nav-main-item a:hover, a[data-service="GitHub"]:hover {background: rgba(255,255,255,0.1) !important} 
 	.note {background: #331}
+
+    .inputField input, .vx_modal-dismiss_x::before {color: #ccc !important}
 
 	h2.sync-black {color: #fff !important}
 	#dealSearchBar, #dealCategorySearchBar, .rb-new__button:not(:hover) .xh-icon::before, .BuCcI input {color: #ccc !important}
