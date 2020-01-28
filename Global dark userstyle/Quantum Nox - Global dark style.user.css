@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.5.23
+@version      2.5.24
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -168,7 +168,7 @@ if invMethod == "customSet" {
         
     /* Buttons and menus */
     div[class*="button"]:not([class*="buttons"]):not([class*="menu"]):not([class*="play"]):not([class*="fullscreen"]), div[class*="btn"]:not(.btn-link):not([class*="play"]):not(.insider-btn):not(.fullscreen-btn), 
-    input[type="file"], input[type="color"], input[type="button"], a.social-count, a[class*="button"], a[class*="btn"],
+    input[type="file"], input[type="color"], input[type="button"], a.social-count, a[class*="button"], a[class*="btn"]:not([class*="icon"]),
     summary.btn, clipboard-copy, .ellipsis-expander, file-attachment, .drag-and-drop, div[class*="button"]:not([class*="buttons"]) a, .pageNav-page, .pageNav-jump,
     input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit) {
         -moz-appearance: none !important;
@@ -183,11 +183,11 @@ if invMethod == "customSet" {
     [class*="bg-gray"], div.Popover-message, ul.sub, div[role="menu"], .options, .vue-treeselect__menu, .ListResult, div[class*="menu"]:not([role="button"]):not(.vjs-control):not(.main-menu):not(.material-menu-backdrop), 
     .menu ul ul li a, .menuparent a, .dropdown li ul li a, #description_popup, ul[role="listbox"], ul[id*="contextmenu"],.qtip-pos-tl.qtip-fixed, 
     .qtip-content, .tooltipster-content, .backgroundMidSilver, .sub_nav, .sub_nav .overlay, .nanoModal, header.sticky .header_bottom,
-    .secondLevel[data-menu], .tooltiptext {background-color: rgba(0,0,0,0.8) !important}
+    .secondLevel[data-menu], .tooltiptext, div[class*="overlay"] {background-color: rgba(0,0,0,0.8) !important}
 
     div[class*="btn"]:not(.dl-btn-labelWrap):not(.dl-btn-cont):not(.btn-set):not(div[class*="btns"]):not(.column):not([class*="toolbar"]):hover, input[type="file"]:hover, 
     input[type="color"]:hover, div[class*="header"] li:not([class*="btn"]) a:not(img):not(svg):hover, #sidenav a:hover, 
-    input[type="button"]:hover, a.social-count:hover, a[class*="button"]:hover, a[class*="btn"]:hover, summary.btn:hover, clipboard-copy:hover,
+    input[type="button"]:hover, a.social-count:hover, a[class*="button"]:hover, a[class*="btn"]:not([class*="icon"]):hover, summary.btn:hover, clipboard-copy:hover,
     .navigation-link:hover, div[class*="submenu"]:not([class*="footer"]):not([class*="Footer"]) a:hover, ul[class*="menu"]:not([class*="footer"]):not([class*="Footer"]) li:hover, .btn:hover, 
     div[class*="button"]:not([class*="buttons"]) a:hover, .pageNav-page:hover, .pageNav-jump:hover, .dropdown-menu a[role="menuitem"]:hover, 
     .dropdown-toggle[aria-expanded="true"], .options .item:hover, .vue-treeselect__menu > div > div:hover, ul[role="listbox"] li:hover {
@@ -212,12 +212,12 @@ if invMethod == "customSet" {
         background-color: #444 !important; 
         color: #fff !important}
 
-    a[href="javascript:;"]:not(.fancybox-nav):not(.QvAa1), .rc-button-default.goog-inline-block, a.btn {
+    a[href="javascript:;"]:not(.fancybox-nav):not(.QvAa1), .rc-button-default.goog-inline-block, a.btn:not([class*="icon"]) {
         background-color: #303030 !important;
         border-radius: 6px !important;
         color: #ddd !important}
         
-    a[href="javascript:;"]:not(.fancybox-nav):not(.QvAa1):hover, .rc-button-default.goog-inline-block:hover, a.btn:hover {
+    a[href="javascript:;"]:not(.fancybox-nav):not(.QvAa1):hover, .rc-button-default.goog-inline-block:hover, a.btn:not([class*="icon"]):hover {
         background-color: #444 !important;
         color: #fff !important}
 
