@@ -68,7 +68,9 @@ if invMethod == "customSet" {
         text-shadow: none !important;
         box-shadow: none !important}
         
-    ::before, ::after {background-color: transparent !important; border-color: #333 !important}
+    ::before, ::after {
+        background-color: transparent !important; 
+        border-color: #333 !important}
         
     [class*="main"]:not([class*="nav"]):not([id*="nav"]):not([class*="header"]):not([id*="header"]):not([class*="overlay"]):not([class*="remain"]):not([class*="menu"]), 
     #main:not([class*="nav"]):not([id*="nav"]):not([class*="header"]):not([id*="header"]),
@@ -99,21 +101,33 @@ if invMethod == "customSet" {
     li[class*="dropdown"]:not([class*="toggle"]):not([class*="has-children"]):not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]):not(.user-menu), 
     li[class*="drop-down"]:not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]):not(.user-menu), [class*="popup"]:not(.vjs-menu-button-popup), [class*="popover"]:not([class*="link"]), 
     [class*="widget-content"], [class*="notice"], div[role="navigation"], div.nav ul#menu li ul, div[class*="dialog"] > .content, 
-    div[class*="Dialog"] > .content, .css-hmkap5, .css-gkxqox, .bg-default {background: rgba(0,0,0,0.8) !important}
+    div[class*="Dialog"] > .content, .css-hmkap5, .css-gkxqox, .bg-default {
+        background: rgba(0,0,0,0.8) !important}
         
     pre, pre.prettyprint, code, .w3-code, blockquote, .ace_gutter-layer, 
     .comment-text span.quote, .comment-text span.quote_wrapped, .blockquote, .quote  {
         background: rgba(255,255,255,0.1) !important;
         color: #ccc !important}
-    pre > code, a[data-toggle="dropdown"]:not([class*="wrapper"]):not([role="menuitem"]), .dropdown-menu > li > a {background: transparent !important}
+    pre > code, a[data-toggle="dropdown"]:not([class*="wrapper"]):not([role="menuitem"]), .dropdown-menu > li > a {
+        background: transparent !important}
         
     /* Text colors */
-    div[id*="install"], div[id*="install"] div, div[class*="install"], div[class*="install"] div {color: #fff !important}
-    figcaption, time, del, div.downlinks > dl > dt > a, small, aside {color: #999 !important}
-    p, li, .text-gray-dark, ins, i:not(.status), .t-black {color: #bbb !important}
+    div[id*="install"], div[id*="install"] div, div[class*="install"], div[class*="install"] div {
+        color: #fff !important}
+
+    figcaption, time, del, div.downlinks > dl > dt > a, small, aside {
+        color: #999 !important}
+
+    p, li, .text-gray-dark, ins, i:not(.status), .t-black {
+        color: #bbb !important}
+
     i:not(.status), svg {fill: #ccc !important}
+
     .star.yellow svg {fill: #ffcc00 !important}
-    h1, h2, h3, h4, h5, h6, summary, dt, span, em, b, strong {color: #ddd !important}
+
+    h1, h2, h3, h4, h5, h6, summary, dt, span, em, b, strong {
+        color: #ddd !important}
+
     h1, h2, h3, h4, h5, h6 {background-image: none !important}
 
     /* Links and text selection */
@@ -164,7 +178,8 @@ if invMethod == "customSet" {
         box-shadow: 0 0 5px linkColor !important;
         transition: all 200ms !important}
 
-    input[disabled], .rc-button-default-disabled {opacity: 0.5 !important}
+    input[disabled], .rc-button-default-disabled {
+        opacity: 0.5 !important}
         
     /* Buttons and menus */
     div[class*="button"]:not([class*="buttons"]):not([class*="menu"]):not([class*="play"]):not([class*="fullscreen"]), div[class*="btn"]:not(.btn-link):not([class*="play"]):not(.insider-btn):not(.fullscreen-btn), 
@@ -183,7 +198,8 @@ if invMethod == "customSet" {
     [class*="bg-gray"], div.Popover-message, ul.sub, div[role="menu"], .options, .vue-treeselect__menu, .ListResult, div[class*="menu"]:not([role="button"]):not(.vjs-control):not(.main-menu):not(.material-menu-backdrop), 
     .menu ul ul li a, .menuparent a, .dropdown li ul li a, #description_popup, ul[role="listbox"], ul[id*="contextmenu"],.qtip-pos-tl.qtip-fixed, 
     .qtip-content, .tooltipster-content, .backgroundMidSilver, .sub_nav, .sub_nav .overlay, .nanoModal, header.sticky .header_bottom,
-    .secondLevel[data-menu], .tooltiptext, div[class*="overlay"] {background-color: rgba(0,0,0,0.8) !important}
+    .secondLevel[data-menu], .tooltiptext, div[class*="overlay"] {
+        background-color: rgba(0,0,0,0.8) !important}
 
     div[class*="btn"]:not(.dl-btn-labelWrap):not(.dl-btn-cont):not(.btn-set):not(div[class*="btns"]):not(.column):not([class*="toolbar"]):hover, input[type="file"]:hover, 
     input[type="color"]:hover, div[class*="header"] li:not([class*="btn"]) a:not(img):not(svg):hover, #sidenav a:hover, 
@@ -240,8 +256,13 @@ if invMethod == "customSet" {
         border: 2px solid #333;
         min-width: 12px; 
         min-height: 12px}
-    input[type="checkbox"] {border-radius: 1px !important; margin-bottom: 0 !important}
-    input[type="radio"], input[type="radio"]:focus {border-radius: 100% !important}
+    input[type="checkbox"] {
+        border-radius: 1px !important; 
+        margin-bottom: 0 !important}
+
+    input[type="radio"], input[type="radio"]:focus {
+        border-radius: 100% !important}
+
     input[type="checkbox"]:checked, input[type="radio"]:checked {
         border-color: linkColor !important;
         box-shadow: inset 0 0 2px #000 !important;
@@ -254,25 +275,48 @@ if invMethod == "customSet" {
     ul.genres > li.include {background-color: rgba(51, 204, 51, 0.5) !important}
     ul.genres > li.exclude {background-color: rgba(255, 51, 0, 0.5) !important}
 
-    i.radio-btn > input[type="radio"], i.check-box > input[type="checkbox"] {visibility: visible !important}    
+    i.radio-btn > input[type="radio"], i.check-box > input[type="checkbox"] {
+        visibility: visible !important}    
 
     label.switch:not(.checked)::after, .switch-slider::before, span.slider::before, 
     button[role="switch"][aria-checked="false"] > div::after, .checkboxOff.switches::after, 
-    .lecture-container .radio:checked + label::after {background-color: #555 !important}
-    label.switch:not(.checked)::before, span.slider, button[role="switch"] {background-color: bgColor !important}
-    span.slider, .checkdiv.switches {border: 1px solid #444}
+    .lecture-container .radio:checked + label::after {
+        background-color: #555 !important}
+
+    label.switch:not(.checked)::before, span.slider, button[role="switch"] {
+        background-color: bgColor !important}
+
+    span.slider, .checkdiv.switches {
+        border: 1px solid #444}
         
     label.switch.checked::after, input[type="checkbox"]:checked + .switch-slider::before, 
-    input[type="checkbox"]:checked + .slider::before, button[role="switch"][aria-checked="true"] > div::after, .checkboxOn::after {background-color: linkColor !important}
-    button[role="switch"] > div::after {border-radius: 1em !important}
+    input[type="checkbox"]:checked + .slider::before, button[role="switch"][aria-checked="true"] > div::after, .checkboxOn::after {
+        background-color: linkColor !important}
+
+    button[role="switch"] > div::after {
+        border-radius: 1em !important}
 
     /* Tables */
-    table {background: transparent !important; border-color: #333 !important}
-    th {background-color: rgba(80,80,80,0.3) !important; color: #fff !important}
-    tr:nth-child(odd), tr:nth-child(odd) td {background-color: rgba(40,40,40,0.2) !important; color: #ccc !important}
-    tr[aria-selected="true"] td {background: #333 !important}
-    tr:nth-child(even), tr:nth-child(even) td {background-color: rgba(0,0,0,0.1) !important; color: #ccc !important}
-    td {background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAC3npUWHRSYXcgcHJvZmlsZSB0eXBlIGV4aWYAAHja7ZZRstsgDEX/WUWXYEkIieWAgZnuoMvvxSbOS17amb72ox+BCWAFXwkdIAn9x/cRvqFQli1ENU85pQ0l5pi5YODbWc6etni0Zymrp0d7uL5gmAS9nI+pr/kFdr2/YHHZ66M92L50fAnRJXwUmZ7nuK0gl5Dwaaf1HPJ6oaQPy1kf3pfsEn9+joZkNIWecOAuJNvZnp4EUUiWgj6iZeE5EbZpEbQqL/IXrtS9SOA1esrfdotM7uk4hW7LSk95WnbSJ7tcbvghIuLLM3+MyPhy8Sl/YzQfo5+rKzEFpCutRd2WcowwsSKdcryWUA0fxdiOmlEdW2cHtYal1rBVPGRi5HpQpEaFBvWj32lHiJE7IzRm3pHxaXMxzrwfUOKsNNgC+DRxUNlBTmDmKxY6/ObpD84cnhthJhPEaNL8WMOz4av1QWiMuc2JNr9yhbh4blmEMcnNFrMAhMbKqR75pXB223OZYAUE9UizY4Flq6dEVbrvLTk4y6YBU+N2nheytgSQIvhWBEMCAlsiUUqE/cBGhDw6+BREzhK5ggBpUG6IkqNIAhzn6RvvGB1zWfk043oBCJUkBjQ4QIAVo8aE8+bYQiWoaFTVpKauWUuSFJOmlCzNe6qYWDS1ZGZu2YqLR1dPbu6evWTOgmtMQ07ZsuecS4HTEgu0CuYXGCpXqbFqTdWq11zLju2zx133tNvue95L4yYNV0BoqVnzllvp1LGVeuzaU7fuPfcysNeGjDh0pGHDRx7loraoPlJ7Jvd7arSo8QFqzrM7NZjNbhI0rxOdzECMI4G4TQLY0DyZbU4x8iQ3mW2ZJYgoI0qdcBpNYiAYO7EOutjdyf2SW0B2/5QbvyIXJrp/QS5MdB/Ifeb2glorx3UrB6B5CpFT3JCC49c1eWEv82fpa33gvxR4C72F3kJvobfQW+gt9F8J4a9DDj8BsreQ23NkRyAAAAGFaUNDUElDQyBQUk9GSUxFAAB4nH2RPUjDQBzFX9NKVSqCFpHikKE6WRAVcZQqFsFCaSu06mBy6Rc0aUhSXBwF14KDH4tVBxdnXR1cBUHwA8TF1UnRRUr8X1NoEePBcT/e3XvcvQOEepmppm8CUDXLSMaiYia7Kvpf4cMQBtCDkMRMPZ5aTMN1fN3Dw9e7CM9yP/fn6FNyJgM8IvEc0w2LeIN4ZtPSOe8TB1lRUojPiccNuiDxI9dlh984F5os8MygkU7OEweJxUIHyx3MioZKPE0cVlSN8oWMwwrnLc5qucpa9+QvDOS0lRTXaY4ghiXEkYAIGVWUUIaFCK0aKSaStB918Yea/gS5ZHKVwMixgApUSE0/+B/87tbMT006SYEo0PVi2x+jgH8XaNRs+/vYthsngPcZuNLa/kodmP0kvdbWwkdA/zZwcd3W5D3gcgcYftIlQ2pKXppCPg+8n9E3ZYHBW6B3zemttY/TByBNXS3fAAeHwFiBstdd3t3d2du/Z1r9/QBNOnKYZRIYbQAAAAZiS0dEAFwAXABcA9tTvgAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+MEFhMDMiFscmUAAABOSURBVBjTjZDBDQAgCMROd3IVhrxVXMqXplFI9MNBmgZURAxJ2pWZtQuPMGe252OocgrRtmft1hO2PU+fLZ4ZS/j5hS8oM1a535fyAOYF/lBEnn/0dQkAAAAASUVORK5CYII=') !important; 
+    table {
+        background: transparent !important; 
+        border-color: #333 !important}
+
+    th {
+        background-color: rgba(80,80,80,0.3) !important; 
+        color: #fff !important}
+
+    tr:nth-child(odd), tr:nth-child(odd) td {
+        background-color: rgba(40,40,40,0.2) !important; 
+        color: #ccc !important}
+
+    tr[aria-selected="true"] td {
+        background: #333 !important}
+
+    tr:nth-child(even), tr:nth-child(even) td {
+        background-color: rgba(0,0,0,0.1) !important; 
+        color: #ccc !important}
+    td {
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAC3npUWHRSYXcgcHJvZmlsZSB0eXBlIGV4aWYAAHja7ZZRstsgDEX/WUWXYEkIieWAgZnuoMvvxSbOS17amb72ox+BCWAFXwkdIAn9x/cRvqFQli1ENU85pQ0l5pi5YODbWc6etni0Zymrp0d7uL5gmAS9nI+pr/kFdr2/YHHZ66M92L50fAnRJXwUmZ7nuK0gl5Dwaaf1HPJ6oaQPy1kf3pfsEn9+joZkNIWecOAuJNvZnp4EUUiWgj6iZeE5EbZpEbQqL/IXrtS9SOA1esrfdotM7uk4hW7LSk95WnbSJ7tcbvghIuLLM3+MyPhy8Sl/YzQfo5+rKzEFpCutRd2WcowwsSKdcryWUA0fxdiOmlEdW2cHtYal1rBVPGRi5HpQpEaFBvWj32lHiJE7IzRm3pHxaXMxzrwfUOKsNNgC+DRxUNlBTmDmKxY6/ObpD84cnhthJhPEaNL8WMOz4av1QWiMuc2JNr9yhbh4blmEMcnNFrMAhMbKqR75pXB223OZYAUE9UizY4Flq6dEVbrvLTk4y6YBU+N2nheytgSQIvhWBEMCAlsiUUqE/cBGhDw6+BREzhK5ggBpUG6IkqNIAhzn6RvvGB1zWfk043oBCJUkBjQ4QIAVo8aE8+bYQiWoaFTVpKauWUuSFJOmlCzNe6qYWDS1ZGZu2YqLR1dPbu6evWTOgmtMQ07ZsuecS4HTEgu0CuYXGCpXqbFqTdWq11zLju2zx133tNvue95L4yYNV0BoqVnzllvp1LGVeuzaU7fuPfcysNeGjDh0pGHDRx7loraoPlJ7Jvd7arSo8QFqzrM7NZjNbhI0rxOdzECMI4G4TQLY0DyZbU4x8iQ3mW2ZJYgoI0qdcBpNYiAYO7EOutjdyf2SW0B2/5QbvyIXJrp/QS5MdB/Ifeb2glorx3UrB6B5CpFT3JCC49c1eWEv82fpa33gvxR4C72F3kJvobfQW+gt9F8J4a9DDj8BsreQ23NkRyAAAAGFaUNDUElDQyBQUk9GSUxFAAB4nH2RPUjDQBzFX9NKVSqCFpHikKE6WRAVcZQqFsFCaSu06mBy6Rc0aUhSXBwF14KDH4tVBxdnXR1cBUHwA8TF1UnRRUr8X1NoEePBcT/e3XvcvQOEepmppm8CUDXLSMaiYia7Kvpf4cMQBtCDkMRMPZ5aTMN1fN3Dw9e7CM9yP/fn6FNyJgM8IvEc0w2LeIN4ZtPSOe8TB1lRUojPiccNuiDxI9dlh984F5os8MygkU7OEweJxUIHyx3MioZKPE0cVlSN8oWMwwrnLc5qucpa9+QvDOS0lRTXaY4ghiXEkYAIGVWUUIaFCK0aKSaStB918Yea/gS5ZHKVwMixgApUSE0/+B/87tbMT006SYEo0PVi2x+jgH8XaNRs+/vYthsngPcZuNLa/kodmP0kvdbWwkdA/zZwcd3W5D3gcgcYftIlQ2pKXppCPg+8n9E3ZYHBW6B3zemttY/TByBNXS3fAAeHwFiBstdd3t3d2du/Z1r9/QBNOnKYZRIYbQAAAAZiS0dEAFwAXABcA9tTvgAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+MEFhMDMiFscmUAAABOSURBVBjTjZDBDQAgCMROd3IVhrxVXMqXplFI9MNBmgZURAxJ2pWZtQuPMGe252OocgrRtmft1hO2PU+fLZ4ZS/j5hS8oM1a535fyAOYF/lBEnn/0dQkAAAAASUVORK5CYII=') !important; 
         color: #ccc !important}
     
     /* Select boxes */
@@ -286,44 +330,67 @@ if invMethod == "customSet" {
 	    padding: 3px 15px 3px 5px !important;
 	    transition: border-color 0.3s, background-position 0.3s !important}
         
-    select:hover, [role="combobox"]:hover {background-color: #222 !important}
+    select:hover, [role="combobox"]:hover {
+        background-color: #222 !important}
         
     /*----- MISC PAGE FIXES -----*/
      
     /* Disqus */
-    #disqus .load-comments, #simpleSearch, .vectorTabs {background: transparent !important; color: #ddd !important; border-color: #555 !important}
-    #disqus .load-comments:hover, .ace_selection {background: rgba(255,255,255,0.1) !important; color: #fff !important}
+    #disqus .load-comments, #simpleSearch, .vectorTabs {
+        background: transparent !important; 
+        color: #ddd !important; 
+        border-color: #555 !important}
+    #disqus .load-comments:hover, .ace_selection {
+        background: rgba(255,255,255,0.1) !important; 
+        color: #fff !important}
     #conversation [class*="nav"], .grey-angle-bg, .grey-graident, .light-grey-gradient,
-    .bottom-menu.body {background: transparent !important}
+    .bottom-menu.body {
+        background: transparent !important}
           
     /* Code editors */
-    span.cm-tag, .ace-cobalt .ace_meta.ace_tag {color:  #d55d5d !important}
-    span.cm-tag.cm-bracket, .ace_entity, .ace_support.ace_function, .ace_support.ace_type {color:  #4CAF50 !important}
-    span.cm-string, .ace_string, .prettyprint .str, .syntaxhighlighter .string {color: #9999ff !important}
+    span.cm-tag, .ace-cobalt .ace_meta.ace_tag {
+        color:  #d55d5d !important}
+    span.cm-tag.cm-bracket, .ace_entity, .ace_support.ace_function, .ace_support.ace_type {
+        color:  #4CAF50 !important}
+    span.cm-string, .ace_string, .prettyprint .str, .syntaxhighlighter .string {
+        color: #9999ff !important}
     span.cm-variable, span.cm-def, .ace_variable, .crayon-theme-familiar .crayon-pre .crayon-v, 
-    .crayon-theme-github .crayon-pre .crayon-v, .crayon-theme-idle .crayon-pre .crayon-v {color: #dd0 !important}
-    span.cm-property, .ace_constant:not(.ace_numeric), .crayon-theme-xcode .crayon-pre .crayon-cn {color: #ff6666 !important}
-    .ace_constant.ace_numeric, .prettyprint .lit {color: #85f !important}
-    .ace_keyword, .crayon-theme-xcode .crayon-pre .crayon-e {color: #d80 !important}
+    .crayon-theme-github .crayon-pre .crayon-v, .crayon-theme-idle .crayon-pre .crayon-v {
+        color: #dd0 !important}
+    span.cm-property, .ace_constant:not(.ace_numeric), .crayon-theme-xcode .crayon-pre .crayon-cn {
+        color: #ff6666 !important}
+    .ace_constant.ace_numeric, .prettyprint .lit {
+        color: #85f !important}
+    .ace_keyword, .crayon-theme-xcode .crayon-pre .crayon-e {
+        color: #d80 !important}
     .ace_paren .ace_rparen, .jtip-top .jt-info.jt-imdb, .prettyprint .pun, 
     .crayon-theme-familiar .crayon-pre .crayon-i, .crayon-theme-github .crayon-pre .crayon-r, 
-    .crayon-theme-github .crayon-pre .crayon-i, .crayon-theme-xcode .crayon-pre .crayon-o {color: #fff !important}
-    .ace_support.ace_constant {color: #0aa !important}
+    .crayon-theme-github .crayon-pre .crayon-i, .crayon-theme-xcode .crayon-pre .crayon-o {
+        color: #fff !important}
+    .ace_support.ace_constant {
+        color: #0aa !important}
     .ace_comment, .prettyprint .com, .crayon-theme-familiar .crayon-pre .crayon-sy, .syntaxhighlighter .plain, 
     .crayon-theme-github .crayon-pre .crayon-sy, .crayon-theme-xcode .crayon-pre .crayon-sy, 
-    .crayon-theme-idle .crayon-pre .crayon-sy{color: #aaa !important}
+    .crayon-theme-idle .crayon-pre .crayon-sy{
+        color: #aaa !important}
     .crayon-theme-familiar .crayon-striped-line, .crayon-theme-github .crayon-table .crayon-nums, 
     .crayon-theme-xcode .crayon-striped-line, .crayon-line.crayon-striped-line, .crayon-syntax .crayon-num,
-    .crayon-theme-idle .crayon-table .crayon-nums {background: rgba(0,0,0,0.3) !important}
+    .crayon-theme-idle .crayon-table .crayon-nums {
+        background: rgba(0,0,0,0.3) !important}
         
     .CodeMirror, #columns, .syntaxhighlighter .line.alt2, .syntaxhighlighter .line.alt1, 
-    .syntaxhighlighter .line.alt2 {background-color: transparent !important}
+    .syntaxhighlighter .line.alt2 {
+        background-color: transparent !important}
 
     /* Mega */ 
-    .download.big-button:not(.green)::after, .post {background: #222 !important}
-    .download.big-button:not(.green)::before {background: #333 !important}  
-    .download.big-button.green {border: 1px solid #555 !important}
-    .download.big-button.green:hover {border-color: #f00 !important} 
+    .download.big-button:not(.green)::after, .post {
+        background: #222 !important}
+    .download.big-button:not(.green)::before {
+        background: #333 !important}  
+    .download.big-button.green {
+        border: 1px solid #555 !important}
+    .download.big-button.green:hover {
+        border-color: #f00 !important} 
     
      /* Video player buttons */  
     .jw-buffer, .jw-rail, .vjs-progress-holder::before, .video-progress-bar, .vjs-progress-holder, .vjs-load-progress, 
@@ -342,85 +409,127 @@ if invMethod == "customSet" {
     .mhp1138_handle, .mhp1138_progress {
         background-color: #fff !important}
     
-    #main_video_fluid_controls_container {background: linear-gradient(transparent, rgba(0,0,0,0.7)) !important}
+    #main_video_fluid_controls_container {
+        background: linear-gradient(transparent, rgba(0,0,0,0.7)) !important}
 
-    .jw-icon-settings {background: transparent !important}
+    .jw-icon-settings {
+        background: transparent !important}
     
-    pre.result, .navbar.bg-light {background-color: #000 !important}
-    h2.sync-black {color: #fff !important}
+    pre.result, .navbar.bg-light {
+        background-color: #000 !important}
+    h2.sync-black {
+        color: #fff !important}
     
-    .fluid_fluid_control_duration, .fluid_button_content, #main_video_tooltip {color: #fff !important}
+    .fluid_fluid_control_duration, .fluid_button_content, #main_video_tooltip {
+        color: #fff !important}
         
-    .XSlider .ProgressBar-inner.SeekBar-played, .XSlider .ProgressBar-inner.VolumeBar-progress {background-color: #08f !important}
+    .XSlider .ProgressBar-inner.SeekBar-played, .XSlider .ProgressBar-inner.VolumeBar-progress {
+        background-color: #08f !important}
         
     .vjs-control-bar, .XSlider .ProgressBar-inner.SeekBar-hover, .drt-control-bar, div[ng-if="videoSettingsDisplay"],
-    .WheelStopper .PlayerOptionContainer {background: rgba(0,0,0,0.7) !important}
+    .WheelStopper .PlayerOptionContainer {
+        background: rgba(0,0,0,0.7) !important}
         
     /* Wikis */
-    #mw-head {background: #151515 !important}
+    #mw-head {
+        background: #151515 !important}
     li#ca-nstab-main, li#ca-talk, li#ca-view, 
     li#ca-edit, li#ca-history, li#ca-nstab-project, li#ca-viewsource, 
-    section.page-card.about, .u-backgroundGrayLightest, .download.bar-table {background: #222 !important}
+    section.page-card.about, .u-backgroundGrayLightest, .download.bar-table {
+        background: #222 !important}
         
     li#ca-nstab-main.selected, li#ca-talk.selected, li#ca-view.selected, 
     li#ca-edit.selected, li#ca-history.selected, li#ca-nstab-project.selected,
-    li#ca-viewsource.selected {background: #333 !important; border-top: 2px solid #777 !important}
+    li#ca-viewsource.selected {
+        background: #333 !important; 
+        border-top: 2px solid #777 !important}
         
     li#ca-nstab-main a, li#ca-talk a, li#ca-view a, 
     li#ca-edit a, li#ca-history a, li#ca-nstab-project a,
-    li#ca-viewsource a{border-right: 1px solid #666 !important}
-    .mw-parser-output .main-top-left {background: linear-gradient(to right, #000, transparent) !important}
+    li#ca-viewsource a{
+        border-right: 1px solid #666 !important}
+    .mw-parser-output .main-top-left {
+        background: linear-gradient(to right, #000, transparent) !important}
         
     /* Other */
     .communitymailinglist a, #oh-menu-submit span, #oh-menu-join a, 
-	.u-backgroundTransparentWhiteDarkest {background: #333 !important; color: #ddd !important}
+	.u-backgroundTransparentWhiteDarkest, .gray-bg-gradient {
+        background: #333 !important; 
+        color: #ddd !important}
 
-	.content-for-input {border: 1px solid #666 !important}
-	.editor-label .slider {border: 2px solid #34374c !important}
+	.content-for-input {
+        border: 1px solid #666 !important}
+	.editor-label .slider {
+        border: 2px solid #34374c !important}
 
-    span.flat-bar span.level, .ui-slider-range, .ui-slider-handle {background-color: #05a !important}
+    span.flat-bar span.level, .ui-slider-range, .ui-slider-handle {
+        background-color: #05a !important}
 
 	.communitymailinglist a:hover, #oh-menu-submit span:hover, #oh-menu-join a:hover, .bz_comment_text span.quote, 
 	.bz_comment_text span.quote_wrapped, div.bz_comment_text pre,
-	.editor-label .slider::before {background: #444 !important; color: #fff !important}
+	.editor-label .slider::before {
+        background: #444 !important; 
+        color: #fff !important}
 	
-	pre.result, .navbar.bg-light, .vx_modal-wrapper {background-color: #000 !important}
+	pre.result, .navbar.bg-light, .vx_modal-wrapper {
+        background-color: #000 !important}
 
 	.rating-block__button, .TTreview, .ic__container, .product-container, 
-	#addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane {background-color: #151515 !important}
+	#addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane {
+        background-color: #151515 !important}
 
-	.vscom-feature-hero {background-color: #222 !important}
-	.bg-secondary, *[class*="vc_custom_"] {background: #222828 !important}
-	.nav-main-item a:hover, a[data-service="GitHub"]:hover {background: rgba(255,255,255,0.1) !important} 
-	.note {background: #331}
+	.vscom-feature-hero {
+        background-color: #222 !important}
+	.bg-secondary, *[class*="vc_custom_"] {
+        background: #222828 !important}
+	.nav-main-item a:hover, a[data-service="GitHub"]:hover {
+        background: rgba(255,255,255,0.1) !important} 
+	.note {
+        background: #331}
 
-    .inputField input, .vx_modal-dismiss_x::before {color: #ccc !important}
+    .inputField input, .vx_modal-dismiss_x::before {
+        color: #ccc !important}
 
-	h2.sync-black {color: #fff !important}
-	#dealSearchBar, #dealCategorySearchBar, .rb-new__button:not(:hover) .xh-icon::before, .BuCcI input {color: #ccc !important}
+	h2.sync-black {
+        color: #fff !important}
 
-	.article-single figure img {mix-blend-mode: screen !important}
+	#dealSearchBar, #dealCategorySearchBar, .rb-new__button:not(:hover) .xh-icon::before, .BuCcI input {
+        color: #ccc !important}
+
+	.article-single figure img {
+        mix-blend-mode: screen !important}
 
 	#textResultsArtists .result div, #textResultsSongs .result div,
-    #textResultsAlbums .result div, #textResultsUsers .result div {background-image: none !important}
+    #textResultsAlbums .result div, #textResultsUsers .result div {
+        background-image: none !important}
 
 	.title, [id*="search"]:not([id*="btn"]):not([class*="btn"]):not([id*="search-submit-button"]):not([type="submit"]), 
-	.probox {background: none !important; box-shadow: none !important}
+	.probox {
+        background: none !important; 
+        box-shadow: none !important}
 
 	.bg-c-w100, .c-c-w100, .PageList, .old-post-page, .post-reply, 
-	.reply-counter, .reply-counter span {background-color: transparent !important}
+	.reply-counter, .reply-counter span {
+        background-color: transparent !important}
 	    
-	.probox input[type="search"], .rc-button.goog-inline-block, .mf_filecontainer a::after, .pages-nav.nav-icon {filter: invert(80%) hue-rotate(180deg)}
+	.probox input[type="search"], .rc-button.goog-inline-block, .mf_filecontainer a::after, .pages-nav.nav-icon {
+        filter: invert(80%) hue-rotate(180deg)}
 	    
 	.p-sectionLinks, .navbar-brand, .site-navigation2__child-list, .site-navigation2__panel,
-    #item_detail_wrapper #correct_answer, #ov6popup {background-color: rgba(0,0,0,0.8) !important}
+    #item_detail_wrapper #correct_answer, #ov6popup {
+        background-color: rgba(0,0,0,0.8) !important}
+
 	.item.tooltipstered > div, .postbitlegacy .postdetails, .upgrade-panel.pn-flex.mb, 
-    #ov6popup .dllinks {background-color: rgba(0,0,0,0.5) !important}
+    #ov6popup .dllinks {
+        background-color: rgba(0,0,0,0.5) !important}
 	    
-	.contentRow-fader {background: linear-gradient(transparent, bgColor) !important}
+	.contentRow-fader {
+        background: linear-gradient(transparent, bgColor) !important}
 	    
 	.bz_comment_text span.quote, .bz_comment_text span.quote_wrapped, 
-	div.bz_comment_text pre {background: #444 !important; color: #fff !important}
+	div.bz_comment_text pre {
+        background: #444 !important; 
+        color: #fff !important}
         
     /*----- SCROLLBAR CHANGES (ONLY ON THEMED SITES) -----*/
     if (scrollScope == "Site") {
@@ -651,7 +760,10 @@ if (scrollScope == "All") {
 }
 
 @-moz-document url-prefix("https://www.virustotal.com") {
-    html {background: bgColor !important}
-    body {background: linear-gradient(bgColor, bgColor) !important}
-    body > * {filter: invert(80%) hue-rotate(180deg)}
+    html {
+        background: bgColor !important}
+    body {
+        background: linear-gradient(bgColor, bgColor) !important}
+    body > * {
+        filter: invert(80%) hue-rotate(180deg)}
 }
