@@ -2,8 +2,8 @@
 @name         W3Schools Sublime Theme (Fixed)
 @description  Dark style for W3Schools. Created by LeoTM, updated by Izheil.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.4.1
-@author       Izheil
+@version      1.4.2
+@author       LeoTM, Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @license      BY-SA-4.0
@@ -37,7 +37,7 @@
     background-color: #36372f;
  }
 
-.w3-table-all th {background-color: #272822 !important}
+.w3-table-all th, .browserref th {background-color: #272822 !important}
 
 .w3-table-all tr:nth-child(2n+1) td {background: #46473f !important}
 
