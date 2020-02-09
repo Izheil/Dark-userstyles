@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.5.25
+@version      2.5.27
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -12,8 +12,8 @@
 
 @var          color     linkColor    "Default link (and focus) color"    #2288dd
 @var          color     visitedColor "Visited link color"    #506079
-@var          color     selectColor  "Selected text background color"    #005599
-@var          color     textColor    "Selected text color"    #000000
+@var          color     selectColor  "Selected text background color"    #0070bb
+@var          color     textColor    "Selected text color"    #ffffff
 @var          color     bgColor      "Background color"  #181818
 @var          color     trackColor   "Scrollbar track color"  #202020
 @var          color     thumbColor   "Scrollbar thumb color"  #05a
@@ -202,7 +202,7 @@ if invMethod == "customSet" {
     [class*="bg-gray"], div.Popover-message, ul.sub, div[role="menu"], .options, .vue-treeselect__menu, .ListResult, div[class*="menu"]:not([role="button"]):not(.vjs-control):not(.main-menu):not(.material-menu-backdrop), 
     .menu ul ul li a, .menuparent a, .dropdown li ul li a, #description_popup, ul[role="listbox"], ul[id*="contextmenu"],.qtip-pos-tl.qtip-fixed, 
     .qtip-content, .tooltipster-content, .backgroundMidSilver, .sub_nav, .sub_nav .overlay, .nanoModal, header.sticky .header_bottom,
-    .secondLevel[data-menu], .tooltiptext, div[class*="overlay"] {
+    .secondLevel[data-menu], .tooltiptext, div[class*="overlay"]:not([class*="overlays"]) {
         background-color: rgba(0,0,0,0.8) !important}
 
     div[class*="btn"]:not(.dl-btn-labelWrap):not(.dl-btn-cont):not(.btn-set):not(div[class*="btns"]):not(.column):not([class*="toolbar"]):hover, input[type="file"]:hover, 
@@ -483,7 +483,8 @@ if invMethod == "customSet" {
         background-color: #000 !important}
 
 	.rating-block__button, .TTreview, .ic__container, .product-container, 
-	#addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane {
+	#addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane, .h-F-f-k.F-f-k,
+    #content-wrap, #vivaldi-header {
         background-color: #151515 !important}
 
 	.vscom-feature-hero {
