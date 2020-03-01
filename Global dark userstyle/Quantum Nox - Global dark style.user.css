@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.5.30
+@version      2.5.31
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -53,7 +53,7 @@ if invMethod == "customSet" {
     
     /* General elements background color */
     html, iframe:not(#firefox-screenshots-selection-iframe):not(#firefox-screenshots-preselection-iframe):not(#s3downbar_download_box_iframe), embed, footer:not([class*="comment"]), [id*="footer"] {
-    	background: darkBg bgColor !important}
+        background: darkBg bgColor !important}
     body, html body, .body-content, .conversation-list-heading .inner, .content-block, .page-body, body.navless, 
     .container-fluid, .topic-body, .body_wrapper, .single_wrap .single_post, .comment, .container-entry, 
     .default .tv_content_alt, body.Body {
@@ -102,7 +102,7 @@ if invMethod == "customSet" {
     li[class*="dropdown"]:not([class*="toggle"]):not([class*="has-children"]):not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]):not(.user-menu), 
     li[class*="drop-down"]:not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]):not(.user-menu), [class*="popup"]:not(.vjs-menu-button-popup):not(.bilibili-player-video-popup):not(.bilibili-player-popup-inner):not(.bilibili-player-popup-area), 
     [class*="popover"]:not([class*="link"]), [class*="widget-content"], [class*="notice"], div[role="navigation"], div.nav ul#menu li ul, div[class*="dialog"] > .content, 
-    div[class*="Dialog"] > .content, .css-hmkap5, .css-gkxqox, .bg-default {
+    div[class*="Dialog"] > .content, .css-hmkap5, .css-gkxqox, .bg-default, .sticky {
         background: rgba(0,0,0,0.8) !important}
         
     pre, pre.prettyprint, code, .w3-code, blockquote, .ace_gutter-layer, 
@@ -217,7 +217,8 @@ if invMethod == "customSet" {
     .anchor-list a.hoverable, div[class*="buttons"] a[onclick], [aria-selected="true"], 
     button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="ytp"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not([class*="btn-link"]):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]), 
     input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit), 
-    [class*="menu-item"]:not([class*="footer"]):not([class*="Footer"]):hover, button#view-menu-btn, a.add-fav, #action-menu-btn, a.Button {
+    [class*="menu-item"]:not([class*="footer"]):not([class*="Footer"]):hover, button#view-menu-btn, a.add-fav, #action-menu-btn, 
+    a.Button {
         -moz-appearance: none !important;
         -webkit-appearance: none !important;
         background: #303030 !important; 
@@ -228,7 +229,8 @@ if invMethod == "customSet" {
     div[class*="dropdown"] a:hover, div[class*="drop-down"] a:hover, 
     button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not(.btn-link):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):hover, 
     input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit):hover, 
-    span[role="button"]:hover, button#view-menu-btn:hover, a.add-fav:hover, #action-menu-btn:hover, a.Button:hover {
+    span[role="button"]:hover, button#view-menu-btn:hover, a.add-fav:hover, #action-menu-btn:hover, 
+    a.Button:hover, .menu-btn > a:hover {
         background-color: #444 !important; 
         color: #fff !important}
 
@@ -329,14 +331,14 @@ if invMethod == "customSet" {
     
     /* Select boxes */
     select, [role="combobox"], a[class*="select"]:not([class*="selected"]) {
-	    -moz-appearance: none !important;
-	    -webkit-appearance: none !important;
-	    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAYAAABCxiV9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAeSURBVBhXY5g5c+Z/BiwALo6uAEMDTACXSWgSDAwA4jATh950E30AAAAASUVORK5CYII=') no-repeat right 4px center #060606 !important;
-	    border: 1px solid #333 !important;
-	    box-shadow: none !important;
-		color: #ccc !important;
-	    padding: 3px 15px 3px 5px !important;
-	    transition: border-color 0.3s, background-position 0.3s !important}
+        -moz-appearance: none !important;
+        -webkit-appearance: none !important;
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAYAAABCxiV9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAeSURBVBhXY5g5c+Z/BiwALo6uAEMDTACXSWgSDAwA4jATh950E30AAAAASUVORK5CYII=') no-repeat right 4px center #060606 !important;
+        border: 1px solid #333 !important;
+        box-shadow: none !important;
+        color: #ccc !important;
+        padding: 3px 15px 3px 5px !important;
+        transition: border-color 0.3s, background-position 0.3s !important}
         
     select:hover, [role="combobox"]:hover {
         background-color: #222 !important}
@@ -358,22 +360,27 @@ if invMethod == "customSet" {
     /* Code editors */
     span.cm-tag, .ace-cobalt .ace_meta.ace_tag {
         color:  #d55d5d !important}
-    span.cm-tag.cm-bracket, .ace_entity, .ace_support.ace_function, .ace_support.ace_type {
+    .prettyprint .tag {
+        color: #ff8c1a !important}
+    span.cm-tag.cm-bracket, .ace_entity, .ace_support.ace_function, .ace_support.ace_type, .prettyprint .atv {
         color:  #4CAF50 !important}
+    .prettyprint .pun {
+        color: #0af !important}
     span.cm-string, .ace_string, .prettyprint .str, .syntaxhighlighter .string {
         color: #9999ff !important}
     span.cm-variable, span.cm-def, .ace_variable, .crayon-theme-familiar .crayon-pre .crayon-v, 
-    .crayon-theme-github .crayon-pre .crayon-v, .crayon-theme-idle .crayon-pre .crayon-v {
+    .crayon-theme-github .crayon-pre .crayon-v, .crayon-theme-idle .crayon-pre .crayon-v, .prettyprint .atn {
         color: #dd0 !important}
-    span.cm-property, .ace_constant:not(.ace_numeric), .crayon-theme-xcode .crayon-pre .crayon-cn {
+    span.cm-property, .ace_constant:not(.ace_numeric), .crayon-theme-xcode .crayon-pre .crayon-cn, .prettyprint .kwd {
         color: #ff6666 !important}
     .ace_constant.ace_numeric, .prettyprint .lit {
         color: #85f !important}
-    .ace_keyword, .crayon-theme-xcode .crayon-pre .crayon-e {
+    .ace_keyword, .crayon-theme-xcode .crayon-pre .crayon-e, .prettyprint .typ {
         color: #d80 !important}
-    .ace_paren .ace_rparen, .jtip-top .jt-info.jt-imdb, .prettyprint .pun, 
+    .ace_paren .ace_rparen, .jtip-top .jt-info.jt-imdb, 
     .crayon-theme-familiar .crayon-pre .crayon-i, .crayon-theme-github .crayon-pre .crayon-r, 
-    .crayon-theme-github .crayon-pre .crayon-i, .crayon-theme-xcode .crayon-pre .crayon-o {
+    .crayon-theme-github .crayon-pre .crayon-i, .crayon-theme-xcode .crayon-pre .crayon-o,
+    .prettyprint .pln {
         color: #fff !important}
     .ace_support.ace_constant {
         color: #0aa !important}
@@ -462,82 +469,82 @@ if invMethod == "customSet" {
         
     /* Other */
     .communitymailinglist a, #oh-menu-submit span, #oh-menu-join a, 
-	.u-backgroundTransparentWhiteDarkest, .gray-bg-gradient {
+    .u-backgroundTransparentWhiteDarkest, .gray-bg-gradient {
         background: #333 !important; 
         color: #ddd !important}
 
-	.content-for-input {
+    .content-for-input {
         border: 1px solid #666 !important}
-	.editor-label .slider {
+    .editor-label .slider {
         border: 2px solid #34374c !important}
 
     span.flat-bar span.level, .ui-slider-range, .ui-slider-handle {
         background-color: #05a !important}
 
-	.communitymailinglist a:hover, #oh-menu-submit span:hover, #oh-menu-join a:hover, .bz_comment_text span.quote, 
-	.bz_comment_text span.quote_wrapped, div.bz_comment_text pre,
-	.editor-label .slider::before {
+    .communitymailinglist a:hover, #oh-menu-submit span:hover, #oh-menu-join a:hover, .bz_comment_text span.quote, 
+    .bz_comment_text span.quote_wrapped, div.bz_comment_text pre,
+    .editor-label .slider::before {
         background: #444 !important; 
         color: #fff !important}
-	
-	pre.result, .navbar.bg-light, .vx_modal-wrapper {
+    
+    pre.result, .navbar.bg-light, .vx_modal-wrapper, #logo-menu.mui-appbar {
         background-color: #000 !important}
 
-	.rating-block__button, .TTreview, .ic__container, .product-container, 
-	#addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane, .h-F-f-k.F-f-k,
+    .rating-block__button, .TTreview, .ic__container, .product-container, 
+    #addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane, .h-F-f-k.F-f-k,
     #content-wrap, #vivaldi-header {
         background-color: #151515 !important}
 
-	.vscom-feature-hero {
+    .vscom-feature-hero {
         background-color: #222 !important}
-	.bg-secondary, *[class*="vc_custom_"] {
+    .bg-secondary, *[class*="vc_custom_"] {
         background: #222828 !important}
-	.nav-main-item a:hover, a[data-service="GitHub"]:hover {
+    .nav-main-item a:hover, a[data-service="GitHub"]:hover {
         background: rgba(255,255,255,0.1) !important} 
-	.note {
+    .note {
         background: #331}
 
     .inputField input, .vx_modal-dismiss_x::before {
         color: #ccc !important}
 
-	h2.sync-black {
+    h2.sync-black {
         color: #fff !important}
 
-	#dealSearchBar, #dealCategorySearchBar, .rb-new__button:not(:hover) .xh-icon::before, .BuCcI input {
+    #dealSearchBar, #dealCategorySearchBar, .rb-new__button:not(:hover) .xh-icon::before, .BuCcI input {
         color: #ccc !important}
 
-	.article-single figure img {
+    .article-single figure img {
         mix-blend-mode: screen !important}
 
-	#textResultsArtists .result div, #textResultsSongs .result div,
+    #textResultsArtists .result div, #textResultsSongs .result div,
     #textResultsAlbums .result div, #textResultsUsers .result div {
         background-image: none !important}
 
-	.title, [id*="search"]:not([id*="btn"]):not([class*="btn"]):not([id*="search-submit-button"]):not([type="submit"]), 
-	.probox {
+    .title, [id*="search"]:not([id*="btn"]):not([class*="btn"]):not([id*="search-submit-button"]):not([type="submit"]), 
+    .probox {
         background: none !important; 
         box-shadow: none !important}
 
-	.bg-c-w100, .c-c-w100, .PageList, .old-post-page, .post-reply, 
-	.reply-counter, .reply-counter span {
+    .bg-c-w100, .c-c-w100, .PageList, .old-post-page, .post-reply, 
+    .reply-counter, .reply-counter span {
         background-color: transparent !important}
-	    
-	.probox input[type="search"], .rc-button.goog-inline-block, .mf_filecontainer a::after, .pages-nav.nav-icon {
+        
+    .probox input[type="search"], .rc-button.goog-inline-block, .mf_filecontainer a::after, .pages-nav.nav-icon {
         filter: invert(80%) hue-rotate(180deg)}
-	    
-	.p-sectionLinks, .navbar-brand, .site-navigation2__child-list, .site-navigation2__panel,
+        
+    .p-sectionLinks, .navbar-brand, .site-navigation2__child-list, .site-navigation2__panel,
     #item_detail_wrapper #correct_answer, #ov6popup {
         background-color: rgba(0,0,0,0.8) !important}
 
-	.item.tooltipstered > div, .postbitlegacy .postdetails, .upgrade-panel.pn-flex.mb, 
+    .item.tooltipstered > div, .postbitlegacy .postdetails, .upgrade-panel.pn-flex.mb, 
     #ov6popup .dllinks {
         background-color: rgba(0,0,0,0.5) !important}
-	    
-	.contentRow-fader {
+        
+    .contentRow-fader {
         background: linear-gradient(transparent, bgColor) !important}
-	    
-	.bz_comment_text span.quote, .bz_comment_text span.quote_wrapped, 
-	div.bz_comment_text pre {
+        
+    .bz_comment_text span.quote, .bz_comment_text span.quote_wrapped, 
+    div.bz_comment_text pre {
         background: #444 !important; 
         color: #fff !important}
         
@@ -550,67 +557,67 @@ if invMethod == "customSet" {
             scrollbar-width: scrollWidth !important}
 
         /* CHROMIUM BASED BROWSERS */
-	    html[hide-scrollbar="true"] ::-webkit-scrollbar {display: none}
-	    
-	    if (scrollWidth == "auto") {
-	        ::-webkit-scrollbar {
-	            width: 16px !important;
-	            height: 16px !important}
+        html[hide-scrollbar="true"] ::-webkit-scrollbar {display: none}
+        
+        if (scrollWidth == "auto") {
+            ::-webkit-scrollbar {
+                width: 16px !important;
+                height: 16px !important}
 
-	    ::-webkit-scrollbar-button:vertical:decrement {
-	      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDQUvKSwCAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAIJJREFUOMvNU0EOwCAIa9Wv8P+bn/EtC7uwxRlBl+wwExMDtJUSgN+fWmuYL1GytbYUSDvg6BdpIaAAVETcAgbqOtbOiLgJdkm4ALNrZUqSAscJINulZ3AJvKGIHAagxXRnChf4LrY3Z55Nx9iDo9hIkL1RdSR369bWg6C8WBH9bNlOjcgtTlSmKcUAAAAASUVORK5CYII=') trackColor !important}
+        ::-webkit-scrollbar-button:vertical:decrement {
+          background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDQUvKSwCAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAIJJREFUOMvNU0EOwCAIa9Wv8P+bn/EtC7uwxRlBl+wwExMDtJUSgN+fWmuYL1GytbYUSDvg6BdpIaAAVETcAgbqOtbOiLgJdkm4ALNrZUqSAscJINulZ3AJvKGIHAagxXRnChf4LrY3Z55Nx9iDo9hIkL1RdSR369bWg6C8WBH9bNlOjcgtTlSmKcUAAAAASUVORK5CYII=') trackColor !important}
 
-	    ::-webkit-scrollbar-button:vertical:increment {
-	        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDDRn7B15AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAI5JREFUOMvNktEKwzAIRU/awr7E/3/Lz/gnpZ17SSDZ1I7uZUIgaO65KoEfo/SLqj6AXUQsE6gqwAo8RcSWoXbcMR4BJ2DNIXMHOHqnS/CwfJOLANY6KW9ia2eKLejWgKKq6zheuoxhRnPqU05EfEAAIRK7gATyIQ4BDsQVZ0ucDLK/wdW3vS3uUWvlv+MFNEZDRaFDPRYAAAAASUVORK5CYII=') trackColor !important}
+        ::-webkit-scrollbar-button:vertical:increment {
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDDRn7B15AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAI5JREFUOMvNktEKwzAIRU/awr7E/3/Lz/gnpZ17SSDZ1I7uZUIgaO65KoEfo/SLqj6AXUQsE6gqwAo8RcSWoXbcMR4BJ2DNIXMHOHqnS/CwfJOLANY6KW9ia2eKLejWgKKq6zheuoxhRnPqU05EfEAAIRK7gATyIQ4BDsQVZ0ucDLK/wdW3vS3uUWvlv+MFNEZDRaFDPRYAAAAASUVORK5CYII=') trackColor !important}
 
-	    ::-webkit-scrollbar-button:horizontal:decrement {
-	        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDSqE+BFbAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAHxJREFUOMvFk8ENwCAMAx1glez/yzKepH2UfqCiCIkUITXPKBeZ2AB/l3iGSPatCCCp6hEWYAC4AJxTBQXOvWJVfRrhIywtPFTQSB7BuZ8PTjiO4NcCM9tjo5nVI7meIAtHzO4geWyUxSChLpomsfe9VCpxXiuSQlK2/MYbwfUzWt5jRVUAAAAASUVORK5CYII=') trackColor !important}
+        ::-webkit-scrollbar-button:horizontal:decrement {
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDSqE+BFbAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAHxJREFUOMvFk8ENwCAMAx1glez/yzKepH2UfqCiCIkUITXPKBeZ2AB/l3iGSPatCCCp6hEWYAC4AJxTBQXOvWJVfRrhIywtPFTQSB7BuZ8PTjiO4NcCM9tjo5nVI7meIAtHzO4geWyUxSChLpomsfe9VCpxXiuSQlK2/MYbwfUzWt5jRVUAAAAASUVORK5CYII=') trackColor !important}
 
-	    ::-webkit-scrollbar-button:horizontal:increment {
-	        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDSBkLfhFAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAIpJREFUOMvFktEJwzAMRJ+dQifRMh7Yy9wmpY3zk4IRip2mherHYOnE00nw70gAku7AE3j1STObNsj7+wBWn5R0jiAQtL5mRJID5OQatxFJij4lpZ2i+VpPk6MGZtaAxZNEvuQrq6u1XhtBEqWUsQdH4qNNfL3GNDuY2TW+TVyA26diOtF6VvDz2ACD0DOn15jzcQAAAABJRU5ErkJggg==') trackColor !important}
-	        
-	    ::-webkit-scrollbar-button:increment:start {
-	        width: 0 !important;
-	        height: 0 !important}
-	        
-	    ::-webkit-scrollbar-button:decrement:end {
-	        width: 0 !important;
-	        height: 0 !important}
-	    }
+        ::-webkit-scrollbar-button:horizontal:increment {
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TS4tWHOwg4pCh6mJBVEQ3qWIRLJS2QqsOJpd+QZOGJMXFUXAtOPixWHVwcdbVwVUQBD9AXFydFF2kxP+lhRYxHhz34929x907QKiXmWp2jQOqZhnJWFTMZFdF/yt6EIAPo5iVmKnHU4tpuI6ve3j4ehfhWe7n/hy9Ss5kgEcknmO6YRFvEE9vWjrnfeIQK0oK8TnxmEEXJH7kutzkN84FhwWeGTLSyXniELFY6GC5g1nRUImniMOKqlG+kGmywnmLs1qustY9+QuDOW0lxXWaQ4hhCXEkIEJGFSWUYSFCq0aKiSTtR138g44/QS6ZXCUwciygAhWS4wf/g9/dmvnJiWZSMAr4Xmz7Yxjw7wKNmm1/H9t24wTwPgNXWttfqQMzn6TX2lr4COjbBi6u25q8B1zuAANPumRIjuSlKeTzwPsZfVMW6L8FuteavbX2cfoApKmr5Rvg4BAYKVD2usu7A529/Xum1d8PsytywSh+aA4AAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjCwgGDSBkLfhFAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAIpJREFUOMvFktEJwzAMRJ+dQifRMh7Yy9wmpY3zk4IRip2mherHYOnE00nw70gAku7AE3j1STObNsj7+wBWn5R0jiAQtL5mRJID5OQatxFJij4lpZ2i+VpPk6MGZtaAxZNEvuQrq6u1XhtBEqWUsQdH4qNNfL3GNDuY2TW+TVyA26diOtF6VvDz2ACD0DOn15jzcQAAAABJRU5ErkJggg==') trackColor !important}
+            
+        ::-webkit-scrollbar-button:increment:start {
+            width: 0 !important;
+            height: 0 !important}
+            
+        ::-webkit-scrollbar-button:decrement:end {
+            width: 0 !important;
+            height: 0 !important}
+        }
 
-	    if (scrollWidth == "thin") {
-	        ::-webkit-scrollbar {
-	            width: 8px !important;
-	            height: 8px !important}
-	    }
+        if (scrollWidth == "thin") {
+            ::-webkit-scrollbar {
+                width: 8px !important;
+                height: 8px !important}
+        }
 
-	    if (scrollWidth == "none") {
-	        ::-webkit-scrollbar {
-	            width: 0 !important;
-	            height: 0 !important}
-	    }
+        if (scrollWidth == "none") {
+            ::-webkit-scrollbar {
+                width: 0 !important;
+                height: 0 !important}
+        }
 
-	    ::-webkit-scrollbar-thumb {
-	        -webkit-appearance: none !important;
-	        background-color: thumbColor !important;
-	        border-radius: 0px !important;
-	        box-shadow: none !important}
+        ::-webkit-scrollbar-thumb {
+            -webkit-appearance: none !important;
+            background-color: thumbColor !important;
+            border-radius: 0px !important;
+            box-shadow: none !important}
 
-	    ::-webkit-scrollbar-thumb:hover {
-	        -webkit-appearance: none !important;
-	        background-color: thumbColor !important;
-	        box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.1) !important}
+        ::-webkit-scrollbar-thumb:hover {
+            -webkit-appearance: none !important;
+            background-color: thumbColor !important;
+            box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.1) !important}
 
-	    ::-webkit-scrollbar-thumb:active {
-	        -webkit-appearance: none !important;
-	        background-color: thumbColor !important;
-	        box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.25) !important}
+        ::-webkit-scrollbar-thumb:active {
+            -webkit-appearance: none !important;
+            background-color: thumbColor !important;
+            box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.25) !important}
 
-	    ::-webkit-scrollbar-track {
-	        background-color: trackColor !important}
+        ::-webkit-scrollbar-track {
+            background-color: trackColor !important}
 
-	    ::-webkit-scrollbar-corner {
-	        background: trackColor !important}
+        ::-webkit-scrollbar-corner {
+            background: trackColor !important}
     }
         
     /*----- IMAGE CHANGES -----*/
@@ -685,9 +692,9 @@ if invMethod == "customSet" {
 if invMethod == "colorInv" {
     html {background: bgColor !important}
     body {background: linear-gradient(bgColor, bgColor) !important}
-    body > * {filter: invert(100%) hue-rotate(180deg)}
+    body > * {filter: invert(90%) hue-rotate(180deg)}
     if !invImgCol {
-        img:not(#s3downbar_download_box_img), input[type="image"] {filter: invert(100%) hue-rotate(180deg)}
+        img:not(#s3downbar_download_box_img), input[type="image"] {filter: invert(90%) hue-rotate(180deg)}
     }  
 }
     

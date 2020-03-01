@@ -2,7 +2,7 @@
 @name         W3Schools Sublime Theme (Fixed)
 @description  Dark style for W3Schools. Created by LeoTM, updated by Izheil.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.4.2
+@version      1.4.3
 @author       LeoTM, Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
@@ -11,137 +11,141 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.w3schools.com/") {
- /* 'w3schools' */
- body > div.w3-container.top > a {
+/* 'w3schools' */
+body > div.w3-container.top > a {
     color: #F8F8F2 !important;
- }
- /* '.com' */
- body > div.w3-container.top > a > span {
+}
+/* '.com' */
+body > div.w3-container.top > a > span {
     color: #A6E22E;
- }
- @media (min-width: 993px) {
+}
+@media (min-width: 993px) {
     div.w3-right {
         color: #F8F8F2 !important;
     }
- }
+}
 
- /* Site bg + inner tables */
- body > div.w3-container.top,
- .w3-white, .w3-code.notranslate,
- .w3-code.w3-border.notranslate,
- .w3-row, #entercolor, .howtocontainer {
+/* Site bg + inner tables */
+body > div.w3-container.top,
+.w3-white, .w3-code.notranslate,
+.w3-code.w3-border.notranslate,
+.w3-row, #entercolor, .howtocontainer {
     background-color: #36372f !important;
-        color: #ccc !important;
- }
- td {
+    color: #ccc !important;
+}
+td {
     background-color: #36372f;
- }
+}
 
 .w3-table-all th, .browserref th {background-color: #272822 !important}
 
 .w3-table-all tr:nth-child(2n+1) td {background: #46473f !important}
 
- /* Left sidebar bg + outer tables */
- .w3-light-grey, .w3-example,
- .w3-sidenav, .w3-container.w3-padding-large,
- .w3-card-4 {
+/* Left sidebar bg + outer tables */
+.w3-light-grey, .w3-example,
+.w3-sidenav, .w3-container.w3-padding-large,
+.w3-card-4 {
     background-color: #272822 !important;
- }
- #leftmenuinnerinner > a:hover {
+}
+#leftmenuinnerinner > a:hover {
     color: #F8F8F2 !important;
     background-color: #1b1c17;
- }
- #leftmenuinnerinner > a.active {
+}
+#leftmenuinnerinner > a.active {
     color: #F8F8F2 !important;
     background-color: #1b1c17;
- }
+}
 
- /* Navbar bg */
- #topnav > div:nth-child(1),
- .w3-topnav {
+/* Navbar bg */
+#topnav > div:nth-child(1),
+.w3-topnav {
     background-color: #1b1c17 !important;
- }
- /* Navbar hover bg */
- #topnav > div:nth-child(1) > div > a.active,
- .topnavlinks > a:hover {
+}
+/* Navbar hover bg */
+#topnav > div:nth-child(1) > div > a.active,
+.topnavlinks > a:hover {
     background-color: black;
- }
+}
 
- /* Site text + in tables + buttons */
- div#main > p, td, th, li, [id*="color"],
- #main > div > a.w3-btn,
- a.w3-btn.w3-theme.w3-margin-0,
- div#topnav > div > ul.w3-navbar.w3-left > li > a.active,
- body > div.w3-container.top > div,
- #main > div > div:not(.w3-code) > span,
- .w3-code.notranslate,
- a.w3-btn.w3-light-grey.w3-hide-small.w3-hide-medium.w3-left.w3-padding,
- #main > div > span:nth-child(1),
- .w3-text-dark-grey, .w3-hover-text-dark-grey:hover, .w3-text-dark-gray, .w3-hover-text-dark-gray:hover,.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+/* Links sidebar hover */
+a.active_overview, .tut_overview {
+    background-color: #1b1c17 !important}
+
+/* Site text + in tables + buttons */
+div#main > p, td, th, li, [id*="color"],
+#main > div > a.w3-btn,
+a.w3-btn.w3-theme.w3-margin-0,
+div#topnav > div > ul.w3-navbar.w3-left > li > a.active,
+body > div.w3-container.top > div,
+#main > div > div:not(.w3-code) > span,
+.w3-code.notranslate,
+a.w3-btn.w3-light-grey.w3-hide-small.w3-hide-medium.w3-left.w3-padding,
+#main > div > span:nth-child(1),
+.w3-text-dark-grey, .w3-hover-text-dark-grey:hover, .w3-text-dark-gray, .w3-hover-text-dark-gray:hover,.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
     color: #F8F8F2 !important;
- }
- /* Headings (beige) */
- span, h1, h2, h3, h4, h5, h6,
- #sidemenu > h2 {
+}
+/* Headings (beige) */
+span, h1, h2, h3, h4, h5, h6,
+#sidemenu > h2 {
     color: #E6DB74;
- }
- /* Table text */
- td, #main > div.w3-example > p {
+}
+/* Table text */
+td, #main > div.w3-example > p {
     color: #F8F8F2;
- }
- /* Prevus + Next btns */
- #main > div > a.w3-btn {
+}
+/* Prevus + Next btns */
+#main > div > a.w3-btn {
     background: #4CAF50;
     border: none;
- }
+}
 
 .howtopag_item:not(.pagactive):hover {background: rgba(0,0,0,0.2) !important}
 
- /* Links */
- a:not(.w3-btn):not(.w3-button):not(.pagactive), .w3-bar-block .w3-bar-item { color: #66D9EF !important; }
- a:not(.w3-btn):not(.w3-button):not(.pagactive):visited, .w3-bar-block .w3-bar-item:hover { color: #139db9 !important; }
- a:not(.w3-btn):not(.w3-button):not(.pagactive):not(.active):not(.tabactive):hover { color: #A6E22E !important; }
- body > ul.w3-navbar.w3-theme.w3-card-2.w3-wide > li > a.w3-hover-white.w3-padding-16 {
+/* Links */
+a:not(.w3-btn):not(.w3-button):not(.pagactive), .w3-bar-block .w3-bar-item { color: #66D9EF !important; }
+a:not(.w3-btn):not(.w3-button):not(.pagactive):visited, .w3-bar-block .w3-bar-item:hover { color: #139db9 !important; }
+a:not(.w3-btn):not(.w3-button):not(.pagactive):not(.active):not(.tabactive):hover { color: #A6E22E !important; }
+body > ul.w3-navbar.w3-theme.w3-card-2.w3-wide > li > a.w3-hover-white.w3-padding-16 {
     color: #fff !important;
- }
+}
 
- /* Table links (dark blue) */
- #main > table > tbody > tr > td > a:not(.w3-btn) {
+/* Table links (dark blue) */
+#main > table > tbody > tr > td > a:not(.w3-btn) {
     color: #16b1d0 !important;
- }
- /* Table links (dark blue) */
- #main > table > tbody > tr > td > a:not(.w3-btn):visited {
+}
+/* Table links (dark blue) */
+#main > table > tbody > tr > td > a:not(.w3-btn):visited {
     color: #1189a2 !important;
- }
- 
- #leftmenuinnerinner > a {
+}
+
+#leftmenuinnerinner > a {
     color: red;
- }
+}
 
- /* Editor  */
- div#tryitLeaderboard,
- div#container > div#textareacontainer,
- div.CodeMirror.cm-s-default.CodeMirror-wrap,
- div#iframecontainer > div#iframe,
- iframe#iframeResult {
+/* Editor  */
+div#tryitLeaderboard,
+div#container > div#textareacontainer,
+div.CodeMirror.cm-s-default.CodeMirror-wrap,
+div#iframecontainer > div#iframe,
+iframe#iframeResult {
     background-color: #36372f !important;
- }
+}
 
- span.cm-tag, .w3-code span[style="color:brown"] {
+span.cm-tag, .w3-code span[style="color:brown"] {
     color:  #ff8c1a !important;
- }
- span.cm-tag.cm-bracket {
+}
+span.cm-tag.cm-bracket, .w3-text-indigo, .w3-hover-text-indigo:hover {
     color:  #4CAF50 !important;
- }
- span.cm-string {
+}
+span.cm-string {
     color: #9999ff !important;
- }
- span.cm-variable, span.cm-def {
+}
+span.cm-variable, span.cm-def {
     color: #a6a6a6 !important;
- }
- span.cm-property {
+}
+span.cm-property {
     color:  #ff6666 !important;
- }
+}
 
 /* Other fixes */
 
