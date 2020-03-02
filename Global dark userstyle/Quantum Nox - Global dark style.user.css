@@ -383,7 +383,7 @@ if invMethod == "customSet" {
     .crayon-theme-github .crayon-pre .crayon-i, .crayon-theme-xcode .crayon-pre .crayon-o,
     .prettyprint .pln {
         color: #fff !important}
-    .ace_support.ace_constant {
+    .ace_support.ace_constant, .prettyprint .dec {
         color: #0aa !important}
     .ace_comment, .prettyprint .com, .crayon-theme-familiar .crayon-pre .crayon-sy, .syntaxhighlighter .plain, 
     .crayon-theme-github .crayon-pre .crayon-sy, .crayon-theme-xcode .crayon-pre .crayon-sy, 
