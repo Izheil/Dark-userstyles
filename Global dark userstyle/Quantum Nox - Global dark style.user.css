@@ -693,8 +693,9 @@ if invMethod == "colorInv" {
     body {background: linear-gradient(bgColor, bgColor) !important}
     body > * {filter: invert(90%) hue-rotate(180deg)}
     if !invImgCol {
-        img:not(#s3downbar_download_box_img), input[type="image"] {filter: invert(90%) hue-rotate(180deg)}
-    }  
+        img:not(#s3downbar_download_box_img), input[type="image"], div[style*='background-image:'] {
+            filter: invert(90%) hue-rotate(180deg)}
+    }
 }
     
 if invMethod == "lowBright" {
@@ -781,5 +782,7 @@ if (scrollScope == "All") {
     body {
         background: linear-gradient(bgColor, bgColor) !important}
     body > * {
-        filter: invert(80%) hue-rotate(180deg)}
+        filter: invert(90%) hue-rotate(180deg)}
+    img:not(#s3downbar_download_box_img), input[type="image"], div[style*='background-image:'] {
+        filter: invert(90%) hue-rotate(180deg)}
 }
