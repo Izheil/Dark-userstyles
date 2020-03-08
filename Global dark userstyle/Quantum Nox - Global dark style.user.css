@@ -512,6 +512,8 @@ if invMethod == "customSet" {
     h2.sync-black {
         color: #fff !important}
 
+    .home #main a {color: linkColor !important}
+
     .article-single figure img {
         mix-blend-mode: screen !important}
 
