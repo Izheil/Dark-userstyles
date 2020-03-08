@@ -525,7 +525,9 @@ if invMethod == "customSet" {
         box-shadow: none !important}
 
     .bg-c-w100, .c-c-w100, .PageList, .old-post-page, .post-reply, 
-    .reply-counter, .reply-counter span, .cb133 .otable tbody tr td:nth-child(2n+1) {
+    .reply-counter, .reply-counter span, .cb133 .otable tbody tr td:nth-child(2n+1),
+    .navbar-default .nav > li, #filter-builder .rules-group-container,
+    #main #comments.comments-area {
         background-color: transparent !important}
         
     .probox input[type="search"], .rc-button.goog-inline-block, .mf_filecontainer a::after, .pages-nav.nav-icon {
