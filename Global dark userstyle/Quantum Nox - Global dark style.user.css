@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.5.34
+@version      2.5.35
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -396,7 +396,7 @@ if invMethod == "customSet" {
         background: rgba(0,0,0,0.3) !important}
         
     .CodeMirror, #columns, .syntaxhighlighter .line.alt2, .syntaxhighlighter .line.alt1, 
-    .syntaxhighlighter .line.alt2 {
+    .syntaxhighlighter .line.alt2, .syntaxhighlighter table {
         background-color: transparent !important}
 
     /* Mega */ 
