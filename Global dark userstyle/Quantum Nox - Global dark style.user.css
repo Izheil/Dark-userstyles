@@ -540,7 +540,7 @@ if invMethod == "customSet" {
     div.asl_w .probox div.proinput input {color: #ccc !important}
 
     .p-sectionLinks, .navbar-brand, .site-navigation2__child-list, .site-navigation2__panel,
-    #item_detail_wrapper #correct_answer, #ov6popup {
+    #item_detail_wrapper #correct_answer, #ov6popup, #ajaxsearchprores1_1  {
         background-color: rgba(0,0,0,0.8) !important}
 
     .item.tooltipstered > div, .postbitlegacy .postdetails, .upgrade-panel.pn-flex.mb, 
