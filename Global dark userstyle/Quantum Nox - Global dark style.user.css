@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.5.38
+@version      2.5.39
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -360,7 +360,7 @@ if invMethod == "customSet" {
         background: transparent !important}
           
     /* Code editors */
-    span.cm-tag, .ace-cobalt .ace_meta.ace_tag {
+    span.cm-tag, .ace-cobalt .ace_meta.ace_tag, .crayon-theme-classic .crayon-pre .crayon-t {
         color:  #d55d5d !important}
     .prettyprint .tag {
         color: #ff8c1a !important}
@@ -371,13 +371,15 @@ if invMethod == "customSet" {
     span.cm-string, .ace_string, .prettyprint .str, .syntaxhighlighter .string {
         color: #9999ff !important}
     span.cm-variable, span.cm-def, .ace_variable, .crayon-theme-familiar .crayon-pre .crayon-v, 
-    .crayon-theme-github .crayon-pre .crayon-v, .crayon-theme-idle .crayon-pre .crayon-v, .prettyprint .atn {
+    .crayon-theme-github .crayon-pre .crayon-v, .crayon-theme-idle .crayon-pre .crayon-v, .prettyprint .atn, 
+    .crayon-theme-classic .crayon-pre .crayon-v {
         color: #dd0 !important}
-    span.cm-property, .ace_constant:not(.ace_numeric), .crayon-theme-xcode .crayon-pre .crayon-cn, .prettyprint .kwd {
+    span.cm-property, .ace_constant:not(.ace_numeric), .crayon-theme-xcode .crayon-pre .crayon-cn, .prettyprint .kwd,
+    .crayon-theme-classic .crayon-pre .crayon-st, .crayon-theme-classic .crayon-pre .crayon-r{
         color: #ff6666 !important}
     .ace_constant.ace_numeric, .prettyprint .lit {
         color: #85f !important}
-    .ace_keyword, .crayon-theme-xcode .crayon-pre .crayon-e, .prettyprint .typ {
+    .ace_keyword, .crayon-theme-xcode .crayon-pre .crayon-e, .prettyprint .typ, .crayon-theme-classic .crayon-pre .crayon-k {
         color: #d80 !important}
     .ace_paren .ace_rparen, .jtip-top .jt-info.jt-imdb, 
     .crayon-theme-familiar .crayon-pre .crayon-i, .crayon-theme-github .crayon-pre .crayon-r, 
@@ -388,7 +390,7 @@ if invMethod == "customSet" {
         color: #0aa !important}
     .ace_comment, .prettyprint .com, .crayon-theme-familiar .crayon-pre .crayon-sy, .syntaxhighlighter .plain, 
     .crayon-theme-github .crayon-pre .crayon-sy, .crayon-theme-xcode .crayon-pre .crayon-sy, 
-    .crayon-theme-idle .crayon-pre .crayon-sy{
+    .crayon-theme-idle .crayon-pre .crayon-sy, .crayon-theme-classic .crayon-pre .crayon-sy{
         color: #aaa !important}
     .crayon-theme-familiar .crayon-striped-line, .crayon-theme-github .crayon-table .crayon-nums, 
     .crayon-theme-xcode .crayon-striped-line, .crayon-line.crayon-striped-line, .crayon-syntax .crayon-num,
@@ -401,6 +403,9 @@ if invMethod == "customSet" {
     .CodeMirror, #columns, .syntaxhighlighter .line.alt2, .syntaxhighlighter .line.alt1, 
     .syntaxhighlighter .line.alt2, .syntaxhighlighter table {
         background-color: transparent !important}
+        
+    .crayon-theme-classic .crayon-toolbar, .crayon-theme-classic .crayon-table .crayon-nums {
+        background-color: #222 !important}
 
     /* Mega */ 
     .download.big-button:not(.green)::after, .post {
