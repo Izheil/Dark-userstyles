@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.5.39
+@version      2.5.40
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -161,7 +161,7 @@ if invMethod == "customSet" {
     /* Textbox like inputs */
     input[type="text"]:not(#s3downbar_download_tooltip_source_box), input[type="email"], input[type="password"], input[type="tel"], input.input,
     input[type="number"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="search"], input[type="time"],
-    input[type="url"], input[type="week"], textarea, input[readonly], .ace_scroller, .SearchBar input[name="q"] {
+    input[type="url"], input[type="week"], textarea, input[readonly], .ace_scroller, .SearchBar input[name="q"], input[type="input"] {
         background: #101010 !important;
         color: #ddd !important;
         border: 2px ridge #444 !important;
@@ -170,14 +170,14 @@ if invMethod == "customSet" {
 
     input[type="text"]:not(#s3downbar_download_tooltip_source_box):hover, input[type="email"]:hover, input[type="password"]:hover, input[type="tel"]:hover, input.input:hover,
     input[type="number"]:hover, input[type="date"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="search"]:hover, input[type="time"]:hover,
-    input[type="url"]:hover, input[type="week"]:hover, textarea:hover {
+    input[type="url"]:hover, input[type="week"]:hover, textarea:hover, input[type="input"]:hover {
         background: #050505 !important;
         border-color: #555 !important;
         transition: all 200ms !important}
         
     input[type="text"]:not(#s3downbar_download_tooltip_source_box):focus, input[type="email"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input.input:focus,
     input[type="number"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="search"]:focus, input[type="time"]:focus,
-    input[type="url"]:focus, input[type="week"]:focus, textarea:focus {
+    input[type="url"]:focus, input[type="week"]:focus, textarea:focus, input[type="input"]:focus {
         background: #050505 !important;
         border-color: linkColor !important;
         box-shadow: 0 0 5px linkColor !important;
