@@ -423,7 +423,8 @@ if invMethod == "customSet" {
     .xp-progress-bar .buffer, .xp-progress-bar .seeker, .fluid_controls_progress, .fluid_controls_buffered, 
     .fluid_control_volume, .bui-bar-wrap, .bui-bar-buffer, .progress-track, #videoPlayerProgressBufferValue,
     .sound-bar, .speed-bar, .zkp-barContainer, .zkp-buffer, .video-progress-bar-buffer, .fp-buffer, .fp-timeline::before,
-    .progress_bar_container, .volume_slider, .progress_bar_background, .mhp1138_seekBar .mhp1138_background, .mhp1138_buffer {
+    .progress_bar_container, .volume_slider, .progress_bar_background, .mhp1138_seekBar .mhp1138_background, .mhp1138_buffer,
+    .media-control-center-panel .bar-container .bar-background, .media-control-center-panel .bar-container .bar-background .bar-fill-1 {
         background-color: rgba(255,255,255,0.2) !important}  
 
     .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar
@@ -431,7 +432,8 @@ if invMethod == "customSet" {
     .xp-progress-bar .filler, .xp-progress-bar .handle, .fluid_controls_currentprogress, .fluid_control_currentvolume, 
     .fluid_control_volume_currentpos, .bui-bar-normal, #videoPlayerProgressCurrentValue, #videoPlayerSoundValue,
     #videoPlayerSpeedValue, .zkp-barContainer .zkp-time, .video-progress-bar-progress, .fp-progress, .progress_bar,
-    .mhp1138_handle, .mhp1138_progress {
+    .mhp1138_handle, .mhp1138_progress, .media-control-center-panel .bar-container .bar-background .bar-fill-2,
+    .media-control-center-panel .bar-container .bar-background .bar-hover {
         background-color: #fff !important}
     
     #main_video_fluid_controls_container {
