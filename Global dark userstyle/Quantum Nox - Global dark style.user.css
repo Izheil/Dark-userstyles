@@ -427,7 +427,7 @@ if invMethod == "customSet" {
     .media-control-center-panel .bar-container .bar-background, .media-control-center-panel .bar-container .bar-background .bar-fill-1 {
         background-color: rgba(255,255,255,0.2) !important}  
 
-    .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar
+    .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar,
     .video-time-bar::before, .XSlider .ProgressBar .SeekBar-buffered, .player .played, .drt-bar-processed, .drt-seeker, 
     .xp-progress-bar .filler, .xp-progress-bar .handle, .fluid_controls_currentprogress, .fluid_control_currentvolume, 
     .fluid_control_volume_currentpos, .bui-bar-normal, #videoPlayerProgressCurrentValue, #videoPlayerSoundValue,
