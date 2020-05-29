@@ -281,7 +281,7 @@ if invMethod == "customSet" {
         background: linkColor !important;
         }
         
-    [class*="bullet-active"] {
+    [class*="bullet-active"], .md-checked .md-bar {
         background-color: linkColor !important}
     
     ul.genres > li {
@@ -302,7 +302,7 @@ if invMethod == "customSet" {
     label.switch:not(.checked)::before, span.slider, button[role="switch"] {
         background-color: bgColor !important}
 
-    span.slider, .checkdiv.switches {
+    span.slider, .checkdiv.switches, .md-bar {
         border: 1px solid #444}
         
     label.switch.checked::after, input[type="checkbox"]:checked + .switch-slider::before, 
