@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.5.43
+@version      2.5.44
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -217,7 +217,7 @@ if invMethod == "customSet" {
         color: #fff !important}
 
     .anchor-list a.hoverable, div[class*="buttons"] a[onclick], [aria-selected="true"], 
-    button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="ytp"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not([class*="btn-link"]):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]), 
+    button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="ytp"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not([class*="btn-link"]):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected), 
     input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit), 
     [class*="menu-item"]:not([class*="footer"]):not([class*="Footer"]):hover, button#view-menu-btn, a.add-fav, #action-menu-btn, 
     a.Button {
@@ -229,11 +229,15 @@ if invMethod == "customSet" {
         
     .anchor-list a.hoverable:hover, a[data-toggle="dropdown"]:not([class*="wrapper"]):not([role="menuitem"]):hover, div[class*="buttons"] a[onclick]:hover, 
     div[class*="dropdown"] a:hover, div[class*="drop-down"] a:hover, 
-    button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not(.btn-link):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):hover, 
+    button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not(.btn-link):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):hover, 
     input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit):hover, 
     span[role="button"]:hover, button#view-menu-btn:hover, a.add-fav:hover, #action-menu-btn:hover, 
     a.Button:hover, .menu-btn > a:hover {
         background-color: #444 !important; 
+        color: #fff !important}
+
+	button.selected, input[type="button"].selected {
+        background: #03a !important;
         color: #fff !important}
 
     a[href="javascript:;"]:not(.fancybox-nav):not(.QvAa1), .rc-button-default.goog-inline-block, a.btn:not([class*="icon"]) {
