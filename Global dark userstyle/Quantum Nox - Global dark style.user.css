@@ -120,7 +120,7 @@ if invMethod == "customSet" {
     figcaption, time, del, div.downlinks > dl > dt > a, small, aside {
         color: #999 !important}
 
-    p, li, .text-gray-dark, ins, i:not(.status), .t-black, mat-cell {
+    p, li, .text-gray-dark, ins, i:not(.status), .t-black, mat-cell, legend {
         color: #bbb !important}
 
     i:not(.status), svg {
