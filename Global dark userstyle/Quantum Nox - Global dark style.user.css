@@ -517,7 +517,7 @@ if invMethod == "customSet" {
     #content-wrap, #vivaldi-header, div[component="composer"], .dl_body--redesign  {
         background-color: #151515 !important}
 
-    .vscom-feature-hero {
+    .vscom-feature-hero, body.it-background {
         background-color: #222 !important}
     .bg-secondary, *[class*="vc_custom_"] {
         background: #222828 !important}
