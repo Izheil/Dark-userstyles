@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.0
+@version      2.6.1
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -88,10 +88,10 @@ if invMethod == "customSet" {
     header:not([class*="comment"]), [id*="header"], .header-wrap, .js-header-wrapper, div[class*="header-container"], nav, 
     [class*="navi"]:not([class*="item"]):not([class*="btn"]):not([class*="button"]):not([class*="navigation"]):not([id*="Container"]):not([class*="timeline"]), 
     div[class*="submenu"]:not([class*="footer"]):not([class*="Footer"]):not([role="button"]), div[class*="sub-menu"]:not([class*="footer"]):not([class*="Footer"]), 
-    div.navigation, .links-box, .Box-body, .commit-tease, [class*="menu-item"], ul[class*="menu"]:not([class*="footer"]):not([class*="Footer"]):not([class*="dropdown"]), [class*="pagehead"],
+    div.navigation, .links-box, .Box-body, .commit-tease, ul[class*="menu"]:not([class*="footer"]):not([class*="Footer"]):not([class*="dropdown"]), [class*="pagehead"],
     .pages-nav.content-block {
         background-color: rgba(0,0,0,0.5) !important;
-        box-shadow: 0 0 5px #000 !important} 
+        box-shadow: 0 0 5px #000 !important}
     
     #content-wrapper, .content-wrapper, .content-wrapper::after, .article, .flex_box > div, .Box-header, .select-menu-header, .modal,
     #styleguide-v2 #wrapper, .smarthelp-react-app, .bg-c-g100, .c-c-g100 {
@@ -103,7 +103,8 @@ if invMethod == "customSet" {
     li[class*="dropdown"]:not([class*="toggle"]):not([class*="has-children"]):not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]):not(.user-menu), 
     li[class*="drop-down"]:not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]):not(.user-menu), [class*="popup"]:not(.vjs-menu-button-popup):not(.bilibili-player-video-popup):not(.bilibili-player-popup-inner):not(.bilibili-player-popup-area), 
     [class*="popover"]:not([class*="link"]), [class*="widget-content"], [class*="notice"], div[role="navigation"], div.nav ul#menu li ul, div[class*="dialog"] > .content, 
-    div[class*="Dialog"] > .content, .css-hmkap5, .css-gkxqox, .bg-default, .sticky, .Modal-Window, .SpecTable-Carousel-Nav::before {
+    div[class*="Dialog"] > .content, .css-hmkap5, .css-gkxqox, .bg-default, .sticky, .Modal-Window, .SpecTable-Carousel-Nav::before, ul[aria-expanded="true"], 
+    [class*="menu-item"] {
         background: rgba(0,0,0,0.8) !important;
         backdrop-filter: blur(6px);}
         
@@ -559,7 +560,8 @@ if invMethod == "customSet" {
     div.asl_w .probox div.proinput input {color: #ccc !important}
 
     .p-sectionLinks, .navbar-brand, .site-navigation2__child-list, .site-navigation2__panel,
-    #item_detail_wrapper #correct_answer, #ov6popup, #ajaxsearchprores1_1  {
+    #item_detail_wrapper #correct_answer, #ov6popup, #ajaxsearchprores1_1, #ajaxsearchlitesettings1,
+    .results {
         background-color: rgba(0,0,0,0.8) !important;
         backdrop-filter: blur(6px);}
 
