@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.1
+@version      2.6.2
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -106,7 +106,8 @@ if invMethod == "customSet" {
     div[class*="Dialog"] > .content, .css-hmkap5, .css-gkxqox, .bg-default, .sticky, .Modal-Window, .SpecTable-Carousel-Nav::before, ul[aria-expanded="true"], 
     [class*="menu-item"] {
         background: rgba(0,0,0,0.8) !important;
-        backdrop-filter: blur(6px);}
+        backdrop-filter: blur(6px);
+        z-index: 10}
         
     pre, pre.prettyprint, code, .w3-code, blockquote, .ace_gutter-layer, 
     .comment-text span.quote, .comment-text span.quote_wrapped, .blockquote, .quote  {
@@ -206,7 +207,7 @@ if invMethod == "customSet" {
     div[class*="menu"]:not([role="button"]):not(.vjs-control):not(.main-menu):not(.material-menu-backdrop):not(.mobile-menu), 
     .menu ul ul li a, .menuparent a, .dropdown li ul li a, #description_popup, ul[role="listbox"], ul[id*="contextmenu"],.qtip-pos-tl.qtip-fixed, 
     .qtip-content, .tooltipster-content, .backgroundMidSilver, .sub_nav, .sub_nav .overlay, .nanoModal, header.sticky .header_bottom,
-    .secondLevel[data-menu], .tooltiptext, div[class*="overlay"]:not([class*="overlays"]):not([class*="header"]):not([class*="button"]):not([class*="cdk"]) {
+    .secondLevel[data-menu], .tooltiptext, div[class*="overlay"]:not([class*="overlays"]):not([class*="header"]):not([class*="button"]):not([class*="cdk"]):not([role="presentation"]) {
         background-color: rgba(0,0,0,0.8) !important;
         backdrop-filter: blur(6px);}
 
