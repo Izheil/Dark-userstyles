@@ -107,7 +107,7 @@ if invMethod == "customSet" {
     [class*="menu-item"] {
         background: rgba(0,0,0,0.8) !important;
         backdrop-filter: blur(6px);
-        z-index: 10}
+        z-index: 1000}
         
     pre, pre.prettyprint, code, .w3-code, blockquote, .ace_gutter-layer, 
     .comment-text span.quote, .comment-text span.quote_wrapped, .blockquote, .quote  {
