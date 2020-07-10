@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.5
+@version      2.6.6
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -435,7 +435,8 @@ if invMethod == "customSet" {
     .sound-bar, .speed-bar, .zkp-barContainer, .zkp-buffer, .video-progress-bar-buffer, .fp-buffer, .fp-timeline::before,
     .progress_bar_container, .volume_slider, .progress_bar_background, .mhp1138_seekBar .mhp1138_background, .mhp1138_buffer,
     .media-control-center-panel .bar-container .bar-background, .media-control-center-panel .bar-container .bar-background .bar-fill-1,
-    #mediaPlayerTimelineSliderBarsWrap .loaded, #mediaPlayerTimelineSliderBarsWrap {
+    #mediaPlayerTimelineSliderBarsWrap .loaded, #mediaPlayerTimelineSliderBarsWrap, .playtrack-container, 
+    .playtrack-container .buffer-track, .playtrack-container .present-track {
         background-color: rgba(255,255,255,0.2) !important}  
 
     .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar,
@@ -444,7 +445,8 @@ if invMethod == "customSet" {
     .fluid_control_volume_currentpos, .bui-bar-normal, #videoPlayerProgressCurrentValue, #videoPlayerSoundValue,
     #videoPlayerSpeedValue, .zkp-barContainer .zkp-time, .video-progress-bar-progress, .fp-progress, .progress_bar,
     .mhp1138_handle, .mhp1138_progress, .media-control-center-panel .bar-container .bar-background .bar-fill-2,
-    .media-control-center-panel .bar-container .bar-background .bar-hover, #mediaPlayerTimelineSliderBarsWrap .filled {
+    .media-control-center-panel .bar-container .bar-background .bar-hover, #mediaPlayerTimelineSliderBarsWrap .filled,
+    .playtrack-container .past-track {
         background-color: #fff !important}
     
     #main_video_fluid_controls_container, #mediaPlayerControls {
