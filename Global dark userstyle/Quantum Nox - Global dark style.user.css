@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.6
+@version      2.6.7
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -102,13 +102,17 @@ if invMethod == "customSet" {
     ul[class*="dropdown"]:not([class*="toggle"]):not([class*="has-children"]):not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]),
     li[class*="dropdown"]:not([class*="toggle"]):not([class*="has-children"]):not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]):not(.user-menu), 
     li[class*="drop-down"]:not([class*="wrapper"]):not([role="menuitem"]):not([class*="header"]):not(.user-menu), [class*="popup"]:not(.vjs-menu-button-popup):not([class^="bilibili-player"]), 
-    [class*="popover"]:not([class*="link"]), [class*="widget-content"], [class*="notice"], div[role="navigation"], div.nav ul#menu li ul, div[class*="dialog"] > .content, 
+    [class*="popover"]:not([class*="link"]), [class*="widget-content"], [class*="notice"], div.nav ul#menu li ul, div[class*="dialog"] > .content, 
     div[class*="Dialog"] > .content, .css-hmkap5, .css-gkxqox, .bg-default, .sticky, .Modal-Window, .SpecTable-Carousel-Nav::before, ul[aria-expanded="true"], 
     [class*="menu-item"] {
         background: rgba(0,0,0,0.8) !important;
         backdrop-filter: blur(6px);
         z-index: 1000}
         
+    div[class*="overlay"]:not([class*="overlays"]):not([class*="header"]):not([class*="button"]):not([class*="cdk"]):not([role="presentation"]):not([class^="controls"]) {
+        background: rgba(0,0,0,0.8) !important;
+        backdrop-filter: blur(6px);}    
+    
     pre, pre.prettyprint, code, .w3-code, blockquote, .ace_gutter-layer, 
     .comment-text span.quote, .comment-text span.quote_wrapped, .blockquote, .quote  {
         background: rgba(255,255,255,0.1) !important;
@@ -207,9 +211,8 @@ if invMethod == "customSet" {
     div[class*="menu"]:not([role="button"]):not(.vjs-control):not(.main-menu):not(.material-menu-backdrop):not(.mobile-menu), 
     .menu ul ul li a, .menuparent a, .dropdown li ul li a, #description_popup, ul[role="listbox"], ul[id*="contextmenu"],.qtip-pos-tl.qtip-fixed, 
     .qtip-content, .tooltipster-content, .backgroundMidSilver, .sub_nav, .sub_nav .overlay, .nanoModal, header.sticky .header_bottom,
-    .secondLevel[data-menu], .tooltiptext, div[class*="overlay"]:not([class*="overlays"]):not([class*="header"]):not([class*="button"]):not([class*="cdk"]):not([role="presentation"]):not([class^="controls"]) {
-        background-color: rgba(0,0,0,0.8) !important;
-        backdrop-filter: blur(6px);}
+    .secondLevel[data-menu], .tooltiptext, div[role="navigation"] {
+        background-color: rgba(0,0,0,0.8) !important}
 
     div[class*="btn"]:not(.dl-btn-labelWrap):not(.dl-btn-cont):not(.btn-set):not(div[class*="btns"]):not(.column):not([class*="toolbar"]):hover, input[type="file"]:hover, 
     input[type="color"]:hover, div[class*="header"] li:not([class*="btn"]) a:not(img):not(svg):hover, #sidenav a:hover, 
@@ -240,7 +243,7 @@ if invMethod == "customSet" {
         background-color: #444 !important; 
         color: #fff !important}
 
-	button.selected, input[type="button"].selected {
+    button.selected, input[type="button"].selected {
         background: #03a !important;
         color: #fff !important}
 
@@ -819,4 +822,4 @@ if (scrollScope == "All") {
         filter: invert(90%) hue-rotate(180deg)}
     img:not(#s3downbar_download_box_img), input[type="image"], div[style*='background-image:'] {
         filter: invert(90%) hue-rotate(180deg)}
-}
+    }
