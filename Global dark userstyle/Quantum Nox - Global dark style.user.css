@@ -547,7 +547,8 @@ if invMethod == "customSet" {
 
     #textResultsArtists .result div, #textResultsSongs .result div,
     #textResultsAlbums .result div, #textResultsUsers .result div,
-    #additional-info.user-content {
+    #additional-info.user-content, .list-option-group .list-current, 
+    .list-option a:hover {
         background-image: none !important}
 
     .title, [id*="search"]:not([id*="btn"]):not([class*="btn"]):not([id*="search-submit-button"]):not([type="submit"]), 
