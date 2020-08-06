@@ -57,3 +57,16 @@ Changes the color of W3Schools to dark green.
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Sublime%20(Fixed).user.css)
 
 <img src="https://userstyles.org/style_screenshots/176917_after.png">
+
+---
+
+### Tumblr Dark 2020
+
+This theme applies to the new Tumblr dashboard, as well as some parts of x-kit.
+It's intended for those that don't want to go "full gothic" with Tumblr new dark mode, but still want a dark theme that will apply everywhere.
+
+It also removes the "sponsored" advertising that appears in the dashboard.
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Izheil/Dark-userstyles/raw/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css).user.css)
+
+<img src="https://userstyles.org/style_screenshots/176917_after.png">
