@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2020
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.14
+@version      1.0.15
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
@@ -42,7 +42,7 @@ body:not(#redpop_iframePostForms) {background-color: var(--body-bg-color) !impor
 .post-form--guard.visible {
     background-color: rgba(0,0,0,0.7) !important}
 
-._3e9MM, img {background-color: transparent !important}
+._3e9MM, img, pre {background-color: transparent !important}
 
 /* ---------------- DASHBOARD BODY ---------------- */
 
@@ -130,7 +130,7 @@ input[type="text"], #user_to_check_for {
 .press_item, .section-copy, .pages-subsection, .corp_item a, .legal-content, .legal-content .annotation,
 ._1Wz4U p, .user-tags, .suggest-tags, .peepr-body .indash_blog a.reblog_info, 
 .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
-.invite_someone_success{
+.invite_someone_success, pre {
     color: #ccc !important}
 
 .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
