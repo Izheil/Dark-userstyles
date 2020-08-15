@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2020
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.17
+@version      1.0.18
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
@@ -52,7 +52,7 @@ body:not(#redpop_iframePostForms) {background-color: var(--body-bg-color) !impor
 .recent_posts, .peepr-body, .navigation_bg, .conversation-messages, 
 #dashboard_useraction_following .l-content, ._3x0QP, .rad_slideshow::after,
 .buttons-header, ._1jpZt, .tab-slug--recommended-for-you, .peepr-big-loader,
-.layout_standard {
+.layout_standard, ._3aX5m {
     background-color: var(--body-bg-color) !important}
 
 #dashboard_useraction_following #tabs,
@@ -82,7 +82,7 @@ article._1Wz4U, header.POCCe, ._3zgGl, ._1JWAN, ._1PcJ1, .post-container-inner, 
 .annotation.inside, ._3Wd_y {
     background-color: var(--post-bg-color) !important}
 
-.hVK3L:hover {
+.hVK3L:not(._1PyOv):hover {
     background:  rgba(255,255,255,0.1) !important}
 
 .note_item, .crush .count {
@@ -243,11 +243,8 @@ input[type="checkbox"]:not([checked]) + .binary_switch_track {background-color: 
     background-color: #441 !important}
 
 /* This changes the color of the blog preview popup */
-._35EGH, ._1pNGI, ._33Gp0, ._3WA3M, ._3a8PJ {
+._35EGH, ._1pNGI, ._33Gp0, ._3WA3M, ._3a8PJ, ._3QJn4.uQIj0._2n6jO:not(._3a8PJ), ._3QJn4._2n6jO._3Ctcq {
     background-color: var(--post-bg-color) !important}
-
-._3QJn4.uQIj0._2n6jO:not(._3a8PJ) {
-    background-color: var(--body-bg-color) !important}
 
 /* These change the text color of the blog description in the blog preview popup */
 ._3EayP h1 {
