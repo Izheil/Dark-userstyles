@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2020
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.16
+@version      1.0.17
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
@@ -141,8 +141,6 @@ input[type="text"], #user_to_check_for {
 .conversation-compose-plugin, .search_query::placeholder, .crushes_subhead, 
 .follower .blog-title, .radar_button::before, .copy-point, .caption, .pOoZl a,
 .post .post-source-footer, .post .post-source-footer a.post-source-link {color: #888 !important}
-
-.xpostblockbutton {filter: invert(1)}
 
 .plus-follow-button {color: #111 !important}
 
@@ -457,6 +455,8 @@ form[role="search"] > div:not(.search_form_row), #search_query {
 .xkit-button:not(.xkit-install-extension):active, .xcloud-local-button:active, .xcloud-welcome-button:active,
 #x1cpostage_reblog:active, #x1cpostage_queue:active, #x1cpostage_draft:active {
     background-color: #222 !important}
+
+.xpostblockbutton {filter: invert(0.8)}
 
 .xkit-button:not(.xkit-install-extension).disabled {background: #555 !important}
 
