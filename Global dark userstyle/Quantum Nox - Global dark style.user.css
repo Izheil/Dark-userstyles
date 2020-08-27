@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.16
+@version      2.6.17
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -440,7 +440,7 @@ if invMethod == "customSet" {
     .media-control-center-panel .bar-container .bar-background, .media-control-center-panel .bar-container .bar-background .bar-fill-1,
     #mediaPlayerTimelineSliderBarsWrap .loaded, #mediaPlayerTimelineSliderBarsWrap, .playtrack-container, 
     .playtrack-container .buffer-track, .playtrack-container .present-track, .XxxCustomPlayer__progress-bar, .XxxCustomPlayer__progress-buffer,
-    .XxxCustomPlayer__volume-bar {
+    .XxxCustomPlayer__volume-bar, #html5video .progress-bar, #html5video .buffer-elt {
         background-color: rgba(255,255,255,0.2) !important}  
 
     .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar,
@@ -450,7 +450,8 @@ if invMethod == "customSet" {
     #videoPlayerSpeedValue, .zkp-barContainer .zkp-time, .video-progress-bar-progress, .fp-progress, .progress_bar,
     .mhp1138_handle, .mhp1138_progress, .media-control-center-panel .bar-container .bar-background .bar-fill-2,
     .media-control-center-panel .bar-container .bar-background .bar-hover, #mediaPlayerTimelineSliderBarsWrap .filled,
-    .playtrack-container .past-track, .XxxCustomPlayer__progress-handle, .XxxCustomPlayer__progress-fill, .XxxCustomPlayer__volume-fill {
+    .playtrack-container .past-track, .XxxCustomPlayer__progress-handle, .XxxCustomPlayer__progress-fill, .XxxCustomPlayer__volume-fill,
+    #html5video .cursor {
         background-color: #fff !important}
     
     #main_video_fluid_controls_container, #mediaPlayerControls {
