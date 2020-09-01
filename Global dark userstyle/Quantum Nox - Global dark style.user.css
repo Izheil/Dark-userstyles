@@ -136,7 +136,7 @@ if invMethod == "customSet" {
     .star.yellow svg {
         fill: #ffcc00 !important}
 
-    h1, h2, h3, h4, h5, h6, summary, dt, span:not([style^="color:"]), em, b, strong {
+    h1, h2, h3, h4, h5, h6, summary, dt, span:not([style^="color:"]):not([class$="legend-color"]), em, b, strong {
         color: #ddd !important}
 
     h1, h2, h3, h4, h5, h6 {
