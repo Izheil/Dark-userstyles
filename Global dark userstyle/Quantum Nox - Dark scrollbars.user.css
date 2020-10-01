@@ -2,7 +2,7 @@
 @name         Quantum nox - Dark scrollbars
 @description  Dark style for scrollbars.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.0
+@version      1.0.1
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
@@ -31,6 +31,8 @@
 :root{
     scrollbar-color: thumbColor trackColor !important;
     scrollbar-width: widthFF !important}
+
+*|* {scrollbar-width: widthFF !important}
 
 /* CHROMIUM BASED BROWSERS (Google Chrome/Opera/Brave...) */
 html[hide-scrollbar="true"] ::-webkit-scrollbar {display: none}
