@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2020
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.18
+@version      1.0.19
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
@@ -79,7 +79,7 @@ article._1Wz4U, header.POCCe, ._3zgGl, ._1JWAN, ._1PcJ1, .post-container-inner, 
 .text-input-container textarea, .compose-text-input-container, .follower.invite_someone,
 .left_column.notifications_page, .notification_pane, .pagination, .radar_controls, 
 #fixed_navigation > li, .press_info_box, .press_info_box .label, .press_info_box .value,
-.annotation.inside, ._3Wd_y {
+.annotation.inside, ._3Wd_y, .tumblelog_popover, .tumblelog_popover .tumblelog_preview {
     background-color: var(--post-bg-color) !important}
 
 .hVK3L:not(._1PyOv):hover {
@@ -130,7 +130,7 @@ input[type="text"], #user_to_check_for {
 .press_item, .section-copy, .pages-subsection, .corp_item a, .legal-content, .legal-content .annotation,
 ._1Wz4U p, .user-tags, .suggest-tags, .peepr-body .indash_blog a.reblog_info, 
 .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
-.invite_someone_success, pre, span:not([style]) strong {
+.invite_someone_success, pre, span:not([style]) strong, .tumblelog_popover .description {
     color: #ccc !important}
 
 .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
@@ -156,7 +156,7 @@ input[type="text"], #user_to_check_for {
 .follower .name-link, #dashboard_useraction_following .tab, ._3xbSl a, .notifications_block .active, 
 .js-hover-trigger-TumblelogPopover, .title_and_controls h1, .plus-follow-button:hover, .plus-follow-button:active,
 .stats .number, .caption a, .corp_page_title, .pages-subsection a, .corp_heading, .legal-content a, .legal-content h2,
-.jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a
+.jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a, .tumblelog_info h3 a
 {color: #fff !important}
 
 .reblog-content a:hover {
@@ -231,7 +231,7 @@ input[type="checkbox"]:not([checked]) + .binary_switch_track {background-color: 
 .description_gradient, .show_description {background: linear-gradient(transparent, var(--body-bg-color)) !important}
 
 /* Fix for graph stats */
-.ui_stats.monochrome .unit, .highcharts-container {filter: invert(0.8) hue-rotate(180deg)}
+.ui_stats.monochrome .unit, .highcharts-container, .tumblelog_popover .tumblelog_menu_btn {filter: invert(0.8) hue-rotate(180deg)}
 
 /* Fix for old recommended links */
 .identity .controls_section.user_list li .follow_list_item_blog::before, .radar_avatar::before {
@@ -254,7 +254,7 @@ input[type="checkbox"]:not([checked]) + .binary_switch_track {background-color: 
     color: #aaa !important}
 
 /* Button inside the blog preview popup */
-._1paS-, .blog-activity-more {
+._1paS-, .blog-activity-more, .tumblelog_menu_popover li a {
     background-color: var(--button-bg-color) !important;
     color: #ccc !important}
 
@@ -267,7 +267,7 @@ input[type="checkbox"]:not([checked]) + .binary_switch_track {background-color: 
     color: #fff !important}
 
 /* Menu inside the blog preview popup */
-._2LUdG, .pop-menu {
+._2LUdG, .pop-menu, .tumblelog_menu_popover ul, .tumblelog_menu_popover li {
     background-color: var(--submenu-bg-color) !important}
 
 ._2LUdG a:hover, ._2LUdG > button:hover, ._5M1cX:hover, .item-option:hover {
