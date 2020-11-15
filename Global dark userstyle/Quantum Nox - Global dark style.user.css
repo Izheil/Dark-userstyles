@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.19
+@version      2.6.20
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -87,7 +87,7 @@ if invMethod == "customSet" {
         
     header:not([class*="comment"]), [id*="header"], .header-wrap, .js-header-wrapper, div[class*="header-container"], nav, 
     [class*="navi"]:not([class*="item"]):not([class*="btn"]):not([class*="button"]):not([class*="navigation"]):not([id*="Container"]):not([class*="timeline"]), 
-    div[class*="submenu"]:not([class*="footer"]):not([class*="Footer"]):not([role="button"]), div[class*="sub-menu"]:not([class*="footer"]):not([class*="Footer"]), 
+    div[class*="submenu"]:not([class*="footer"]):not([class*="Footer"]):not([role="button"]), div[class*="sub-menu"]:not([class*="footer"]):not([class*="Footer"]):not(.sub-menu--pc):not(.sub-menu--sp):not(.sub-menu--backdrop), 
     div.navigation, .links-box, .Box-body, .commit-tease, ul[class*="menu"]:not([class*="footer"]):not([class*="Footer"]):not([class*="dropdown"]), [class*="pagehead"],
     .pages-nav.content-block {
         background-color: rgba(0,0,0,0.5) !important;
@@ -208,7 +208,7 @@ if invMethod == "customSet" {
 
     [class*="dialog"], [class*="light"], [class*="Light"], [class*="white"]:not([class*="whitespace"]), [class*="White"]:not([class*="Whitespace"]), .tb .bg-light,
     [class*="bg-gray"], div.Popover-message, ul.sub, div[role="menu"], .options, .vue-treeselect__menu, .ListResult, 
-    div[class*="menu"]:not([role="button"]):not(.vjs-control):not(.main-menu):not(.material-menu-backdrop):not(.mobile-menu), 
+    div[class^="menu"]:not([role="button"]):not(.vjs-control):not(.main-menu):not(.material-menu-backdrop):not(.mobile-menu), 
     .menu ul ul li a, .menuparent a, .dropdown li ul li a, #description_popup, ul[role="listbox"], ul[id*="contextmenu"],.qtip-pos-tl.qtip-fixed, 
     .qtip-content, .tooltipster-content, .backgroundMidSilver, .sub_nav, .sub_nav .overlay, .nanoModal, header.sticky .header_bottom,
     .secondLevel[data-menu], .tooltiptext, div[role="navigation"] {
