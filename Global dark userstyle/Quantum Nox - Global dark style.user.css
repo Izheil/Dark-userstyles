@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.20
+@version      2.6.21
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -522,10 +522,11 @@ if invMethod == "customSet" {
 
     .rating-block__button, .TTreview, .ic__container, .product-container, 
     #addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane, .h-F-f-k.F-f-k,
-    #content-wrap, #vivaldi-header, div[component="composer"], .dl_body--redesign  {
+    #content-wrap, #vivaldi-header, div[component="composer"], .dl_body--redesign,
+    .background_color_zeta  {
         background-color: #151515 !important}
 
-    .vscom-feature-hero, body.it-background {
+    .vscom-feature-hero, body.it-background, .background_color_beta {
         background-color: #222 !important}
     .bg-secondary, *[class*="vc_custom_"] {
         background: #222828 !important}
