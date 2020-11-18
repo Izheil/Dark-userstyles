@@ -282,7 +282,7 @@ if invMethod == "customSet" {
     input[type="radio"], input[type="radio"]:focus {
         border-radius: 100% !important}
 
-    input[type="checkbox"]:checked, input[type="radio"]:checked {
+    input[type="checkbox"]:checked, input[type="radio"]:checked, .dform .is-checked .mdl-radio__inner-circle {
         border-color: linkColor !important;
         box-shadow: inset 0 0 2px #000 !important;
         background: linkColor !important;
