@@ -575,7 +575,7 @@ if invMethod == "customSet" {
 
     .p-sectionLinks, .navbar-brand, .site-navigation2__child-list, .site-navigation2__panel,
     #item_detail_wrapper #correct_answer, #ov6popup, #ajaxsearchprores1_1, #ajaxsearchlitesettings1,
-    .results {
+    .results, .index-tabs {
         background-color: rgba(0,0,0,0.8) !important;
         backdrop-filter: blur(6px);}
 
