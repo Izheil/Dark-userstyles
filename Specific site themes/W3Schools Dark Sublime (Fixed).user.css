@@ -242,10 +242,10 @@ hr, #main, .w3-bordered tr, .w3-table-all tr,
 /* Fix for other widgets white background */
 #googleSearch, .gsc-search-box tbody td, .gsc-cursor-page, 
 #google_translate_element, .tab {background-color: transparent !important}
-}
 
 /* Warning banners */
 .w3-warning {
     background-color: #733 !important;
     color: #ddd !important;
+}
 }
