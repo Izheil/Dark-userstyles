@@ -2,7 +2,7 @@
 @name         W3Schools Sublime Theme (Fixed)
 @description  Dark style for W3Schools. Created by LeoTM, updated by Izheil.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.4.4
+@version      1.4.5
 @author       LeoTM, Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
@@ -242,4 +242,10 @@ hr, #main, .w3-bordered tr, .w3-table-all tr,
 /* Fix for other widgets white background */
 #googleSearch, .gsc-search-box tbody td, .gsc-cursor-page, 
 #google_translate_element, .tab {background-color: transparent !important}
+}
+
+/* Warning banners */
+.w3-warning {
+    background-color: #733 !important;
+    color: #ddd !important;
 }
