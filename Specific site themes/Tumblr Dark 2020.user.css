@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2020
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.20
+@version      1.0.21
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
@@ -270,7 +270,7 @@ input[type="checkbox"]:not([checked]) + .binary_switch_track {background-color: 
 ._2LUdG, .pop-menu, .tumblelog_menu_popover ul, .tumblelog_menu_popover li {
     background-color: var(--submenu-bg-color) !important}
 
-._2LUdG a:hover, ._2LUdG > button:hover, ._5M1cX:hover, .item-option:hover {
+._2LUdG a:hover, ._2LUdG > button:hover, ._5M1cX:hover, .item-option:hover, ._1hipC:hover {
     background-color: rgba(255,255,255,0.04) !important}
 
 ._2LUdG a:active, ._2LUdG button:focus, ._5M1cX:active {
