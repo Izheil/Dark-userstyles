@@ -420,7 +420,7 @@ if invMethod == "customSet" {
         background-color: #222 !important}
 
     /* Mega */ 
-    .download.big-button:not(.green)::after, .post {
+    .download.big-button:not(.green)::after, .post:not(.cf) {
         background: #222 !important}
     .download.big-button:not(.green)::before {
         background: #333 !important}  
