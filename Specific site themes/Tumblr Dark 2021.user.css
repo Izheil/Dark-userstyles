@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name         Tumblr Dark 2020
-@description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
+@name         Tumblr Dark 2021
+@description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit (use it with the dark palette).
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.21
+@version      1.0.22
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
@@ -183,7 +183,7 @@ input[type="text"], #user_to_check_for {
 #create_tumblelog > div, .reblog-list-item, .post_header, blockquote, .post-brick-source-footer,
 .settings_group_wrapper, .ui_stats, .ui_notes, .marker_tooltip, .marker_tooltip_header, 
 #chart_glass.active .marker_tooltip .table_wrapper *, #fixed_navigation li a, .corp_page .vertical_tab_set,
-.embed-code, .header-item {
+.embed-code, .header-item, div[class*="reblog-trail"] {
     border-color: #555 !important}
 
 /* Binary switches */
