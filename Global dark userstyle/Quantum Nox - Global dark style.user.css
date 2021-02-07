@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.28
+@version      2.6.29
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -713,7 +713,7 @@ if invMethod == "customSet" {
       }
         
     if divHide {
-        *:not(:empty):not(a):not(b):not(option):not(select):not(img):not(header):not(section):not(.s3dmBox):not(.image):not(picture):not(button):not(p):not(td):not([class*="filetype"]):not(.Thumbnail):not([class*="thumb"]):not([id*="image"]):not([id*="Image"]):not([data-background]):not(figure):not([style*='display: block; background-image:']):not(.gdtm > div), 
+        *:not(:empty):not(a):not(b):not(option):not(select):not(img):not(header):not(section):not(.s3dmBox):not(.image):not(picture):not(button):not(p):not(td):not([class*="filetype"]):not(.Thumbnail):not([class*="thumb"]):not([id*="image"]):not([id*="Image"]):not([data-background]):not(figure):not([style*='background-image:']):not(.gdtm > div), 
         #page .bottom, #page .top {
           background-image: none !important}
         }
