@@ -311,9 +311,6 @@ input[type="checkbox"]:not([checked]) + .binary_switch_track {background-color: 
 
 /* ----------------  DASHBOARD HEADER ----------------  */
 
-/* X-Kit button on header */
-#xkit_button svg {fill: var(--xkit-primary) !important}
-
 /* The header color */
 ._3r0gp, .l-header-container  {
     background-color: var(--header-bg-color) !important}
@@ -388,6 +385,9 @@ form[role="search"] > div:not(.search_form_row), #search_query {
     background-color: #05d !important}
 
 /* ----------------X-KIT ---------------- */
+
+/* X-Kit button on header */
+#xkit_button svg {fill: var(--xkit-primary) !important}
 
 /* X-kit window body */
 #xkit-control-panel-inner, #xkit-control-panel, #xkit-control-panel-tabs .selected, 
