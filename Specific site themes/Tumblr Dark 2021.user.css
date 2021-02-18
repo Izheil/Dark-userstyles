@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2021
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit (use it with the dark palette).
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.22
+@version      1.0.23
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
@@ -310,6 +310,9 @@ input[type="checkbox"]:not([checked]) + .binary_switch_track {background-color: 
 ._3bMU2, ._1aQrn {display: none !important}
 
 /* ----------------  DASHBOARD HEADER ----------------  */
+
+/* X-Kit button on header */
+#xkit_button svg {fill: var(--xkit-primary) !important}
 
 /* The header color */
 ._3r0gp, .l-header-container  {
