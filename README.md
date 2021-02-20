@@ -30,7 +30,7 @@ You can choose the colors you want, or use the default dark with blue thumb scro
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Dark%20scrollbars.user.css)
 
-<img src="https://userstyles.org/style_screenshots/177056_after.png">
+<img src="https://i.imgur.com/L0rPkLr.png">
 
 On Firefox you can only do a basic recolor of the scrollbars.
 
@@ -44,7 +44,7 @@ A dark layout for [Booky.io](https://booky.io/).
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Booky%20dark.user.css)
 
-<img src="https://userstyles.org/style_screenshots/173475_after.png">
+<img src="https://i.imgur.com/1i6jtIV.png">
 
 ---
 
@@ -56,7 +56,7 @@ Changes the color of W3Schools to dark green.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Sublime%20(Fixed).user.css)
 
-<img src="https://userstyles.org/style_screenshots/176917_after.png">
+<img src="https://i.imgur.com/afvc1vU.png">
 
 ---
 
@@ -67,6 +67,6 @@ It's intended for those that don't want to go "full gothic" with Tumblr new dark
 
 It also removes the "sponsored" advertising that appears in the dashboard.
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Izheil/Dark-userstyles/raw/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css).user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Izheil/Dark-userstyles/raw/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css)
 
-<img src="https://userstyles.org/style_screenshots/176917_after.png">
+<img src="https://i.imgur.com/I4aKBEw.jpg">
