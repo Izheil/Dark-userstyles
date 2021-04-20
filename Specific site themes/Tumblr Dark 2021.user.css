@@ -2,10 +2,10 @@
 @name         Tumblr Dark 2021
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.26
+@version      1.0.27
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
-@updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
+@updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
 @supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @license      GPL-3.0
 @preprocessor stylus
@@ -79,7 +79,7 @@
     .left_column.notifications_page, .notification_pane, .pagination, .radar_controls, 
     #fixed_navigation > li, .press_info_box, .press_info_box .label, .press_info_box .value,
     .annotation.inside, ._3Wd_y, .tumblelog_popover, .tumblelog_popover .tumblelog_preview, ._3u2Ih,
-    ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb {
+    ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW  {
         background-color: var(--post-bg-color) !important}
     
     .hVK3L:not(._1PyOv):hover {
@@ -94,7 +94,7 @@
     
     #fixed_navigation > li {background-image: none !important}
     
-    ._2Sl33, .post .post-source-footer, .wUa3w {background: var(--post-bg-color) !important}
+    ._2Sl33, .post .post-source-footer, .wUa3w, ._3dTPo._2MvlR {background: var(--post-bg-color) !important}
     
     /* This changes the background color of the wrapping border on hover on top of the posts */
     ._2PI5a, .post .post_permalink {
@@ -130,7 +130,8 @@
     .press_item, .section-copy, .pages-subsection, .corp_item a, .legal-content, .legal-content .annotation,
     ._1Wz4U p, .user-tags, .suggest-tags, .peepr-body .indash_blog a.reblog_info, 
     .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
-    .invite_someone_success, pre, span:not([style]) strong, .tumblelog_popover .description {
+    .invite_someone_success, pre, span:not([style]) strong, .tumblelog_popover .description, 
+    ._132n7 {
         color: #ccc !important}
     
     .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
@@ -140,7 +141,8 @@
     .post_tag, .note_link_current, .post_control::before, .reblog_icon, 
     .conversation-compose-plugin, .search_query::placeholder, .crushes_subhead, 
     .follower .blog-title, .radar_button::before, .copy-point, .caption, .pOoZl a,
-    .post .post-source-footer, .post .post-source-footer a.post-source-link {color: #888 !important}
+    .post .post-source-footer, .post .post-source-footer a.post-source-link,
+    ._2TyFI._1waD0 {color: #888 !important}
     
     .plus-follow-button {color: #111 !important}
     
@@ -159,9 +161,11 @@
     .jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a, .tumblelog_info h3 a
     {color: #fff !important}
     
-    .reblog-content a:hover {
-        text-decoration: underline;
-    }
+    ._3dTPo._2MvlR {
+        color: #00b8ff !important}
+    
+    .reblog-content a:hover, ._3dTPo._2MvlR:hover {
+        text-decoration: underline}
     
     /* Source links */
     ._2r26Q, .embed-code {
