@@ -48,7 +48,7 @@ A dark layout for [Booky.io](https://booky.io/).
 
 ---
 
-### W3Schools Dark Sublime (Fixed)
+### W3Schools Dark Blue
 
 Changes the color of W3Schools to dark blue.
 
