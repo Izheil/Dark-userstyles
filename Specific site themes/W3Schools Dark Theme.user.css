@@ -13,12 +13,13 @@
 @-moz-document url-prefix("https://www.w3schools.com/") {
 /* Header */
 .w3-bar.w3-card-2, .trytopnav, #container {
-    background-color: #1a1c27 !important;
-}
+    background-color: #1a1c27 !important}
+
+.w3-bar.w3-card-2 .w3-button .fa.fa-logo {
+    background-color: transparent !important}
 
 .w3-bar.w3-card-2 a {
-    color: #ccc !important
-}
+    color: #ccc !important}
 
 /* Text colors */
 h1, h2, h3, h4, #w3loginbtn, .bar-item-hover:hover {color: #fff !important}
