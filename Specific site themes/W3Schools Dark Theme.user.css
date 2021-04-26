@@ -1,0 +1,168 @@
+/* ==UserStyle==
+@name         W3Schools Dark Theme
+@description  Dark style for W3Schools. Created by Izheil.
+@namespace    https://github.com/Izheil/Dark-userstyles
+@version      1.0.0
+@author       LeoTM, Izheil
+@homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
+@supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
+@license      GPL-3.0
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.w3schools.com/") {
+/* Header */
+.w3-bar.w3-card-2, .trytopnav, #container {
+    background-color: #1a1c27 !important;
+}
+
+.w3-bar.w3-card-2 a {
+    color: #ccc !important
+}
+
+/* Text colors */
+h1, h2, h3, h4, #w3loginbtn, .bar-item-hover:hover {color: #fff !important}
+
+/* Links */
+#leftmenuinnerinner a:not(.active):hover, #leftmenuinnerinner a:not(.active):focus, nav .w3-content a:hover {
+    background-color: rgba(255,255,255,.1) !important;
+    color: #fff !important}
+
+#main a:not(.w3-btn):not(.w3-button), h4 > a, #footer a:not(.w3-button), #leftmenuinnerinner a:not(.active) {
+    color: #00a3ed !important}
+
+#main a:not(.w3-btn):not(.w3-button):hover, h4 > a, #footer a:not(.w3-button):hover, #leftmenuinnerinner a:not(.active):hover {
+    color: #61ceff !important}
+
+#main a:not(.w3-btn):not(.w3-button):active, h4 > a, #footer a:not(.w3-button):active, #leftmenuinnerinner a:not(.active):active {
+    color: #1f5d79 !important}
+
+#main a:not(.w3-btn):not(.w3-button):visited, h4 > a, #footer a:not(.w3-button):visited, #leftmenuinnerinner a:not(.active):visited {
+    color: #0163d1 !important}
+
+/* Body elements */
+body, #leftmenuinnerinner, .w3-white, .w3-row.w3-padding-32, .w3-center.grey-color {
+    background-color: #1e212b !important}
+
+hr, #main, #footer, .w3-border, iframe {
+    border-color: #323858 !important}
+
+.w3-example, .w3-card-2  {
+    background-color: #1a1c27 !important}
+
+.w3-codespan, code, .sidenav, .exercisewindow {
+    background-color: #020203 !important;
+    color: #505999 !important}
+
+.w3-code {
+    background-color: #020203 !important;}
+
+p, #footer .w3-small, ul, li, ol, .w3-col > div, blockquote, #main {
+    color: #ccc !important}
+
+.w3-text-dark-grey {
+    color: #888 !important}
+
+/* Random HTML examples */
+div[style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd"], 
+div[style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#ddd"]{
+    background-color: #020203 !important    
+}
+
+div[style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#fff"] {
+    background-color: #1a1c27 !important}
+
+/* Tables */ 
+table, tbody, tr {
+    background-color: #303345 !important;
+    color: #ccc !important;
+    border-color: #4a5385 !important;
+}
+
+th {
+    background-color: #191c26 !important;
+    color: #fff !important}
+
+.browserref th, .browserref td {border-color: #4a5385 !important}
+
+.w3-example .w3-white h1, .w3-example .w3-white p, .w3-example .w3-white blockquote,
+.w3-example .w3-white h2, .w3-example .w3-white h3, .w3-example .w3-white h4, 
+.w3-example .w3-white h5, .w3-example .w3-white pre, .w3-example .w3-white ul, 
+.w3-example .w3-white li, .w3-example .w3-white ol {
+    color: #000 !important;
+}
+
+/* Notes & banners */
+.w3-note {background-color: #033c6d !important}
+.w3-info {background-color: #2e4835 !important}
+
+.w3-warning {
+    background-color: #733 !important;
+    color: #ddd !important}
+
+/* Buttons */
+#right .w3-border {
+    border-color: transparent !important}
+
+#main .w3-button:not(.w3-bar-item), #footer .w3-button, #right .w3-button, .btn, input[type="color"], 
+.bigbtn, #main button, #main input[type="button"], #main input[type="submit"], #main input[type="reset"] {
+    background-color: #303345 !important;
+    border: none !important;
+    color: #ddd !important}
+
+#main .w3-button:hover, #footer .w3-button:hover, #right .w3-button:hover, .btn:hover, input[type="color"]:hover, 
+.bar-icon-hover:hover, .w3-content .w3-button:hover, .bigbtn:hover, #main button:hover, #main input[type="button"]:hover, 
+#main input[type="submit"]:hover, #main input[type="reset"]:hover {
+    background-color: #3e425b !important;
+    color: #fff !important}
+
+#main .w3-button:active, #footer .w3-button:active, #right .w3-button:active, .btn:active, input[type="color"]:active, 
+.bigbtn:active, #main button:active, #main input[type="button"]:active, #main input[type="submit"]:active, #main input[type="reset"]:active {
+    background-color: #1c1d25 !important;
+    color: #fff !important}
+
+#right .w3-button:not(:last-child) {
+    border-bottom: 1px solid #4a5385 !important
+}
+
+.w3-btn:not(.w3-left):not(.w3-right) {
+    background-color: #04aa6d !important;
+    color: #fff;
+    border: none !important}
+
+.w3-btn:not(.w3-left):not(.w3-right):hover {
+    background-color: #04aa6d !important;
+    color: #000;
+    border: none !important}
+
+
+/* Inputs */
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], 
+input[type="datetime-local"], input[type="time"], input[type="week"], input[type="month"], 
+input[type="number"], input[type="search"], input[type="tel"], input[type="url"], textarea, input[maxlength] {
+    background-color: #1b1c24 !important;
+    border-color: #3e415c !important;
+    color: #ccc !important;
+}
+
+/* Google inputs */
+#gsc-i-id1, #gsc-iw-id1, 
+.gsc-results-wrapper-overlay, .gsc-webResult.gsc-result, 
+.gsc-results .gsc-imageResult, .exerciseprecontainer,
+.goog-te-gadget-simple, .goog-te-menu2, .goog-te-menu2 td, 
+.goog-te-menu2-item div:not(:hover) {
+    background-color: #282a35 !important;
+    color: #ccc !important}
+
+.goog-te-menu-value, .goog-te-menu2-item-selected span {color: #ccc !important}
+
+.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult, 
+.goog-te-gadget-simple {border-color: #282a35 !important}
+
+/* Google services blurred edges */
+.goog-te-menu-frame {box-shadow: 0 3px 8px 2px rgba(0,0,0,0.5) !important}
+
+/* Fix for other widgets white background */
+#googleSearch, .gsc-search-box tbody td, .gsc-cursor-page, 
+#google_translate_element, .tab {background-color: transparent !important}
+}
