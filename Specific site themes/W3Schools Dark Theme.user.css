@@ -57,8 +57,11 @@ hr, #main, #footer, .w3-border, iframe {
 .w3-code {
     background-color: #020203 !important;}
 
-p, #footer .w3-small, ul, li, ol, .w3-col > div, blockquote, #main {
+p, #footer .w3-small, ul, li, ol, .w3-col > div, blockquote, #main, .w3-code span[style="color:black"] {
     color: #ccc !important}
+
+.w3-code span[style="color:mediumblue"] {
+    color: #327de6 !important}
 
 .w3-text-dark-grey {
     color: #888 !important}
@@ -134,7 +137,6 @@ th {
     background-color: #04aa6d !important;
     color: #000;
     border: none !important}
-
 
 /* Inputs */
 input[type="text"], input[type="email"], input[type="password"], input[type="date"], 
