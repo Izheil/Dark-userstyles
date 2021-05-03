@@ -2,10 +2,10 @@
 @name         Tumblr Dark 2021
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.29
+@version      1.0.30
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
-@updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202020.user.css
+@updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
 @supportURL   https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @license      GPL-3.0
 @preprocessor stylus
@@ -51,7 +51,7 @@
     .recent_posts, .peepr-body, .navigation_bg, .conversation-messages, 
     #dashboard_useraction_following .l-content, ._3x0QP, .rad_slideshow::after,
     .buttons-header, ._1jpZt, .tab-slug--recommended-for-you, .peepr-big-loader,
-    .layout_standard, ._3aX5m, ._3hOxd {
+    .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27- {
         background-color: var(--body-bg-color) !important}
     
     #dashboard_useraction_following #tabs,
@@ -142,7 +142,7 @@
     .conversation-compose-plugin, .search_query::placeholder, .crushes_subhead, 
     .follower .blog-title, .radar_button::before, .copy-point, .caption, .pOoZl a,
     .post .post-source-footer, .post .post-source-footer a.post-source-link,
-    ._2TyFI._1waD0 {color: #888 !important}
+    ._2TyFI._1waD0, ._2TyFI {color: #888 !important}
     
     .plus-follow-button {color: #111 !important}
     
