@@ -205,7 +205,7 @@ if invMethod == "customSet" {
         color: #ddd !important;
         box-shadow: none !important}
 
-    [class*="dialog"], [class*="light"]:not([class*="lightbox"]), [class*="Light"], [class*="white"]:not([class*="whitespace"]), [class*="White"]:not([class*="Whitespace"]), .tb .bg-light,
+    [class*="dialog"], [class*="light"]:not([class*="lightbox"]), [class*="Light"]:not([class*="Lightbox"]), [class*="white"]:not([class*="whitespace"]), [class*="White"]:not([class*="Whitespace"]), .tb .bg-light,
     [class*="bg-gray"], div.Popover-message, ul.sub, div[role="menu"], .options, .vue-treeselect__menu, .ListResult, 
     div[class^="menu"]:not([role="button"]):not(.vjs-control):not(.main-menu):not(.material-menu-backdrop):not(.mobile-menu), 
     .menu ul ul li a, .menuparent a, .dropdown li ul li a, #description_popup, ul[role="listbox"], ul[id*="contextmenu"],.qtip-pos-tl.qtip-fixed, 
