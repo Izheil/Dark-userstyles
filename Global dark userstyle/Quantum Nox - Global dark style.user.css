@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.33
+@version      2.6.34
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -223,7 +223,7 @@ if invMethod == "customSet" {
         color: #fff !important}
 
     .anchor-list a.hoverable, div[class*="buttons"] a[onclick], [aria-selected="true"], 
-    button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="ytp"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not([class*="btn-link"]):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):not([class*="Player"]):not(.np_button), 
+    button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="ytp"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not([class*="btn-link"]):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):not([class*="Player"]):not(.np_button):not([class*="Control"]):not([class*="volume"]), 
     input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit), 
     [class*="menu-item"]:not([class*="footer"]):not([class*="Footer"]):hover, button#view-menu-btn, a.add-fav, #action-menu-btn, 
     a.Button, .btn-group .btn, .btn[data-dropdown] {
@@ -235,7 +235,7 @@ if invMethod == "customSet" {
         
     .anchor-list a.hoverable:hover, a[data-toggle="dropdown"]:not([class*="wrapper"]):not([role="menuitem"]):hover, div[class*="buttons"] a[onclick]:hover, 
     div[class*="dropdown"] a:hover, div[class*="drop-down"] a:hover, 
-    button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not(.btn-link):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):not([class*="Player"]):not(.np_button):hover, 
+    button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not(.btn-link):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):not([class*="Player"]):not(.np_button):not([class*="Control"]):not([class*="volume"]):hover, 
     input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit):hover, 
     span[role="button"]:hover, button#view-menu-btn:hover, a.add-fav:hover, #action-menu-btn:hover, 
     a.Button:hover, .menu-btn > a:hover, .btn-group .btn:hover {
@@ -439,7 +439,8 @@ if invMethod == "customSet" {
     .media-control-center-panel .bar-container .bar-background, .media-control-center-panel .bar-container .bar-background .bar-fill-1,
     #mediaPlayerTimelineSliderBarsWrap .loaded, #mediaPlayerTimelineSliderBarsWrap, .playtrack-container, 
     .playtrack-container .buffer-track, .playtrack-container .present-track, .XxxCustomPlayer__progress-bar, .XxxCustomPlayer__progress-buffer,
-    .XxxCustomPlayer__volume-bar, #html5video .progress-bar, #html5video .buffer-elt, .jwrailgroup.Rail, .np_slider-rail {
+    .XxxCustomPlayer__volume-bar, #html5video .progress-bar, #html5video .buffer-elt, .jwrailgroup.Rail, .np_slider-rail, 
+    .playbackTimeline__progressBackground {
         background-color: rgba(255,255,255,0.2) !important}  
 
     .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar,
@@ -450,7 +451,7 @@ if invMethod == "customSet" {
     .mhp1138_handle, .mhp1138_progress, .media-control-center-panel .bar-container .bar-background .bar-fill-2,
     .media-control-center-panel .bar-container .bar-background .bar-hover, #mediaPlayerTimelineSliderBarsWrap .filled,
     .playtrack-container .past-track, .XxxCustomPlayer__progress-handle, .XxxCustomPlayer__progress-fill, .XxxCustomPlayer__volume-fill,
-    #html5video .cursor, .jwtimeSliderProgress, .np_slider-fill {
+    #html5video .cursor, .jwtimeSliderProgress, .np_slider-fill, .playbackTimeline__progressBar, .playbackTimeline__progressHandle  {
         background-color: #fff !important}
     
     .jwtimeSliderProgress, .jwrailgroup.Rail {
@@ -526,8 +527,11 @@ if invMethod == "customSet" {
     .rating-block__button, .TTreview, .ic__container, .product-container, 
     #addButton.navigation-buttons-full-width, .vscom-swimlane, .whitelane, .h-F-f-k.F-f-k,
     #content-wrap, #vivaldi-header, div[component="composer"], .dl_body--redesign,
-    .background_color_zeta  {
+    .background_color_zeta, section[aria-label="miniplayer"]   {
         background-color: #151515 !important}
+
+    .playControls__elements > *:not(.playControls__soundBadge), .playControls__elements .sc-button-small, .playbackSoundBadge__showQueue  {
+        filter: brightness(500%)}
 
     .vscom-feature-hero, body.it-background, .background_color_beta {
         background-color: #222 !important}
@@ -699,7 +703,7 @@ if invMethod == "customSet" {
       }
         
     if headCont {
-        section:not([class*="fixed"]):not([class*="dialog"]), #banner, .banner, .header, header, figure, picture {
+        section:not([class*="fixed"]):not([class*="dialog"]):not([aria-label="miniplayer"]), #banner, .banner, .header, header, figure, picture {
           background-color: rgba(0,0,0,0.5) !important;
           background-blend-mode: darken !important}
 
