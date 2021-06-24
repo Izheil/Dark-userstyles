@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.34
+@version      2.6.35
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -440,7 +440,7 @@ if invMethod == "customSet" {
     #mediaPlayerTimelineSliderBarsWrap .loaded, #mediaPlayerTimelineSliderBarsWrap, .playtrack-container, 
     .playtrack-container .buffer-track, .playtrack-container .present-track, .XxxCustomPlayer__progress-bar, .XxxCustomPlayer__progress-buffer,
     .XxxCustomPlayer__volume-bar, #html5video .progress-bar, #html5video .buffer-elt, .jwrailgroup.Rail, .np_slider-rail, 
-    .playbackTimeline__progressBackground {
+    .playbackTimeline__progressBackground, ._bars_wrap ._loaded, .videoplayer_slider {
         background-color: rgba(255,255,255,0.2) !important}  
 
     .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar,
@@ -451,7 +451,8 @@ if invMethod == "customSet" {
     .mhp1138_handle, .mhp1138_progress, .media-control-center-panel .bar-container .bar-background .bar-fill-2,
     .media-control-center-panel .bar-container .bar-background .bar-hover, #mediaPlayerTimelineSliderBarsWrap .filled,
     .playtrack-container .past-track, .XxxCustomPlayer__progress-handle, .XxxCustomPlayer__progress-fill, .XxxCustomPlayer__volume-fill,
-    #html5video .cursor, .jwtimeSliderProgress, .np_slider-fill, .playbackTimeline__progressBar, .playbackTimeline__progressHandle  {
+    #html5video .cursor, .jwtimeSliderProgress, .np_slider-fill, .playbackTimeline__progressBar, .playbackTimeline__progressHandle,
+    ._bars_wrap ._filled  {
         background-color: #fff !important}
     
     .jwtimeSliderProgress, .jwrailgroup.Rail {
