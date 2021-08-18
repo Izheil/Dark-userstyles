@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2021
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.35
+@version      1.0.36
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -51,7 +51,7 @@
     .recent_posts, .peepr-body, .navigation_bg, .conversation-messages, 
     #dashboard_useraction_following .l-content, ._3x0QP, .rad_slideshow::after,
     .buttons-header, ._1jpZt, .tab-slug--recommended-for-you, .peepr-big-loader,
-    .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27-, ._3KeYM {
+    .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27-, ._3KeYM, .PNArz {
         background-color: var(--body-bg-color) !important}
     
     #dashboard_useraction_following #tabs,
@@ -79,14 +79,15 @@
     .left_column.notifications_page, .notification_pane, .pagination, .radar_controls, 
     #fixed_navigation > li, .press_info_box, .press_info_box .label, .press_info_box .value,
     .annotation.inside, ._3Wd_y, .tumblelog_popover, .tumblelog_popover .tumblelog_preview, ._3u2Ih,
-    ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW, ._2qMs1 {
+    ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW, ._2qMs1, ._wQJ_, .zpvsE, .g8sNN,
+    .pzcaM, .UrXxW, .qqMIl, .h4DJl, .ZsngG, .TB7ye, .ykbha{
         background-color: var(--post-bg-color) !important}
     
-    .media-dropzone, ._1oxUI { 
+    .media-dropzone, ._1oxUI, .Cu0Yh { 
         background: var(--post-bg-color) !important;
         border-color: #666 !important;
     }
-
+        
     .hVK3L:not(._1PyOv):hover {
         background:  rgba(255,255,255,0.1) !important}
     
@@ -102,7 +103,7 @@
     ._2Sl33, .post .post-source-footer, .wUa3w, ._3dTPo._2MvlR {background: var(--post-bg-color) !important}
     
     /* This changes the background color of the wrapping border on hover on top of the posts */
-    ._2PI5a, .post .post_permalink {
+    .zpvsE .foSBI, .post .post_permalink {
         border-right-color: var(--body-bg-color) !important;
         border-top-color: var(--body-bg-color) !important;
         box-shadow: none !important}
@@ -206,16 +207,16 @@
         background-color: rgba(255,255,255,0.1) !important}
     
     /* Post reblog buttons */
-    .tx-button, .chrome:not(.blue) {
+    .tx-button, .chrome:not(.blue), .nfUYh {
         background-color: #444 !important;
         border: 1px solid #555 !important;
         color: #ccc !important}
     
-    .tx-button:hover, .chrome:not(.blue):hover {
+    .tx-button:hover, .chrome:not(.blue):hover, .nfUYh:hover {
         background-color: #555 !important;
         color: #fff !important}
     
-    .tx-button:active, .chrome:not(.blue):active {
+    .tx-button:active, .chrome:not(.blue):active, .nfUYh:active {
         background-color: #222 !important}
     
     .create_post_button, .post-form--save-button .dropdown-area, 
@@ -236,7 +237,7 @@
     #fixed_navigation > li a:active {background-color: rgba(0,0,0,0.3)}
     
     /* Expand button */
-    .SYFCU {background: linear-gradient(transparent, var(--post-bg-color)) !important}
+    .SYFCU, .z1SjW {background: linear-gradient(to right, transparent 5%, var(--post-bg-color) 10%) !important}
     .description_gradient, .show_description {background: linear-gradient(transparent, var(--body-bg-color)) !important}
     
     /* Fix for graph stats */
@@ -316,7 +317,7 @@
     .KeFJu._1gwoK, .elevator {background-color: transparent !important}
     
     /* We remove the "sponsored" frames */
-    ._3bMU2, ._1aQrn {display: none !important}
+    ._3bMU2, ._1aQrn, .j3_kYW {display: none !important}
     
     /* ----------------  DASHBOARD HEADER ----------------  */
     
@@ -447,7 +448,7 @@
     /* Warnings */
     #xkit-extension-panel-slow-extension, .xkit-experimental-option {
         background-color: #552 !important}
-    
+        
     /* Buttons */
     .xkit-button:not(.xkit-install-extension), .xkit-pokes-sorter#reverse-toggle + label::after, .xcloud-local-button,
     .xcloud-welcome-button, .xkit-extensions-display-type-switcher:not(.selected):hover, #x1cpostage_reblog,
