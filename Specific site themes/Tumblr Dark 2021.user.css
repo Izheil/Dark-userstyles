@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2021
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.38
+@version      1.0.39
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -52,7 +52,7 @@
     #dashboard_useraction_following .l-content, ._3x0QP, .rad_slideshow::after,
     .buttons-header, ._1jpZt, .tab-slug--recommended-for-you, .peepr-big-loader,
     .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27-, ._3KeYM, .PNArz, .D5eCV, 
-    .OL_jq, .I41Le.u10SL, .upBv4.w6BCC, .XP0zm, .gCtaO.N7WwW   {
+    .OL_jq, .I41Le.u10SL, .gCtaO.N7WwW, .jRmdw {
         background-color: var(--body-bg-color) !important}
     
     #dashboard_useraction_following #tabs,
@@ -82,7 +82,7 @@
     .annotation.inside, ._3Wd_y, .tumblelog_popover, .tumblelog_popover .tumblelog_preview, ._3u2Ih,
     ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW, ._2qMs1, ._wQJ_, .zpvsE, .g8sNN,
     .pzcaM, .UrXxW, .qqMIl, .h4DJl, .ZsngG, .TB7ye, .ykbha, .yXqF9, .iyuZt.OhsM4, .Sveya, .FtjPK, .BjErQ,
-    .u2tXn{
+    .u2tXn, .NTjLE, .upBv4.w6BCC, .upBv4 {
         background-color: var(--post-bg-color) !important}
     
     .media-dropzone, ._1oxUI, .Cu0Yh { 
@@ -139,7 +139,7 @@
     ._1Wz4U p, .user-tags, .suggest-tags, .peepr-body .indash_blog a.reblog_info, 
     .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
     .invite_someone_success, pre, span:not([style]) strong, .tumblelog_popover .description, 
-    ._132n7 {
+    ._132n7, .a15fm.yEDB7, .a15fm  {
         color: #ccc !important}
     
     .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
@@ -166,7 +166,8 @@
     .follower .name-link, #dashboard_useraction_following .tab, ._3xbSl a, .notifications_block .active, 
     .js-hover-trigger-TumblelogPopover, .title_and_controls h1, .plus-follow-button:hover, .plus-follow-button:active,
     .stats .number, .caption a, .corp_page_title, .pages-subsection a, .corp_heading, .legal-content a, .legal-content h2,
-    .jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a, .tumblelog_info h3 a, .CZfky
+    .jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a, .tumblelog_info h3 a, .CZfky,
+    .PuQfD
     {color: #fff !important}
     
     ._3dTPo._2MvlR {
@@ -209,16 +210,16 @@
         background-color: rgba(255,255,255,0.1) !important}
     
     /* Post reblog buttons */
-    .tx-button, .chrome:not(.blue), .nfUYh {
+    .tx-button, .chrome:not(.blue), .nfUYh, .EvhBA.Uj1VY.oNd7l {
         background-color: #444 !important;
         border: 1px solid #555 !important;
         color: #ccc !important}
     
-    .tx-button:hover, .chrome:not(.blue):hover, .nfUYh:hover {
+    .tx-button:hover, .chrome:not(.blue):hover, .nfUYh:hover, .EvhBA.Uj1VY.oNd7l:hover {
         background-color: #555 !important;
         color: #fff !important}
     
-    .tx-button:active, .chrome:not(.blue):active, .nfUYh:active {
+    .tx-button:active, .chrome:not(.blue):active, .nfUYh:active, .EvhBA.Uj1VY.oNd7l:active {
         background-color: #222 !important}
     
     .create_post_button, .post-form--save-button .dropdown-area, 
