@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name         Tumblr Dark 2021
+@name         Tumblr Dark 2022
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.41
+@version      1.0.42
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -41,7 +41,7 @@
     .post-form--guard.visible {
         background-color: rgba(0,0,0,0.7) !important}
     
-    ._3e9MM, img, pre {background-color: transparent !important}
+    ._3e9MM, img, pre, .txEJf ._5p5FC {background-color: transparent !important}
     
     /* ---------------- DASHBOARD BODY ---------------- */
     
@@ -82,7 +82,8 @@
     .annotation.inside, ._3Wd_y, .tumblelog_popover, .tumblelog_popover .tumblelog_preview, ._3u2Ih,
     ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW, ._2qMs1, ._wQJ_, .zpvsE, .g8sNN,
     .pzcaM, .UrXxW, .qqMIl, .h4DJl, .ZsngG, .TB7ye, .ykbha, .yXqF9, .iyuZt.OhsM4, .Sveya, .FtjPK, .BjErQ,
-    .u2tXn, .NTjLE, .upBv4.w6BCC, .upBv4, .XP0zm.sXae7[style="background-color: var(--blog-background-color);"] {
+    .u2tXn, .NTjLE, .upBv4.w6BCC, .upBv4, .XP0zm.sXae7[style="background-color: var(--blog-background-color);"],
+    .nEems, .txEJf {
         background-color: var(--post-bg-color) !important}
     
     .media-dropzone, ._1oxUI, .Cu0Yh { 
@@ -100,6 +101,11 @@
     .nipple {
         border-left-color: #444 !important}
     
+    /* Recommended blogs 3 dots button */
+    .EvhBA svg {
+        fill: #fff !important
+    }
+        
     #fixed_navigation > li {background-image: none !important}
     
     ._2Sl33, .post .post-source-footer, .wUa3w, ._3dTPo._2MvlR {background: var(--post-bg-color) !important}
@@ -139,7 +145,7 @@
     ._1Wz4U p, .user-tags, .suggest-tags, .peepr-body .indash_blog a.reblog_info, 
     .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
     .invite_someone_success, pre, span:not([style]) strong, .tumblelog_popover .description, 
-    ._132n7, .a15fm.yEDB7, .a15fm  {
+    ._132n7, .a15fm.yEDB7, .a15fm , .tOdXM {
         color: #ccc !important}
     
     .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
@@ -167,7 +173,7 @@
     .js-hover-trigger-TumblelogPopover, .title_and_controls h1, .plus-follow-button:hover, .plus-follow-button:active,
     .stats .number, .caption a, .corp_page_title, .pages-subsection a, .corp_heading, .legal-content a, .legal-content h2,
     .jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a, .tumblelog_info h3 a, .CZfky,
-    .PuQfD
+    .PuQfD, .xuN5Q a
     {color: #fff !important}
     
     ._3dTPo._2MvlR {
