@@ -35,7 +35,7 @@
         --button-focus-color: buttonFcBg;
     }
     
-    body:not(#redpop_iframePostForms) {background-color: var(--body-bg-color) !important}
+    body:not(#redpop_iframePostForms), .uM3pd {background-color: var(--body-bg-color) !important}
     
     /* Overlay translucid color for transitions */
     .Hi_aW._3e9MM, ._2KXPE, .ui_dialog_lock, #xkit-control-panel-shadow, .ui_peepr_glass, 
