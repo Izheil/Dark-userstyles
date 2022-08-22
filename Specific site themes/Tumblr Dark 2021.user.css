@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2022
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.44
+@version      1.0.45
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -35,7 +35,7 @@
         --button-focus-color: buttonFcBg;
     }
     
-    body:not(#redpop_iframePostForms), .uM3pd {background-color: var(--body-bg-color) !important}
+    body:not(#redpop_iframePostForms), .uM3pd  {background-color: var(--body-bg-color) !important}
     
     /* Overlay translucid color for transitions */
     .Hi_aW._3e9MM, ._2KXPE, .ui_dialog_lock, #xkit-control-panel-shadow, .ui_peepr_glass, 
@@ -53,8 +53,8 @@
     #dashboard_useraction_following .l-content, ._3x0QP, .rad_slideshow::after,
     .buttons-header, ._1jpZt, .tab-slug--recommended-for-you, .peepr-big-loader,
     .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27-, ._3KeYM, .PNArz, .D5eCV, 
-    .OL_jq, .I41Le.u10SL, .gCtaO.N7WwW, .jRmdw, .Q05ZE, .Q05ZE header, .pKQCB.Oeb4S,
-    .pKQCB.Oeb4S, .DCCfo.kXP4L, .Q05ZEs, .TRX6J.jmscj {
+    .OL_jq, .I41Le.u10SL, .gCtaO.N7WwW, .jRmdw, .Q05ZE, .Q05ZE header, .pKQCB.Oeb4S, .DCCfo.kXP4L,
+    .Q05ZEs, .TRX6J.jmscj, .pKQCB {
         background-color: var(--body-bg-color) !important}
     
     #dashboard_useraction_following #tabs,
@@ -104,16 +104,26 @@
         border-left-color: #444 !important}
     
     /* Recommended blogs 3 dots button */
-    .EvhBA svg, svg[role="img"], .Q05ZE header svg {
+    svg[role="img"], .Q05ZE header svg {
         fill: #fff !important
     }
         
+    .EvhBA {
+        --color-modal-close-button: #ccc !important;
+        --black: 160,160,160 !important;
+        --color-title: #ddd;
+    }
+    
+    .sfGru {
+        --black: 160,160,160 !important
+    }
+    
     #fixed_navigation > li {background-image: none !important}
     
     ._2Sl33, .post .post-source-footer, .wUa3w, ._3dTPo._2MvlR {background: var(--post-bg-color) !important}
     
     /* Blog dashboard buttons */
-    .uk9FI a, .uk9FI button span {
+    .uk9FI a, .uk9FI button span:not(.EvhBA) {
         background-color: var(--button-bg-color) !important;
         color: #fff !important;
         border: none !important}
@@ -170,7 +180,7 @@
     
     .settings_subheading, .group_label h3, .group_label h4, .app_title, .asker .name,
     .conversation-icebreakers .name, h2.heading, h2.section-head, .jobs-subheader, .L5OmD a,
-    ._3lVNJ {color: #ddd !important}
+    ._3lVNJ, .hF8Wr {color: #ddd !important}
     
     .reblog-tumblelog-name, .tumblelog-select .caption, .ts-name, .pop-menu label:not(.prefix):not(.current_selection),
     .pop-menu .group-label, .tab.active .icon, .tab.active .tab-label, .settings_heading, .labels .label,
