@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.39
+@version      2.6.40
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -46,7 +46,7 @@
 }
 
 ==/UserStyle== */
-@-moz-document regexp("https?://(?!(www.nespresso.com|www.wechoosethemoon.org|www.nasa.gov|stylebase.cc|(translate|images|photos|books|scholar|accounts|mail|drive|calendar|docs|news|keep|play|notifications|www).google.(com|es|de)((?!recaptcha).)*$|duckduckgo.com|www.youtube.com|www.reddit.com|twitter.com|gfycat.com|codepen.io|(((?!w+)([^\.]+)\.)?([^\.]+)\.)?imgur.com|www.virustotal.com|((forum)\.)?userstyles.org|bugzilla.mozilla.org|stylebase.cc)).*") {
+@-moz-document regexp("https?://(?!(www.nespresso.com|www.wechoosethemoon.org|www.nasa.gov|(translate|images|photos|books|scholar|accounts|mail|drive|calendar|docs|news|keep|play|notifications|groups|www).google.(com|es|de)((?!recaptcha).)*$|duckduckgo.com|www.youtube.com|www.reddit.com|twitter.com|gfycat.com|(((?!w+)([^\.]+)\.)?([^\.]+)\.)?imgur.com|www.virustotal.com|www.tumblr.com|thegeekstuff.tumblr.com|www.facebook.com|github.com|gist.github.com|www.amazon.*|www.deviantart.com|fusro.ga|z0r.de|www.nutaku.net|pf.nutaku.com|nutaku|pf.nutaku.info|pf.nutaku.info|web.osawari-online.com|web-ssl.osawari-online.com|www.quora.com|((beta)\.)?booky.io|((?!w+))?([^\.]+)\.pornhub.com|((?!w+))?([^\.]+)\.wikipedia.org|((forum)\.)?userstyles.org|9gag.com|www.w3schools.com|cf.r.kamihimeproject.dmmgames.com|www4.9anime.is|www1.9anime.nl|9anime.to|trello.com|((?!w+)([^\.]+)\.)?([^\.]+)\.wikia.com|(((?!w+)([^\.]+)\.)?([^\.]+)\.)?fandom.com|www.deviantart.com|www.meistertask.com/app/|npcdiaries.blogspot.com|www.duolingo.com|www.tumbex.com|((?!w+)([^\.]+)\.)?([^\.]+)\.wiki.fextralife.com/|alpha.wallhaven.cc|sharesome.com|mastodon.social|www.pinterest.es|www.luscious.net|members.luscious.net|((?!w+))?([^\.]+)\.sex.com|www.wanikani.com|codepen.io|searx.me|jcw87.github.io/c2-sans-fight|anilist.co|www.underhentai.net|feedly.com|feedreader.com|w0bm.com|gitlab.com|gitlab.gnome.org|ui.parsecgaming.com|tbot.xyz|f95zone.to|ballistictortoise.blogspot.com|jdittrich.github.io|w0bm.kim|campus.ilerna.es|ilerna.instructure.com|scrolller.com|appnee.com|bugzilla.mozilla.org|outlook.live.com|www.pinterest.(com|de)|web.whatsapp.com|nijie.info|breinland.byethost17.com|breinland.ml|www.redgifs.com|gnula.nu|iloopit.net|www.pixiv.net|mynoise.net|hoppscotch.io|obsproject.com|crowdin.com/translate/|pastebin.com|((?!w+)([^\.]+)\.)?([^\.]+)\.spotify.com)).*") {
 /* Add any other site you don't want to apply inside the regexp encased between |'s ^ */
 
 if invMethod == "customSet" {
@@ -163,7 +163,7 @@ if invMethod == "customSet" {
         background: selectColor !important; 
         color: textColor !important;
         text-shadow: 0 0 1px #000 !important}
-
+        
     mark {
         background-color: #00ccdd !important;
         color: #000 !important;
@@ -198,7 +198,8 @@ if invMethod == "customSet" {
         opacity: 0.5 !important}
         
     /* Buttons and menus */
-    div[class*="button"]:not([class*="buttons"]):not([class*="menu"]):not([class*="play"]):not([class*="fullscreen"]):not(.pbp-panel-theme-button), div[class*="btn"]:not(.btn-link):not([class*="play"]):not(.insider-btn):not(.fullscreen-btn), 
+    div[class*="button"]:not([class*="buttons"]):not([class*="menu"]):not([class*="play"]):not([class*="fullscreen"]):not(.pbp-panel-theme-button):not(.jw-button-color), 
+    div[class*="btn"]:not(.btn-link):not([class*="play"]):not(.insider-btn):not(.fullscreen-btn), 
     input[type="file"], input[type="color"], input[type="button"], a.social-count, a[class*="button"], a[class*="btn"]:not([class*="icon"]),
     summary.btn, clipboard-copy, .ellipsis-expander, file-attachment, .drag-and-drop, div[class*="button"]:not([class*="buttons"]) a, .pageNav-page, .pageNav-jump,
     input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit) {
@@ -516,11 +517,11 @@ if invMethod == "customSet" {
     .card .col.completed {
         background-color: #8c8 !important;
     }
-
+        
     .challenge-view .task-image[aria-pressed="true"] {
         outline: 3px solid #0cc !important;
     }
-
+    
     .content-for-input {
         border: 1px solid #666 !important}
     .editor-label .slider {
