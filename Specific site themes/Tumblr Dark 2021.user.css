@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2022
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.48
+@version      1.0.49
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -35,7 +35,7 @@
         --button-focus-color: buttonFcBg;
     }
     
-    body:not(#redpop_iframePostForms), .uM3pd  {background-color: var(--body-bg-color) !important}
+    body:not(#redpop_iframePostForms) {background-color: var(--body-bg-color) !important}
     
     /* Overlay translucid color for transitions */
     .Hi_aW._3e9MM, ._2KXPE, .ui_dialog_lock, #xkit-control-panel-shadow, .ui_peepr_glass, 
@@ -54,7 +54,7 @@
     .buttons-header, ._1jpZt, .tab-slug--recommended-for-you, .peepr-big-loader,
     .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27-, ._3KeYM, .PNArz, .D5eCV, 
     .OL_jq, .I41Le.u10SL, .gCtaO.N7WwW, .jRmdw, .Q05ZE, .Q05ZE header, .pKQCB.Oeb4S, .DCCfo.kXP4L,
-    .Q05ZEs, .TRX6J.jmscj, .pKQCB {
+    .Q05ZEs, .TRX6J.jmscj, .pKQCB, .p4DiZ, .irkyW.h70QW, .Rb_wu.h70QW {
         background-color: var(--body-bg-color) !important}
     
     #dashboard_useraction_following #tabs,
@@ -85,7 +85,7 @@
     ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW, ._2qMs1, ._wQJ_, .zpvsE, .g8sNN,
     .pzcaM, .UrXxW, .qqMIl, .h4DJl, .ZsngG, .TB7ye, .ykbha, .yXqF9, .iyuZt.OhsM4, .Sveya, .FtjPK, .BjErQ,
     .u2tXn, .NTjLE, .upBv4.w6BCC, .upBv4, .XP0zm.sXae7[style="background-color: var(--blog-background-color);"],
-    .nEems, .txEJf, .rTiqc, .FtjPK.r0etU header, .B15CE, .vwvdr {
+    .nEems, .txEJf, .rTiqc, .FtjPK.r0etU header, .B15CE, .vwvdr, .wddaX, .lqHQ2.FtkP5.qtjVi, .HIlRS.fp2pi {
         background-color: var(--post-bg-color) !important}
     
     .media-dropzone, ._1oxUI, .Cu0Yh { 
@@ -145,7 +145,7 @@
     /* Odd rows of some tables */
     .chat_line:nth-child(2n), .notification_pane .section, .staff_posts_row .post {background: transparent !important}
     
-    .follower:not(.alt):not(.invite_someone) {background-color: rgba(0,0,0,0.3) !important}
+    .follower:not(.alt):not(.invite_someone), .gouco button[disabled] {background-color: rgba(0,0,0,0.3) !important}
     
     /* Text inputs */
     input[type="text"], #user_to_check_for {
@@ -170,7 +170,7 @@
     .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
     .invite_someone_success, pre, span > strong, .tumblelog_popover .description, 
     ._132n7, .a15fm.yEDB7, .a15fm, .tOdXM, .FtjPK.r0etU div, .Q05ZE header p, .B15CE div,
-    .bHZr2 {
+    .bHZr2, .HIlRS.fp2pi, .irkyW.h70QW {
         color: #ccc !important}
     
     .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
