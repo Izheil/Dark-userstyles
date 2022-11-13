@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2022
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.46
+@version      1.0.48
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -85,7 +85,7 @@
     ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW, ._2qMs1, ._wQJ_, .zpvsE, .g8sNN,
     .pzcaM, .UrXxW, .qqMIl, .h4DJl, .ZsngG, .TB7ye, .ykbha, .yXqF9, .iyuZt.OhsM4, .Sveya, .FtjPK, .BjErQ,
     .u2tXn, .NTjLE, .upBv4.w6BCC, .upBv4, .XP0zm.sXae7[style="background-color: var(--blog-background-color);"],
-    .nEems, .txEJf, .rTiqc, .FtjPK.r0etU header, .B15CE {
+    .nEems, .txEJf, .rTiqc, .FtjPK.r0etU header, .B15CE, .vwvdr {
         background-color: var(--post-bg-color) !important}
     
     .media-dropzone, ._1oxUI, .Cu0Yh { 
@@ -168,8 +168,9 @@
     .press_item, .section-copy, .pages-subsection, .corp_item a, .legal-content, .legal-content .annotation,
     ._1Wz4U p, .user-tags, .suggest-tags, .peepr-body .indash_blog a.reblog_info, 
     .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
-    .invite_someone_success, pre, span:not([style]) strong, .tumblelog_popover .description, 
-    ._132n7, .a15fm.yEDB7, .a15fm, .tOdXM, .FtjPK.r0etU div, .Q05ZE header p, .B15CE div {
+    .invite_someone_success, pre, span > strong, .tumblelog_popover .description, 
+    ._132n7, .a15fm.yEDB7, .a15fm, .tOdXM, .FtjPK.r0etU div, .Q05ZE header p, .B15CE div,
+    .bHZr2 {
         color: #ccc !important}
     
     .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
@@ -186,7 +187,7 @@
     
     .settings_subheading, .group_label h3, .group_label h4, .app_title, .asker .name,
     .conversation-icebreakers .name, h2.heading, h2.section-head, .jobs-subheader, .L5OmD a,
-    ._3lVNJ, .hF8Wr {color: #ddd !important}
+    ._3lVNJ, .hF8Wr, .ca4GL {color: #ddd !important}
     
     .reblog-tumblelog-name, .tumblelog-select .caption, .ts-name, .pop-menu label:not(.prefix):not(.current_selection),
     .pop-menu .group-label, .tab.active .icon, .tab.active .tab-label, .settings_heading, .labels .label,
@@ -197,7 +198,8 @@
     .js-hover-trigger-TumblelogPopover, .title_and_controls h1, .plus-follow-button:hover, .plus-follow-button:active,
     .stats .number, .caption a, .corp_page_title, .pages-subsection a, .corp_heading, .legal-content a, .legal-content h2,
     .jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a, .tumblelog_info h3 a, .CZfky,
-    .PuQfD, .xuN5Q a, .FtjPK.r0etU a, .Q05ZE header h1, .Q05ZE header a, .utUra.lLwRq, .EvhBA.f68ED.kk3cQ, .EvhBA
+    .PuQfD, .xuN5Q a, .FtjPK.r0etU a, .Q05ZE header h1, .Q05ZE header a, .utUra.lLwRq, .EvhBA.f68ED.kk3cQ, .EvhBA,
+    .Q0H97.BSUG4
     {color: #fff !important}
     
     .tUznf {border-color: #fff !important}
