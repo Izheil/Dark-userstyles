@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.43
+@version      2.6.44
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -514,6 +514,11 @@
             background: #333 !important; 
             color: #ddd !important}
     
+        span.l, span.h, .video-card .time, .thumb-holder .duration, .thumb-holder .video-title, span[data-role="video-duration"],
+        .video-related .thumb .labels span, .content span.dur, .vids .relthumb .addedrel, .thumb .time,
+        .post-thumbnail .duration, .post-thumbnail .views, .js-thumb .info, .video .duration, .video .thumbsup,
+        .thumb .views, .thumb .timer, .item_thumb .item_dur, .preview_screen .duration {background-color: rgba(0,0,0,0.7) !important}
+
         .card .col.completed {
             background-color: #8c8 !important;
         }
