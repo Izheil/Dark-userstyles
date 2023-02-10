@@ -61,12 +61,13 @@
             background-color: transparent !important;
             color: #bbb !important}
     
-        * {
+        html *:not(.price-history-legend-color) {
             background-color: transparent !important;
             border-color: #333 !important;
             color: #aaa;
             text-shadow: none !important;
-            box-shadow: none !important}
+            box-shadow: none !important
+        }
             
         ::before, ::after {
             background-color: transparent !important; 
