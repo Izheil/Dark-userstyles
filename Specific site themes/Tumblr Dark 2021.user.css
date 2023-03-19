@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name         Tumblr Dark 2022
+@name         Tumblr Dark 2023
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.49
+@version      1.0.50
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -54,7 +54,7 @@
     .buttons-header, ._1jpZt, .tab-slug--recommended-for-you, .peepr-big-loader,
     .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27-, ._3KeYM, .PNArz, .D5eCV, 
     .OL_jq, .I41Le.u10SL, .gCtaO.N7WwW, .jRmdw, .Q05ZE, .Q05ZE header, .pKQCB.Oeb4S, .DCCfo.kXP4L,
-    .Q05ZEs, .TRX6J.jmscj, .pKQCB, .p4DiZ, .irkyW.h70QW, .Rb_wu.h70QW {
+    .Q05ZEs, .TRX6J.jmscj, .pKQCB, .p4DiZ, .irkyW.h70QW, .Rb_wu.h70QW, .MNkkC {
         background-color: var(--body-bg-color) !important}
     
     #dashboard_useraction_following #tabs,
@@ -170,7 +170,7 @@
     .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
     .invite_someone_success, pre, span > strong, .tumblelog_popover .description, 
     ._132n7, .a15fm.yEDB7, .a15fm, .tOdXM, .FtjPK.r0etU div, .Q05ZE header p, .B15CE div,
-    .bHZr2, .HIlRS.fp2pi, .irkyW.h70QW {
+    .bHZr2, .HIlRS.fp2pi, .irkyW.h70QW, .sPIOx {
         color: #ccc !important}
     
     .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
@@ -187,7 +187,7 @@
     
     .settings_subheading, .group_label h3, .group_label h4, .app_title, .asker .name,
     .conversation-icebreakers .name, h2.heading, h2.section-head, .jobs-subheader, .L5OmD a,
-    ._3lVNJ, .hF8Wr, .ca4GL {color: #ddd !important}
+    ._3lVNJ, .hF8Wr, .ca4GL, .VNh6c {color: #ddd !important}
     
     .reblog-tumblelog-name, .tumblelog-select .caption, .ts-name, .pop-menu label:not(.prefix):not(.current_selection),
     .pop-menu .group-label, .tab.active .icon, .tab.active .tab-label, .settings_heading, .labels .label,
@@ -276,6 +276,9 @@
     /* Expand button */
     .SYFCU, .z1SjW {background: linear-gradient(to right, transparent 5%, var(--post-bg-color) 10%) !important}
     .description_gradient, .show_description {background: linear-gradient(transparent, var(--body-bg-color)) !important}
+        
+    .TRX6J.KO5EN.TyF2z {background: linear-gradient(to right, transparent, var(--body-bg-color)) !important}
+    .TRX6J.KO5EN.V7v4g {background: linear-gradient(to left, transparent, var(--body-bg-color)) !important}
     
     /* Fix for graph stats */
     .ui_stats.monochrome .unit, .highcharts-container, .tumblelog_popover .tumblelog_menu_btn {filter: invert(0.8) hue-rotate(180deg)}
@@ -354,7 +357,7 @@
     .KeFJu._1gwoK, .elevator, .TRX6J.jmscj._6Ngd {background-color: transparent !important}
     
     /* We remove the "sponsored" frames */
-    ._3bMU2, ._1aQrn, .j3_kYW, .moatContainer {display: none !important}
+    ._3bMU2, ._1aQrn, .j3_kYW, .moatContainer, .uuWZ2 .KTRcB:nth-child(4) .O42NY {display: none !important}
     
     /* ----------------  DASHBOARD HEADER ----------------  */
     
