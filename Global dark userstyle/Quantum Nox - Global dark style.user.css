@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.49
+@version      2.6.50
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -48,7 +48,6 @@
 ==/UserStyle== */
 @-moz-document regexp("https?://(?!(www.nespresso.com|www.wechoosethemoon.org|www.nasa.gov|(translate|images|photos|books|scholar|accounts|mail|drive|calendar|docs|news|keep|play|notifications|www).google.(com|es|de)((?!recaptcha).)*$|duckduckgo.com|www.youtube.com|www.reddit.com|twitter.com|gfycat.com|codepen.io|(((?!w+)([^\.]+)\.)?([^\.]+)\.)?imgur.com|www.virustotal.com|((forum)\.)?userstyles.org|bugzilla.mozilla.org)).*") {
     /* Add any other site you don't want to apply inside the regexp encased between |'s ^ */
-    
     if invMethod == "customSet" {
         
         /* General elements background color */
@@ -61,7 +60,7 @@
             background-color: transparent !important;
             color: #bbb !important}
     
-        html *:not(.price-history-legend-color) {
+        html *:not(.price-history-legend-color):not([class^="fluid_controls"]) {
             background-color: transparent !important;
             border-color: #333 !important;
             color: #aaa;
@@ -359,11 +358,12 @@
             box-shadow: none !important;
             color: #ccc !important;
             padding: 3px 15px 3px 5px !important;
+            line-height: 1em !important;
             transition: border-color 0.3s, background-position 0.3s !important}
             
         select:hover, [role="combobox"]:hover {
             background-color: #222 !important}
-            
+        
         /*----- MISC PAGE FIXES -----*/
          
         /* Disqus */
@@ -447,7 +447,7 @@
         #mediaPlayerTimelineSliderBarsWrap .loaded, #mediaPlayerTimelineSliderBarsWrap, .playtrack-container, 
         .playtrack-container .buffer-track, .playtrack-container .present-track, .XxxCustomPlayer__progress-bar, .XxxCustomPlayer__progress-buffer,
         .XxxCustomPlayer__volume-bar, #html5video .progress-bar, #html5video .buffer-elt, .jwrailgroup.Rail, .np_slider-rail, 
-        .playbackTimeline__progressBackground, ._bars_wrap ._loaded, .videoplayer_slider, [class^="progress-bar--progress-holder"]  {
+        .playbackTimeline__progressBackground, ._bars_wrap ._loaded, .videoplayer_slider, [class^="progress-bar--progress-holder"], .fluid_controls_progress {
             background-color: rgba(255,255,255,0.2) !important}  
     
         .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar,
@@ -459,7 +459,7 @@
         .media-control-center-panel .bar-container .bar-background .bar-hover, #mediaPlayerTimelineSliderBarsWrap .filled,
         .playtrack-container .past-track, .XxxCustomPlayer__progress-handle, .XxxCustomPlayer__progress-fill, .XxxCustomPlayer__volume-fill,
         #html5video .cursor, .jwtimeSliderProgress, .np_slider-fill, .playbackTimeline__progressBar, .playbackTimeline__progressHandle,
-        ._bars_wrap ._filled, div[class^="progress-bar--play-progress"]  {
+        ._bars_wrap ._filled, div[class^="progress-bar--play-progress"], .fluid_controls_currentprogress  {
             background-color: #83F !important}
         
         .jwtimeSliderProgress, .jwrailgroup.Rail {
