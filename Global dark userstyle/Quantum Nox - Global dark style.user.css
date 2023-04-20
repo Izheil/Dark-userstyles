@@ -46,7 +46,7 @@
 }
 
 ==/UserStyle== */
-@-moz-document regexp("https?://(?!(www.nespresso.com|www.wechoosethemoon.org|www.nasa.gov|(translate|images|photos|books|scholar|accounts|mail|drive|calendar|docs|news|keep|play|notifications|www).google.(com|es|de)((?!recaptcha).)*$|duckduckgo.com|www.youtube.com|www.reddit.com|twitter.com|gfycat.com|codepen.io|(((?!w+)([^\.]+)\.)?([^\.]+)\.)?imgur.com|www.virustotal.com|((forum)\.)?userstyles.org|bugzilla.mozilla.org)).*") {
+@-moz-document regexp("https?://(?!(www.nespresso.com|www.wechoosethemoon.org|www.nasa.gov|(translate|images|photos|books|scholar|accounts|mail|drive|calendar|docs|news|keep|play|notifications|www).google.(com|es|de)((?!recaptcha).)*$|duckduckgo.com|www.youtube.com|www.reddit.com|twitter.com|gfycat.com|codepen.io|(((?!w+)([^\.]+)\.)?([^\.]+)\.)?imgur.com|www.virustotal.com|((forum)\.)?userstyles.org|bugzilla.mozilla.org|www.builder.io)).*") {
     /* Add any other site you don't want to apply inside the regexp encased between |'s ^ */
     if invMethod == "customSet" {
         
@@ -60,7 +60,7 @@
             background-color: transparent !important;
             color: #bbb !important}
     
-        html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]) {
+        html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]):not(.level) {
             background-color: transparent !important;
             border-color: #333 !important;
             color: #aaa;
