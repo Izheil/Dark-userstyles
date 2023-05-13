@@ -2,7 +2,7 @@
 @name         W3Schools Dark Theme
 @description  Dark style for W3Schools. Created by Izheil.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.1
+@version      1.0.2
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Theme.user.css
@@ -19,27 +19,32 @@
     .w3-bar.w3-card-2 .w3-button .fa.fa-logo {
         background-color: transparent !important}
     
-    .w3-bar.w3-card-2 a {
+    .w3-bar.w3-card-2 a:not(.ws-yellow):not(.ws-green):not(.ws-light-green) {
         color: #ccc !important}
+        
+    #cert_navbtn {
+        background-color: pink !important;
+        color: #000 !important
+    }
     
     /* Text colors */
-    h1, h2, h3, h4, #w3loginbtn, .bar-item-hover:hover {color: #fff !important}
+    h1, h2, h3, h4, .bar-item-hover:hover {color: #fff !important}
     
     /* Links */
     #leftmenuinnerinner a:not(.active):hover, #leftmenuinnerinner a:not(.active):focus, nav .w3-content a:hover, .activesub, #leftmenuinnerinner .ref_overview {
         background-color: rgba(255,255,255,.1) !important;
         color: #fff !important}
     
-    #main a:not(.w3-btn):not(.w3-button), h4 > a, #footer a:not(.w3-button), #leftmenuinnerinner a:not(.active) {
+    #main a:not(.w3-btn):not(.w3-button), h4 > a, #footer a:not(.w3-button):not(.w3-btn), #leftmenuinnerinner a:not(.active) {
         color: #00a3ed !important}
     
-    #main a:not(.w3-btn):not(.w3-button):hover, h4 > a, #footer a:not(.w3-button):hover, #leftmenuinnerinner a:not(.active):hover {
+    #main a:not(.w3-btn):not(.w3-button):hover, h4 > a, #footer a:not(.w3-button):not(.w3-btn):hover, #leftmenuinnerinner a:not(.active):hover {
         color: #61ceff !important}
     
-    #main a:not(.w3-btn):not(.w3-button):active, h4 > a, #footer a:not(.w3-button):active, #leftmenuinnerinner a:not(.active):active {
+    #main a:not(.w3-btn):not(.w3-button):active, h4 > a, #footer a:not(.w3-button):not(.w3-btn):active, #leftmenuinnerinner a:not(.active):active {
         color: #1f5d79 !important}
     
-    #main a:not(.w3-btn):not(.w3-button):visited, h4 > a, #footer a:not(.w3-button):visited, #leftmenuinnerinner a:not(.active):visited {
+    #main a:not(.w3-btn):not(.w3-button):visited, h4 > a, #footer a:not(.w3-button):not(.w3-btn):visited, #leftmenuinnerinner a:not(.active):visited {
         color: #0163d1 !important}
     
     /* Body elements */
@@ -169,4 +174,9 @@
     /* Fix for other widgets white background */
     #googleSearch, .gsc-search-box tbody td, .gsc-cursor-page, 
     #google_translate_element, .tab {background-color: transparent !important}
+
+    /* Code editor */
+    .w3-code {
+        color: #ccc !important
     }
+}
