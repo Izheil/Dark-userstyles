@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2023
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.50
+@version      1.0.51
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -201,7 +201,7 @@
     .PuQfD, .xuN5Q a, .FtjPK.r0etU a, .Q05ZE header h1, .Q05ZE header a, .utUra.lLwRq, .EvhBA.f68ED.kk3cQ, .EvhBA,
     .Q0H97.BSUG4
     {color: #fff !important}
-    
+
     .tUznf {border-color: #fff !important}
     
     ._3dTPo._2MvlR {
@@ -269,6 +269,17 @@
     
     .create_post_button.disabled, .follow-button-right  {color: #ccc !important}
     
+    /* Follow recommended blog button */
+    .EvhBA.WdYx4 {
+        background-color: #333 !important;
+        color: #fff !important;
+    }
+
+    .EvhBA.WdYx4:hover {
+        background-color: #444 !important;
+        color: #fff !important;
+    }
+
     /* About links */
     #fixed_navigation > li:hover a {background-color: rgba(255,255,255,0.04)}
     #fixed_navigation > li a:active {background-color: rgba(0,0,0,0.3)}
