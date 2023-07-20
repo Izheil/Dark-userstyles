@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2023
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.52
+@version      1.0.53
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -27,7 +27,7 @@
         --header-bg-color: headerBg;
         --post-bg-color: postBg;
         --blog-link-color: buttonBg;
-        --input-bg-color: var(--body-bg-color);
+        --input-bg-color: rgba(255,255,255,0.1);
         --submenu-bg-color: menuBg;
         --submenu-header-bg-color: menuHeadBg;
         --button-bg-color: buttonBg;
@@ -54,7 +54,8 @@
     .buttons-header, ._1jpZt, .tab-slug--recommended-for-you, .peepr-big-loader,
     .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27-, ._3KeYM, .PNArz, .D5eCV, 
     .OL_jq, .I41Le.u10SL, .gCtaO.N7WwW, .jRmdw, .Q05ZE, .Q05ZE header, .pKQCB.Oeb4S, .DCCfo.kXP4L,
-    .Q05ZEs, .TRX6J.jmscj, .pKQCB, .p4DiZ, .irkyW.h70QW, .Rb_wu.h70QW, .MNkkC, .GDWdm {
+    .Q05ZEs, .TRX6J.jmscj, .pKQCB, .p4DiZ, .irkyW.h70QW, .Rb_wu.h70QW, .MNkkC, .GDWdm, .FA5JM, .N5wJr
+    .uM3pd {
         background-color: var(--body-bg-color) !important}
     
     #dashboard_useraction_following #tabs,
@@ -73,6 +74,10 @@
     iframe:not(._2TcTp):not([id^="firefox-screenshots"]) {
         background-color: #111 !important}
     
+    /* Random color degradations on elements */
+    .zmjaW, .FnmoN::after {
+        background: transparent !important}
+        
     /* These are the posts body (as well as the post creation buttons on top) */
     article._1Wz4U, header.POCCe, ._3zgGl, ._1JWAN, ._1PcJ1, .post-container-inner, .editor, .ace_editor,
     .gif-search-container, ._2Sl33, .post-container-inner img, .white_pane, 
@@ -148,7 +153,7 @@
     .follower:not(.alt):not(.invite_someone), .gouco button[disabled] {background-color: rgba(0,0,0,0.3) !important}
     
     /* Text inputs */
-    input[type="text"], #user_to_check_for {
+    #user_to_check_for {
         background-color: var(--input-bg-color) !important;
         border-color: #555 !important;
         color: #ccc !important}
@@ -589,4 +594,4 @@
         
     /* Hide ads that should have been hidden by x-kit */
     .xblacklist-done ._2QPW9, .xblacklist-done:not(._2jOH-) ._1Bwz3 > a, .kxdn2 {display: none}
-    }
+}
