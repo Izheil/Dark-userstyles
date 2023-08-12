@@ -2,7 +2,7 @@
 @name         W3Schools Dark Theme
 @description  Dark style for W3Schools. Created by Izheil.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.3
+@version      1.0.4
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Theme.user.css
@@ -195,11 +195,11 @@
         border-color: #fff !important;
     }
     
-    .cm-m-xml, .cm-m-css {
+    *[class^="cm-m"] {
         color: #fff !important;
     }
     
-    .cm-property {
+    .cm-property, .cm-variable {
         color: #66d9ef !important;
     }
     
@@ -211,7 +211,7 @@
         color: #f4325f !important;
     }
     
-    .cm-attribute {
+    .cm-attribute, .cm-def {
         color: #a6e22e !important;
     }
     
