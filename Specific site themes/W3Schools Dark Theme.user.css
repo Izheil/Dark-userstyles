@@ -2,7 +2,7 @@
 @name         W3Schools Dark Theme
 @description  Dark style for W3Schools. Created by Izheil.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.2
+@version      1.0.3
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/W3Schools%20Dark%20Theme.user.css
@@ -25,6 +25,17 @@
     #cert_navbtn {
         background-color: pink !important;
         color: #000 !important
+    }
+    .topnav-icons.ga-tryit:hover {
+        background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .w3-button.w3-white {
+        color: #fff !important
+    }
+    
+    .w3-button.w3-white:hover {
+        background-color: #000 !important
     }
     
     /* Text colors */
@@ -163,7 +174,7 @@
         background-color: #282a35 !important;
         color: #ccc !important}
     
-    .goog-te-menu-value, .goog-te-menu2-item-selected span {color: #ccc !important}
+    .goog-te-menu-value, .goog-te-menu2-item-selected span, .w3-hide-small {color: #ccc !important}
     
     .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult, 
     .goog-te-gadget-simple {border-color: #282a35 !important}
@@ -176,6 +187,38 @@
     #google_translate_element, .tab {background-color: transparent !important}
 
     /* Code editor */
+    .CodeMirror {
+        background-color: #0b0c11 !important;
+    }
+    
+    .CodeMirror-cursor, .CodeMirror-cursors {
+        border-color: #fff !important;
+    }
+    
+    .cm-m-xml, .cm-m-css {
+        color: #fff !important;
+    }
+    
+    .cm-property {
+        color: #66d9ef !important;
+    }
+    
+    .cm-number, .cm-atom, .cm-keyword {
+        color: #8064f4 !important;
+    }
+    
+    .cm-bracket, .cm-tag, .cm-meta {
+        color: #f4325f !important;
+    }
+    
+    .cm-attribute {
+        color: #a6e22e !important;
+    }
+    
+    .cm-string {
+        color: #efe66e !important;
+    }
+    
     .w3-code {
         color: #ccc !important
     }
