@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2023
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.53
+@version      1.0.54
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -55,7 +55,7 @@
     .layout_standard, ._3aX5m, ._3hOxd, ._15MuE, ._1w27-, ._3KeYM, .PNArz, .D5eCV, 
     .OL_jq, .I41Le.u10SL, .gCtaO.N7WwW, .jRmdw, .Q05ZE, .Q05ZE header, .pKQCB.Oeb4S, .DCCfo.kXP4L,
     .Q05ZEs, .TRX6J.jmscj, .pKQCB, .p4DiZ, .irkyW.h70QW, .Rb_wu.h70QW, .MNkkC, .GDWdm, .FA5JM, .N5wJr
-    .uM3pd {
+    .uM3pd, .TRX6J.EcpO3, .uM3pd {
         background-color: var(--body-bg-color) !important}
     
     #dashboard_useraction_following #tabs,
@@ -90,7 +90,7 @@
     ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW, ._2qMs1, ._wQJ_, .zpvsE, .g8sNN,
     .pzcaM, .UrXxW, .qqMIl, .h4DJl, .ZsngG, .TB7ye, .ykbha, .yXqF9, .iyuZt.OhsM4, .Sveya, .FtjPK, .BjErQ,
     .u2tXn, .NTjLE, .upBv4.w6BCC, .upBv4, .XP0zm.sXae7[style="background-color: var(--blog-background-color);"],
-    .nEems, .txEJf, .rTiqc, .FtjPK.r0etU header, .B15CE, .vwvdr, .wddaX, .lqHQ2.FtkP5.qtjVi, .HIlRS.fp2pi {
+    .nEems, .txEJf, .rTiqc, .FtjPK.r0etU header, .B15CE, .vwvdr, .wddaX, .lqHQ2.FtkP5.qtjVi, .HIlRS.fp2pi, .wdSm_ {
         background-color: var(--post-bg-color) !important}
     
     .media-dropzone, ._1oxUI, .Cu0Yh { 
@@ -594,4 +594,4 @@
         
     /* Hide ads that should have been hidden by x-kit */
     .xblacklist-done ._2QPW9, .xblacklist-done:not(._2jOH-) ._1Bwz3 > a, .kxdn2 {display: none}
-}
+    }
