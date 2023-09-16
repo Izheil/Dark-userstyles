@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.59
+@version      2.6.60
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -60,7 +60,7 @@
             background-color: transparent !important;
             color: #bbb !important}
     
-        html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]):not(.level):not([class^="jw"]):not([class*="tooltip"]):not([class*="video"]):not(.len):not(.note-body)  {
+        html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]):not(.level):not([class^="jw"]):not([class*="tooltip"]):not([class*="video"]):not(.len):not(.note-body):not(.fp-progress):not(.fp-buffer)  {
             background-color: transparent !important;
             border-color: #333 !important;
             color: #aaa;
@@ -452,7 +452,8 @@
         #mediaPlayerTimelineSliderBarsWrap .loaded, #mediaPlayerTimelineSliderBarsWrap, .playtrack-container, 
         .playtrack-container .buffer-track, .playtrack-container .present-track, .XxxCustomPlayer__progress-bar, .XxxCustomPlayer__progress-buffer,
         .XxxCustomPlayer__volume-bar, #html5video .progress-bar, #html5video .buffer-elt, .jwrailgroup.Rail, .np_slider-rail, 
-        .playbackTimeline__progressBackground, ._bars_wrap ._loaded, .videoplayer_slider, [class^="progress-bar--progress-holder"], .fluid_controls_progress {
+        .playbackTimeline__progressBackground, ._bars_wrap ._loaded, .videoplayer_slider, [class^="progress-bar--progress-holder"], .fluid_controls_progress,
+        .fp-buffer {
             background-color: rgba(255,255,255,0.2) !important}  
     
         .jw-progress, .vjs-play-progress.vjs-slider-bar, .vjs-volume-level, .video-time-bar,
@@ -464,7 +465,7 @@
         .media-control-center-panel .bar-container .bar-background .bar-hover, #mediaPlayerTimelineSliderBarsWrap .filled,
         .playtrack-container .past-track, .XxxCustomPlayer__progress-handle, .XxxCustomPlayer__progress-fill, .XxxCustomPlayer__volume-fill,
         #html5video .cursor, .jwtimeSliderProgress, .np_slider-fill, .playbackTimeline__progressBar, .playbackTimeline__progressHandle,
-        ._bars_wrap ._filled, div[class^="progress-bar--play-progress"], .fluid_controls_currentprogress  {
+        ._bars_wrap ._filled, div[class^="progress-bar--play-progress"], .fluid_controls_currentprogress, .fp-progress  {
             background-color: #83F !important}
         
         .jwtimeSliderProgress, .jwrailgroup.Rail {
