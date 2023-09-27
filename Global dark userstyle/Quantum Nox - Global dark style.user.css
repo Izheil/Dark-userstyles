@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.61
+@version      2.6.62
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -60,7 +60,7 @@
             background-color: transparent !important;
             color: #bbb !important}
     
-        html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]):not(.level):not([class^="jw"]):not([class*="tooltip"]):not([class*="video"]):not(.len):not(.note-body):not(.fp-progress):not(.fp-buffer):not(#td-outer-wrap)  {
+        html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]):not(.level):not([class^="jw"]):not([class*="tooltip"]):not([class*="video"]):not(.len):not(.note-body):not(.fp-progress):not(.fp-buffer):not(#td-outer-wrap):not([class^="CodeMirror"])  {
             background-color: transparent !important;
             border-color: #333 !important;
             color: #aaa;
@@ -136,7 +136,7 @@
         .star.yellow svg {
             fill: #ffcc00 !important}
     
-        h1, h2, h3, h4, h5, h6, summary, dt, span:not([style^="color:"]):not([class$="legend-color"]), em, b, strong {
+        h1, h2, h3, h4, h5, h6, summary, dt, span:not([style^="color:"]):not([class$="legend-color"]):not([class^="cm-"]), em, b, strong {
             color: #ddd !important}
     
         h1, h2, h3, h4, h5, h6 {
@@ -384,17 +384,17 @@
             background: transparent !important}
               
         /* Code editors */
-        span.cm-tag, .ace-cobalt .ace_meta.ace_tag, .crayon-theme-classic .crayon-pre .crayon-t {
+        span.cm-tag, .ace-cobalt .ace_meta.ace_tag, .crayon-theme-classic .crayon-pre .crayon-t, .cm-keyword {
             color:  #d55d5d !important}
         .prettyprint .tag, .crayon-theme-github .crayon-pre .crayon-st {
             color: #ff8c1a !important}
         span.cm-tag.cm-bracket, .ace_entity, .ace_support.ace_function, .ace_support.ace_type, .prettyprint .atv {
             color:  #4CAF50 !important}
-        .prettyprint .pun {
-            color: #0af !important}
+        .prettyprint .pun, .cm-variable {
+            color: #46b2e9 !important}
         span.cm-string, .ace_string, .prettyprint .str, .syntaxhighlighter .string {
             color: #9999ff !important}
-        span.cm-variable, span.cm-def, .ace_variable, .crayon-theme-familiar .crayon-pre .crayon-v, 
+        span.cm-def, .ace_variable, .crayon-theme-familiar .crayon-pre .crayon-v, 
         .crayon-theme-github .crayon-pre .crayon-v, .crayon-theme-idle .crayon-pre .crayon-v, .prettyprint .atn, 
         .crayon-theme-classic .crayon-pre .crayon-v {
             color: #dd0 !important}
@@ -403,12 +403,12 @@
             color: #ff6666 !important}
         .ace_constant.ace_numeric, .prettyprint .lit {
             color: #85f !important}
-        .ace_keyword, .crayon-theme-xcode .crayon-pre .crayon-e, .prettyprint .typ, .crayon-theme-classic .crayon-pre .crayon-k {
+        .ace_keyword, .crayon-theme-xcode .crayon-pre .crayon-e, .prettyprint .typ, .crayon-theme-classic .crayon-pre .crayon-k, .cm-def {
             color: #d80 !important}
         .ace_paren .ace_rparen, .jtip-top .jt-info.jt-imdb, 
         .crayon-theme-familiar .crayon-pre .crayon-i, .crayon-theme-github .crayon-pre .crayon-r, 
         .crayon-theme-github .crayon-pre .crayon-i, .crayon-theme-xcode .crayon-pre .crayon-o,
-        .prettyprint .pln {
+        .prettyprint .pln, .cm-variable-2 {
             color: #fff !important}
         .ace_support.ace_constant, .prettyprint .dec {
             color: #0aa !important}
@@ -428,8 +428,11 @@
         .syntaxhighlighter .line.alt2, .syntaxhighlighter table, .highlighted-code .source > ol {
             background-color: transparent !important}
             
-        .crayon-theme-classic .crayon-toolbar, .crayon-theme-classic .crayon-table .crayon-nums, .crayon-syntax-inline, .de1, .de2  {
+        .crayon-theme-classic .crayon-toolbar, .crayon-theme-classic .crayon-table .crayon-nums, .crayon-syntax-inline, .de1, .de2, .CodeMirror-scroll  {
             background-color: #222 !important}
+            
+        .CodeMirror-gutters {
+            background-color: #333 !important}
     
         /* Mega */ 
         .download.big-button:not(.green)::after, .post:not(.cf) {
