@@ -377,7 +377,8 @@
     .KeFJu._1gwoK, .elevator, .TRX6J.jmscj._6Ngd {background-color: transparent !important}
     
     /* We remove the "sponsored" frames */
-    ._3bMU2, ._1aQrn, .j3_kYW, .moatContainer, .uuWZ2 .KTRcB:nth-child(4) .O42NY {display: none !important}
+    ._3bMU2, ._1aQrn, .j3_kYW, .moatContainer, .uuWZ2 .KTRcB:nth-child(4) .O42NY, 
+    .rZlUD.F4Tcn[data-cell-id^="timelineObject:live_marquee"] {display: none !important}
     
     /* ----------------  DASHBOARD HEADER ----------------  */
     
