@@ -30,11 +30,9 @@ You can choose the colors you want, or use the default dark with blue thumb scro
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Dark%20scrollbars.user.css)
 
-<img src="https://i.imgur.com/L0rPkLr.png">
+<img src="https://i.imgur.com/jqEOTaH.jpg">
 
-On Firefox you can only do a basic recolor of the scrollbars.
-
-On Chrome you can change the colors right away, and hide the scrollbar buttons. By default the scrollbar has flat colors, but you can set it to use gradients (changing the 2nd colors).
+At some point in time, chromium stopped supporting gradient colors and now you can only do a basic recolor of the scrollbars in both Firefox and chromium browsers.
 
 ---
 
