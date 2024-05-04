@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.64
+@version      2.6.65
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -60,7 +60,7 @@
             background-color: transparent !important;
             color: #bbb !important}
     
-        html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]):not(.level):not([class^="jw"]):not([class*="tooltip"]):not([class*="video"]):not(.len):not(.note-body):not(.fp-progress):not(.fp-buffer):not(#td-outer-wrap):not([class^="CodeMirror"]):not(svg):not([role="slider"] *):not([data-purpose="captions-cue-text"]):not([class^="shaka-control-bar"])  {
+        html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]):not(.level):not([class^="jw"]):not([class*="tooltip"]):not([class*="video"]):not(.len):not(.note-body):not(.fp-progress):not(.fp-buffer):not(#td-outer-wrap):not([class^="CodeMirror"]):not(svg):not([role="slider"] *):not([data-purpose="captions-cue-text"]):not([class^="shaka-control-bar"]):not(circle)   {
             background-color: transparent !important;
             border-color: #333 !important;
             color: #aaa;
