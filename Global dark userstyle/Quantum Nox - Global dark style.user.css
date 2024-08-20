@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.67
+@version      2.6.68
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -61,7 +61,7 @@
             color: #bbb !important}
     
         html *:not(.price-history-legend-color):not([class^="fluid_controls"]):not([class^="vjs"]):not(.level):not([class^="jw"]):not([class*="tooltip"]):not([class*="video"]):not(.len):not(.note-body):not(.fp-progress):not(.fp-buffer):not(#td-outer-wrap):not([class^="CodeMirror"]):not(svg):not([role="slider"] *):not([data-purpose="captions-cue-text"]):not([class^="shaka-control-bar"]):not(circle):not(input[type="checkbox"]):not(input[type="radio"])   {
-            background-color: transparent !important;
+            background-color: transparent;
             border-color: #333 !important;
             color: #aaa;
             text-shadow: none !important;
@@ -231,7 +231,7 @@
             color: #fff !important}
     
         .anchor-list a.hoverable, div[class*="buttons"] a[onclick], [aria-selected="true"], 
-        button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="ytp"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not([class*="btn-link"]):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):not([class*="Player"]):not(.np_button):not([class*="Control"]):not([class*="volume"]):not(.tap-backward):not(.tap-forward):not([aria-label="Zoom image"]):not([aria-label="Unzoom image"]), 
+        button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="ytp"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not([class*="btn-link"]):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):not([class*="Player"]):not(.np_button):not([class*="Control"]):not([class*="volume"]):not(.tap-backward):not(.tap-forward):not([aria-label="Zoom image"]):not([aria-label="Unzoom image"]):not(.ud-btn-ghost), 
         input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit), 
         [class*="menu-item"]:not([class*="footer"]):not([class*="Footer"]):hover, button#view-menu-btn, a.add-fav, #action-menu-btn, 
         a.Button, .btn-group .btn, .btn[data-dropdown] {
@@ -244,7 +244,7 @@
             
         .anchor-list a.hoverable:hover, a[data-toggle="dropdown"]:not([class*="wrapper"]):not([role="menuitem"]):hover, div[class*="buttons"] a[onclick]:hover, 
         div[class*="dropdown"] a:hover, div[class*="drop-down"] a:hover, 
-        button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not(.btn-link):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):not([class*="Player"]):not(.np_button):not([class*="Control"]):not([class*="volume"]):not(.tap-backward):not(.tap-forward):not([aria-label="Zoom image"]):not([aria-label="Unzoom image"]):hover, 
+        button:not([class*="menu"]):not([id*="menu"]):not([role="switch"]):not([class*="play"]):not([class*="mute"]):not([class*="fullscreen"]):not(.connect__button):not(.btn-link):not(.rc-button):not([aria-label="Play"]):not([aria-label="Mute"]):not([aria-label="Fullscreen"]):not(.vjs-control):not(.rb-new__button):not([class*="rating"]):not(.selected):not([class*="Player"]):not(.np_button):not([class*="Control"]):not([class*="volume"]):not(.tap-backward):not(.tap-forward):not([aria-label="Zoom image"]):not([aria-label="Unzoom image"]):not(.ud-btn-ghost):not(.js-panel-toggler):hover, 
         input[type="submit"]:not([id*="search"]):not([id*="Search"]):not(.searchsubmit):hover, 
         span[role="button"]:hover, button#view-menu-btn:hover, a.add-fav:hover, #action-menu-btn:hover, 
         a.Button:hover, .menu-btn > a:hover, .btn-group .btn:hover {
@@ -524,7 +524,7 @@
             
         /* Other */
         .communitymailinglist a, #oh-menu-submit span, #oh-menu-join a, 
-        .u-backgroundTransparentWhiteDarkest, .gray-bg-gradient, #td-outer-wrap, div[id^="tooltip_id"]  {
+        .u-backgroundTransparentWhiteDarkest, .gray-bg-gradient, #td-outer-wrap, div[id^="tooltip_id"], ul[role="menu"]  {
             background: #333 !important; 
             color: #ddd !important}
     
@@ -591,6 +591,10 @@
     
         .article-single figure img {
             mix-blend-mode: screen !important}
+
+        .curriculum-item-link--is-current--2mKk4 .ud-custom-focus-visible {
+            background: rgba(170,170,170,0.15) !important;
+        }
     
         #textResultsArtists .result div, #textResultsSongs .result div,
         #textResultsAlbums .result div, #textResultsUsers .result div,
