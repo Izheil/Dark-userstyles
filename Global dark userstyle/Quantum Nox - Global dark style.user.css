@@ -2,7 +2,7 @@
 @name         Quantum nox - Global dark theme
 @description  Global dark style to use alongside Firefox full dark theme - Quantum nox.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      2.6.69
+@version      2.6.70
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Global%20dark%20userstyle
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Global%20dark%20userstyle/Quantum%20Nox%20-%20Global%20dark%20style.user.css
@@ -414,7 +414,7 @@
             color: #0aa !important}
         .ace_comment, .prettyprint .com, .crayon-theme-familiar .crayon-pre .crayon-sy, .syntaxhighlighter .plain, 
         .crayon-theme-github .crayon-pre .crayon-sy, .crayon-theme-xcode .crayon-pre .crayon-sy, 
-        .crayon-theme-idle .crayon-pre .crayon-sy, .crayon-theme-classic .crayon-pre .crayon-sy{
+        .crayon-theme-idle .crayon-pre .crayon-sy, .crayon-theme-classic .crayon-pre .crayon-sy, code.hljs{
             color: #aaa !important}
         .crayon-theme-familiar .crayon-striped-line, .crayon-theme-github .crayon-table .crayon-nums, 
         .crayon-theme-xcode .crayon-striped-line, .crayon-line.crayon-striped-line, .crayon-syntax .crayon-num,
