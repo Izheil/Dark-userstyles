@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name         Tumblr Dark 2023
+@name         Tumblr Dark 2024
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.57
+@version      1.0.58
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -98,7 +98,7 @@
         border-color: #666 !important;
     }
     
-    .As9E4 {background-color: #555 !important}
+    .As9E4, .NcZPX {background-color: #555 !important}
         
     .hVK3L:not(._1PyOv):hover {
         background:  rgba(255,255,255,0.1) !important}
