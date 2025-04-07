@@ -421,7 +421,7 @@
         .crayon-theme-idle .crayon-table .crayon-nums {
             background: rgba(0,0,0,0.3) !important}
             
-        code.language-java.hljs {
+        code.hljs {
             color: #000 !important;
             filter: invert(.90) hue-rotate(190deg);
         }
