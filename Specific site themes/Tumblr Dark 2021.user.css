@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name         Tumblr Dark 2024
+@name         Tumblr Dark 2025
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
 @version      1.0.58
@@ -90,7 +90,7 @@
     ._2DpMA, .VvBX3, .kg4ok, ._3L_Fb, ._3x2jf, ._2qMs1.eAwzV, ._3z5WN._1hMXW, ._2qMs1, ._wQJ_, .zpvsE, .g8sNN,
     .pzcaM, .UrXxW, .qqMIl, .h4DJl, .ZsngG, .TB7ye, .ykbha, .yXqF9, .iyuZt.OhsM4, .Sveya, .FtjPK, .BjErQ,
     .u2tXn, .NTjLE, .upBv4.w6BCC, .upBv4, .XP0zm.sXae7[style="background-color: var(--blog-background-color);"],
-    .nEems, .txEJf, .rTiqc, .FtjPK.r0etU header, .B15CE, .vwvdr, .wddaX, .lqHQ2.FtkP5.qtjVi, .HIlRS.fp2pi, .wdSm_ {
+    .nEems, .txEJf, .rTiqc, .FtjPK.r0etU header, .B15CE, .vwvdr, .wddaX, .lqHQ2.FtkP5.qtjVi, .HIlRS.fp2pi, .wdSm_, .MI6Q7 {
         background-color: var(--post-bg-color) !important}
     
     .media-dropzone, ._1oxUI, .Cu0Yh { 
@@ -103,7 +103,7 @@
     .hVK3L:not(._1PyOv):hover {
         background:  rgba(255,255,255,0.1) !important}
     
-    .note_item, .crush .count {
+    .note_item, .crush .count, .VcWAj.jYM9A {
         background-color: #222 !important;
         border-color: #444 !important}
     
