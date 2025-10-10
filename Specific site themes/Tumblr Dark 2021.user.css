@@ -2,7 +2,7 @@
 @name         Tumblr Dark 2025
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.0.58
+@version      1.1.0
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -18,6 +18,7 @@
 @var          color     buttonBg     "Color of buttons"  #303030
 @var          color     buttonHovBg  "Color of button on hover"  #404040
 @var          color     buttonFcBg   "Color of button on focus"  #272727
+@var          checkbox  hidePremium  "Hide premium buttons and other annoying popups" 1
 
 ==/UserStyle== */
 @-moz-document domain("www.tumblr.com") {
@@ -595,4 +596,11 @@
         
     /* Hide ads that should have been hidden by x-kit */
     .xblacklist-done ._2QPW9, .xblacklist-done:not(._2jOH-) ._1Bwz3 > a, .kxdn2 {display: none}
+        
+    if (hidePremium) {
+        /* Hide all buttons to buy premium from the dashboard */
+        .gLEjz, .ybmTG.ufrME .DxQ0f, .e1knl .Qihwb {
+            display: none !important;
+        }
     }
+}
