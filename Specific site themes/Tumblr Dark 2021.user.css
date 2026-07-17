@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name         Tumblr Dark 2025
+@name         Tumblr Dark 2026
 @description  This theme should apply to the new Tumblr theme (the one that appeared around 25/03/2020), as well as x-kit.
 @namespace    https://github.com/Izheil/Dark-userstyles
-@version      1.1.3
+@version      1.1.4
 @author       Izheil
 @homepageURL  https://github.com/Izheil/Dark-userstyles/tree/master/Specific%20site%20themes
 @updateURL    https://raw.githubusercontent.com/Izheil/Dark-userstyles/master/Specific%20site%20themes/Tumblr%20Dark%202021.user.css
@@ -10,9 +10,9 @@
 @license      GPL-3.0
 @preprocessor stylus
 
-@var          color     bodyBg    	 "Background color for site body"    #222
-@var          color     headerBg 	 "Header background color"    #303030
-@var          color     postBg	     "Posts background color"    #303030
+@var          color     bodyBg    	 "Background color for site body"    #0d0d0d
+@var          color     headerBg 	 "Header background color"    #1a1a1a
+@var          color     postBg	     "Posts background color"    #1a1a1a
 @var          color     menuBg	     "Context menus background color"    #252525
 @var          color     menuHeadBg   "Background color of header of menus"  #333
 @var          color     buttonBg     "Color of buttons"  #303030
@@ -215,7 +215,7 @@
     .conversation-compose-plugin, .search_query::placeholder, .crushes_subhead, 
     .follower .blog-title, .radar_button::before, .copy-point, .caption, .pOoZl a,
     .post .post-source-footer, .post .post-source-footer a.post-source-link,
-    ._2TyFI._1waD0, ._2TyFI, .kBMGV div, blockquote {color: #888 !important}
+    ._2TyFI._1waD0, ._2TyFI, .kBMGV div, blockquote, footer.gm9gb button:not(:hover) span {color: #888 !important}
     
     .plus-follow-button {color: #111 !important}
     
@@ -232,7 +232,7 @@
     .js-hover-trigger-TumblelogPopover, .title_and_controls h1, .plus-follow-button:hover, .plus-follow-button:active,
     .stats .number, .caption a, .corp_page_title, .pages-subsection a, .corp_heading, .legal-content a, .legal-content h2,
     .jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a, .tumblelog_info h3 a, .CZfky,
-    .PuQfD, .xuN5Q a, .FtjPK.r0etU a, .Q05ZE header h1, .Q05ZE header a, .utUra.lLwRq, .EvhBA.f68ED.kk3cQ, .EvhBA,
+    .PuQfD, .xuN5Q a, .FtjPK.r0etU a, .Q05ZE header h1, .Q05ZE header a, .utUra.lLwRq, .EvhBA.f68ED.kk3cQ, .aKdEe,
     .Q0H97.BSUG4
     {color: #fff !important}
     
