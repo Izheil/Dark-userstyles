@@ -13,7 +13,7 @@
 @var          color     bodyBg    	 "Background color for site body"    #0d0d0d
 @var          color     headerBg 	 "Header background color"    #1a1a1a
 @var          color     postBg	     "Posts background color"    #1a1a1a
-@var          color     menuBg	     "Context menus background color"    #252525
+@var          color     menuBg	     "Context menus background color"    #303030
 @var          color     menuHeadBg   "Background color of header of menus"  #333
 @var          color     buttonBg     "Color of buttons"  #303030
 @var          color     buttonHovBg  "Color of button on hover"  #404040
@@ -99,7 +99,9 @@
         border-color: #666 !important;
     }
     
-    .As9E4, .NcZPX {background-color: #555 !important}
+    .As9E4, .NcZPX {background-color: #353535 !important}
+        
+    .As9E4 {border-radius: 6px !important}
         
     .hVK3L:not(._1PyOv):hover {
         background:  rgba(255,255,255,0.1) !important}
@@ -131,7 +133,7 @@
     ._2Sl33, .post .post-source-footer, .wUa3w, ._3dTPo._2MvlR {background: var(--post-bg-color) !important}
     
     /* Blog dashboard buttons */
-    .uk9FI a, .uk9FI button span:not(.EvhBA), .TRX6J.jmscj {
+    .uk9FI a, .uk9FI button span:not(.EvhBA), .TRX6J.jmscj, .PUcxv.o9hq8 {
         background-color: var(--button-bg-color) !important;
         color: #fff !important;
         border: none !important}
@@ -140,14 +142,10 @@
         --black: 160,160,160 !important;
     }
     
-    .VmbqY.r21y5.Li_00.zn53i.EF4A5, .EvhBA.Uj1VY, .xKtGo.UU6Dl.OjzK7 {
+    .VmbqY.r21y5.Li_00.zn53i.EF4A5, .EvhBA.Uj1VY, .PUcxv.o9hq8:hover {
         background-color: var(--button-hover-color) !important;
         color: #ccc !important;
         border-radius: 6px;
-    }
-    
-    .P9dh8 > svg path {
-        fill: var(--button-hover-color) !important;
     }
     
     .VmbqY.r21y5.Li_00.zn53i.EF4A5:hover, .EvhBA.Uj1VY:hover {
@@ -156,7 +154,7 @@
         border-radius: 6px;
     }
     
-    #managed-icon__arrow {
+    #managed-icon__arrow, #managed-icon__close-thin, #managed-icon__airplane, #managed-icon__elevator-arrow {
         fill: #aaa !important
     }
     
@@ -191,6 +189,20 @@
         border-color: #555 !important;
         color: #ccc !important}
     
+    /* Polls */
+    .GhhyY.Lu7CU.Fs5NP > .D63Wc {
+        background-color: #10495f !important;
+    }
+    
+    .GhhyY.Lu7CU:not(.Fs5NP) > .D63Wc {
+        background-color: #0e2730 !important;
+    }
+    
+    /* Asks */
+    .WIYYp {
+        background-color: #333 !important;
+    }
+        
     /* Post text and icons */
     .post-container-inner, .editor, .tag-label, .tumblelog-select .reblog_name, 
     .item-option.select::after, .settings-icon, .current_selection, .ace_editor, 
@@ -208,7 +220,7 @@
     .post .post-source-footer a.post-source-link:hover, .info_wrapper .description,
     .invite_someone_success, pre, span > strong, .tumblelog_popover .description, 
     ._132n7, .a15fm.yEDB7, .a15fm, .tOdXM, .FtjPK.r0etU div, .Q05ZE header p, .B15CE div,
-    .bHZr2, .HIlRS.fp2pi, .irkyW.h70QW, .sPIOx, .D4GNf, .rGJRV {
+    .bHZr2, .HIlRS.fp2pi, .irkyW.h70QW, .sPIOx, .D4GNf, .rGJRV, textarea, .GhhyY.Lu7CU span, .d0_se.LuN4S.lG4jH span  {
         color: #ccc !important}
     
     .ace-post-form .ace_selection {background-color: rgba(200,200,255, .1) !important}
@@ -237,7 +249,7 @@
     .stats .number, .caption a, .corp_page_title, .pages-subsection a, .corp_heading, .legal-content a, .legal-content h2,
     .jmJtp, .reblog-content a, .info_wrapper .title, .invite_someone_success a, .tumblelog_info h3 a, .CZfky,
     .PuQfD, .xuN5Q a, .FtjPK.r0etU a, .Q05ZE header h1, .Q05ZE header a, .utUra.lLwRq, .EvhBA.f68ED.kk3cQ, .aKdEe,
-    .Q0H97.BSUG4
+    .Q0H97.BSUG4, .r5fn7 button[aria-selected="true"] > div
     {color: #fff !important}
     
     .tUznf {border-color: #fff !important}
@@ -253,7 +265,7 @@
         background-color: #111 !important}
     
     /* Tooltips */
-    .tooltip-inner, #chart_glass.active .marker_tooltip {
+    .tooltip-inner, #chart_glass.active .marker_tooltip, .xKtGo.UU6Dl.OjzK7 {
         background-color: var(--submenu-bg-color) !important;
         color: #ccc !important}
     
@@ -261,6 +273,11 @@
         background-color: var(--submenu-header-bg-color) !important;
         background-image: none !important}
     
+    .P9dh8 > svg path {
+        fill: var(--submenu-bg-color) !important;
+    }
+
+        
     /* Post borders */
     .pop-menu .form-group .group-content, .pop-menu .form-group .group-label, .reblog-list,
     .reblog-list .reblog-list-item:last-child, .gif-search-input, .settings_heading, .settings_group,
@@ -329,6 +346,9 @@
     /* Expand button */
     .SYFCU, .z1SjW {background: linear-gradient(to right, transparent 5%, var(--post-bg-color) 10%) !important}
     .description_gradient, .show_description {background: linear-gradient(transparent, var(--body-bg-color)) !important}
+    .yfSod {
+        background: linear-gradient(to right, color-mix(var(--post-bg-color), transparent) 0%, var(--post-bg-color) 15%, var(--post-bg-color) 100%) !important;
+    }
         
     .TRX6J.KO5EN.TyF2z {background: linear-gradient(to right, transparent, var(--body-bg-color)) !important}
     .TRX6J.KO5EN.V7v4g {background: linear-gradient(to left, transparent, var(--body-bg-color)) !important}
@@ -361,7 +381,7 @@
         background-color: var(--button-bg-color) !important;
         color: #ccc !important}
     
-    ._1paS-:hover, .blog-activity-more:hover, .gaUuO, .PUcxv.rKhPR {
+    ._1paS-:hover, .blog-activity-more:hover, .PUcxv.rKhPR {
         background-color: var(--button-hover-color) !important;
         color: #fff !important}
     
@@ -378,6 +398,11 @@
     
     ._2LUdG a:active, ._2LUdG button:focus, ._5M1cX:active {
         background-color: rgba(0,0,0,0.3) !important}
+        
+    /* 3 dots menu popup background */ 
+    .XcOTm {
+        background-color: #252525 !important;
+    }
     
     /* Colors for the activity menus */
     ._28b2U, ._2LghO, ._1s0Ik, ._11t9V, .QK1w2, .tx-scroll-container {background-color: var(--submenu-bg-color) !important}
@@ -426,7 +451,7 @@
         color: #333 !important}
     
     /* Search input */
-    form[role="search"] > div:not(.search_form_row), #search_query {
+    form[role="search"] > div:not(.search_form_row), #search_query, .Dx_DM {
         background-color: var(--input-bg-color) !important;
         color: #ccc !important}
     
