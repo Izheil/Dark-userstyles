@@ -140,10 +140,14 @@
         --black: 160,160,160 !important;
     }
     
-    .VmbqY.r21y5.Li_00.zn53i.EF4A5, .EvhBA.Uj1VY {
+    .VmbqY.r21y5.Li_00.zn53i.EF4A5, .EvhBA.Uj1VY, .xKtGo.UU6Dl.OjzK7 {
         background-color: var(--button-hover-color) !important;
         color: #ccc !important;
         border-radius: 6px;
+    }
+    
+    .P9dh8 > svg path {
+        fill: var(--button-hover-color) !important;
     }
     
     .VmbqY.r21y5.Li_00.zn53i.EF4A5:hover, .EvhBA.Uj1VY:hover {
@@ -152,7 +156,7 @@
         border-radius: 6px;
     }
     
-    #managed-icon__arrow, .gm9gb svg:not(:hover) path {
+    #managed-icon__arrow {
         fill: #aaa !important
     }
     
